@@ -1,0 +1,71 @@
+{
+ "resistant|Deinococcus radiodurans": {
+  "assembly": "GCF_045277105.1",
+  "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/045/277/105/GCF_045277105.1_KDR13939K_1.0/GCF_045277105.1_KDR13939K_1.0_protein.faa.gz",
+  "bytes": 624486,
+  "status": "ok"
+ },
+ "resistant|Deinococcus geothermalis": {
+  "assembly": "GCF_002384255.1",
+  "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/384/255/GCF_002384255.1_ASM238425v1/GCF_002384255.1_ASM238425v1_protein.faa.gz",
+  "bytes": 577332,
+  "status": "ok"
+ },
+ "resistant|Deinococcus deserti": {
+  "assembly": "GCF_965137215.1",
+  "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/965/137/215/GCF_965137215.1_CIP109153T/GCF_965137215.1_CIP109153T_protein.faa.gz",
+  "bytes": 698023,
+  "status": "ok"
+ },
+ "resistant|Ramazzottius varieornatus": {
+  "assembly": "GCA_001949185.1",
+  "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/001/949/185/GCA_001949185.1_Rvar_4.0/GCA_001949185.1_Rvar_4.0_protein.faa.gz",
+  "bytes": 4539678,
+  "status": "ok"
+ },
+ "resistant|Milnesium tardigradum": {
+  "status": "no_reference_assembly"
+ },
+ "resistant|Adineta vaga": {
+  "assembly": "GCA_021613535.1",
+  "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/021/613/535/GCA_021613535.1_ASM2161353v1/GCA_021613535.1_ASM2161353v1_protein.faa.gz",
+  "bytes": 8823682,
+  "status": "ok"
+ },
+ "sensitive|Escherichia coli": {
+  "assembly": "GCF_061253515.1",
+  "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/061/253/515/GCF_061253515.1_ASM6125351v1/GCF_061253515.1_ASM6125351v1_protein.faa.gz",
+  "bytes": 1040757,
+  "status": "ok"
+ },
+ "sensitive|Thermus thermophilus": {
+  "assembly": "GCF_059705435.1",
+  "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/059/705/435/GCF_059705435.1_ASM5970543v1/GCF_059705435.1_ASM5970543v1_protein.faa.gz",
+  "bytes": 435808,
+  "status": "ok"
+ },
+ "sensitive|Thermus aquaticus": {
+  "assembly": "GCF_060599305.1",
+  "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/060/599/305/GCF_060599305.1_ASM6059930v1/GCF_060599305.1_ASM6059930v1_protein.faa.gz",
+  "bytes": 410653,
+  "status": "ok"
+ },
+ "sensitive|Hypsibius exemplaris": {
+  "assembly": "GCA_002082055.1",
+  "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/002/082/055/GCA_002082055.1_nHd_3.1/GCA_002082055.1_nHd_3.1_protein.faa.gz",
+  "bytes": 5358157,
+  "status": "ok"
+ },
+ "sensitive|Caenorhabditis elegans": {
+  "assembly": "GCF_000002985.6",
+  "url": "https://api.ncbi.nlm.nih.gov/datasets/v2alpha/genome/accession/GCF_000002985.6/download?include_annotation_type=PROT_FASTA",
+  "bytes": 7119546,
+  "status": "ok"
+ },
+ "sensitive|Drosophila melanogaster": {
+  "assembly": "GCF_000001215.4",
+  "url": "https://api.ncbi.nlm.nih.gov/datasets/v2alpha/genome/accession/GCF_000001215.4/download?include_annotation_type=PROT_FASTA",
+  "bytes": 9785236,
+  "status": "ok"
+ }
+}

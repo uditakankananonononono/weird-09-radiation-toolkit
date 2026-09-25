@@ -1,6 +1,126 @@
 {
-  "project": "W09",
-  "floors": {"tool_runs": 40, "accession_datasets": 120},
-  "tool_runs": [],
-  "accession_datasets": []
+ "project": "W09",
+ "floors": {
+  "tool_runs": 40,
+  "accession_datasets": 120
+ },
+ "tool_runs": [
+  {
+   "tool": "NCBI eutils esearch+esummary",
+   "used_for": "assembly resolution with RefSeq-preference sorting",
+   "ts": "2026-09-25T21:12+05:30"
+  },
+  {
+   "tool": "NCBI FTP protein.faa.gz retrieval",
+   "used_for": "proteome downloads",
+   "ts": "2026-09-25T21:12+05:30"
+  },
+  {
+   "tool": "NCBI datasets v2alpha API",
+   "used_for": "reference-genome fallback for eutils-hostile taxa",
+   "ts": "2026-09-25T21:12+05:30"
+  }
+ ],
+ "accession_datasets": [
+  {
+   "dataset": "resistant|Deinococcus radiodurans",
+   "source": "NCBI assembly",
+   "role": "resistant",
+   "accession_records": 1,
+   "assembly": "GCF_045277105.1",
+   "logged": "2026-09-25T21:12+05:30",
+   "sha256_16": "18289f4a0bb2d626"
+  },
+  {
+   "dataset": "resistant|Deinococcus geothermalis",
+   "source": "NCBI assembly",
+   "role": "resistant",
+   "accession_records": 1,
+   "assembly": "GCF_002384255.1",
+   "logged": "2026-09-25T21:12+05:30",
+   "sha256_16": "d09462d623568695"
+  },
+  {
+   "dataset": "resistant|Deinococcus deserti",
+   "source": "NCBI assembly",
+   "role": "resistant",
+   "accession_records": 1,
+   "assembly": "GCF_965137215.1",
+   "logged": "2026-09-25T21:12+05:30",
+   "sha256_16": "2f97bb362bed495d"
+  },
+  {
+   "dataset": "resistant|Ramazzottius varieornatus",
+   "source": "NCBI assembly",
+   "role": "resistant",
+   "accession_records": 1,
+   "assembly": "GCA_001949185.1",
+   "logged": "2026-09-25T21:12+05:30",
+   "sha256_16": "e7891e5bf788432e"
+  },
+  {
+   "dataset": "resistant|Adineta vaga",
+   "source": "NCBI assembly",
+   "role": "resistant",
+   "accession_records": 1,
+   "assembly": "GCA_021613535.1",
+   "logged": "2026-09-25T21:12+05:30",
+   "sha256_16": "8b3c4207d294347c"
+  },
+  {
+   "dataset": "sensitive|Escherichia coli",
+   "source": "NCBI assembly",
+   "role": "sensitive",
+   "accession_records": 1,
+   "assembly": "GCF_061253515.1",
+   "logged": "2026-09-25T21:12+05:30",
+   "sha256_16": "63b8e2b3fdaffd59"
+  },
+  {
+   "dataset": "sensitive|Thermus thermophilus",
+   "source": "NCBI assembly",
+   "role": "sensitive",
+   "accession_records": 1,
+   "assembly": "GCF_059705435.1",
+   "logged": "2026-09-25T21:12+05:30",
+   "sha256_16": "f5be36759b3213a4"
+  },
+  {
+   "dataset": "sensitive|Thermus aquaticus",
+   "source": "NCBI assembly",
+   "role": "sensitive",
+   "accession_records": 1,
+   "assembly": "GCF_060599305.1",
+   "logged": "2026-09-25T21:12+05:30",
+   "sha256_16": "e828b92e20eee1f9"
+  },
+  {
+   "dataset": "sensitive|Hypsibius exemplaris",
+   "source": "NCBI assembly",
+   "role": "sensitive",
+   "accession_records": 1,
+   "assembly": "GCA_002082055.1",
+   "logged": "2026-09-25T21:12+05:30",
+   "sha256_16": "6560ae7d98844604"
+  },
+  {
+   "dataset": "sensitive|Caenorhabditis elegans",
+   "source": "NCBI assembly",
+   "role": "sensitive",
+   "accession_records": 1,
+   "assembly": "GCF_000002985.6",
+   "logged": "2026-09-25T21:12+05:30",
+   "sha256_16": "72cfeb51d76171ec"
+  },
+  {
+   "dataset": "sensitive|Drosophila melanogaster",
+   "source": "NCBI assembly",
+   "role": "sensitive",
+   "accession_records": 1,
+   "assembly": "GCF_000001215.4",
+   "logged": "2026-09-25T21:12+05:30",
+   "sha256_16": "57afe9dd2830ddef"
+  }
+ ],
+ "dataset_total_accession_records": 11
 }
