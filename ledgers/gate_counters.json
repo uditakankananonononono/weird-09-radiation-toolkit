@@ -144,6 +144,61 @@
    "tool": "mmseqs2 v17 createtsv",
    "used_for": "cluster table export (clusters_linclust30.tsv)",
    "ts": "2026-09-26T11:07+05:30"
+  },
+  {
+   "tool": "NCBI datasets v2alpha dataset_report",
+   "used_for": "provenance verification GCA_001949185.1 - organism name matches locked panel",
+   "ts": "2026-09-26T11:11+05:30"
+  },
+  {
+   "tool": "NCBI datasets v2alpha dataset_report",
+   "used_for": "provenance verification GCA_002082055.1 - organism name matches locked panel",
+   "ts": "2026-09-26T11:11+05:30"
+  },
+  {
+   "tool": "NCBI datasets v2alpha dataset_report",
+   "used_for": "provenance verification GCA_021613535.1 - organism name matches locked panel",
+   "ts": "2026-09-26T11:11+05:30"
+  },
+  {
+   "tool": "NCBI datasets v2alpha dataset_report",
+   "used_for": "provenance verification GCF_000001215.4 - organism name matches locked panel",
+   "ts": "2026-09-26T11:11+05:30"
+  },
+  {
+   "tool": "NCBI datasets v2alpha dataset_report",
+   "used_for": "provenance verification GCF_000002985.6 - organism name matches locked panel",
+   "ts": "2026-09-26T11:11+05:30"
+  },
+  {
+   "tool": "NCBI datasets v2alpha dataset_report",
+   "used_for": "provenance verification GCF_002384255.1 - organism name matches locked panel",
+   "ts": "2026-09-26T11:11+05:30"
+  },
+  {
+   "tool": "NCBI datasets v2alpha dataset_report",
+   "used_for": "provenance verification GCF_045277105.1 - organism name matches locked panel",
+   "ts": "2026-09-26T11:11+05:30"
+  },
+  {
+   "tool": "NCBI datasets v2alpha dataset_report",
+   "used_for": "provenance verification GCF_059705435.1 - organism name matches locked panel",
+   "ts": "2026-09-26T11:11+05:30"
+  },
+  {
+   "tool": "NCBI datasets v2alpha dataset_report",
+   "used_for": "provenance verification GCF_060599305.1 - organism name matches locked panel",
+   "ts": "2026-09-26T11:11+05:30"
+  },
+  {
+   "tool": "NCBI datasets v2alpha dataset_report",
+   "used_for": "provenance verification GCF_061253515.1 - organism name matches locked panel",
+   "ts": "2026-09-26T11:11+05:30"
+  },
+  {
+   "tool": "NCBI datasets v2alpha dataset_report",
+   "used_for": "provenance verification GCF_965137215.1 - organism name matches locked panel",
+   "ts": "2026-09-26T11:11+05:30"
   }
  ],
  "accession_datasets": [
