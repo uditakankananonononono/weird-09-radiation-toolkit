@@ -199,6 +199,31 @@
    "tool": "NCBI datasets v2alpha dataset_report",
    "used_for": "provenance verification GCF_965137215.1 - organism name matches locked panel",
    "ts": "2026-09-26T11:11+05:30"
+  },
+  {
+   "tool": "seqkit v2.10.0 shuffle+head",
+   "used_for": "deterministic 20k validation subset (seed 42)",
+   "ts": "2026-09-26T11:12+05:30"
+  },
+  {
+   "tool": "mmseqs2 v17 createdb",
+   "used_for": "SUB20K subset DB",
+   "ts": "2026-09-26T11:12+05:30"
+  },
+  {
+   "tool": "mmseqs2 v17 cluster",
+   "used_for": "sensitive clustering on 20k subset",
+   "ts": "2026-09-26T11:12+05:30"
+  },
+  {
+   "tool": "mmseqs2 v17 linclust",
+   "used_for": "linclust on same subset",
+   "ts": "2026-09-26T11:12+05:30"
+  },
+  {
+   "tool": "mmseqs2 v17 createtsv x2",
+   "used_for": "subset cluster tables",
+   "ts": "2026-09-26T11:12+05:30"
   }
  ],
  "accession_datasets": [

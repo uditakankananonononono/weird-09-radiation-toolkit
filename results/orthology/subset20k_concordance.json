@@ -1,0 +1,8 @@
+{
+ "subset_n": 20000,
+ "sensitive_clusters": 13540,
+ "linclust_clusters": 16330,
+ "sensitive_pair_retention_in_linclust": 0.363,
+ "linclust_pair_purity_vs_sensitive": 0.914,
+ "interpretation": "same pattern as W03: linclust merges conservatively (high purity) but fragments; formal analysis requires sensitive clustering"
+}
