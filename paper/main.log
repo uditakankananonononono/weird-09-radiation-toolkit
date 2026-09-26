@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.8.14)  26 SEP 2026 20:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.8.14)  26 SEP 2026 21:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -296,19 +296,25 @@ Overfull \hbox (2.88997pt too wide) in paragraph at lines 65--65
 09-26, 20:21
  []
 
-
-Overfull \hbox (0.49509pt too wide) in paragraph at lines 69--70
+[5]
+Overfull \hbox (0.49509pt too wide) in paragraph at lines 79--80
 \T1/ptm/m/n/12 mu-ta-tions for complete-separation con-fig-u-ra-tions; it is no
 t a con-tin-u-ous mea-sure. (3) Empirical-
  []
 
 
-Overfull \hbox (0.20718pt too wide) in paragraph at lines 69--70
+Overfull \hbox (0.20718pt too wide) in paragraph at lines 79--80
 \T1/ptm/m/n/12 p cal-i-bra-tion as-sumes ex-change-abil-ity un-der la-bel per-m
 u-ta-tion; family-level phy-lo-ge-netic struc-
  []
 
-[5] (./main.aux)
+
+Overfull \hbox (18.29115pt too wide) in paragraph at lines 79--80
+\T1/ptm/m/n/12 ture is only par-tially ran-dom-ized away. Sec-tion 3.4 quan-ti-
+fies this: structured-presence-permutation
+ []
+
+[6] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -320,7 +326,7 @@ Here is how much of TeX's memory you used:
  20098 multiletter control sequences out of 15000+600000
  521288 words of font info for 108 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 55i,9n,62p,1018b,243s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,9n,62p,1434b,243s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
@@ -329,10 +335,10 @@ type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi
 8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (5 pages, 103300 bytes).
+Output written on main.pdf (6 pages, 107292 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
+ 64 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
