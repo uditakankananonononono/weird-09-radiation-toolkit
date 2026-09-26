@@ -5,7 +5,7 @@
   {
    "v1_rep": "Adineta_vaga|UJR10666.1",
    "v2_rep": "Adineta_vaga|UJR10666.1",
-   "v1_emp_p": 0.012987012987012988,
+   "v1_emp_p": 0.023,
    "v2_emp_p_fisher": 0.4485514485514486,
    "origins": [
     false,
@@ -18,7 +18,7 @@
   {
    "v1_rep": "Deinococcus_deserti|WP_012692117.1",
    "v2_rep": "Deinococcus_deserti|WP_012692117.1",
-   "v1_emp_p": 0.012987012987012988,
+   "v1_emp_p": 0.023,
    "v2_emp_p_fisher": 0.012987012987012988,
    "origins": [
     true,
@@ -31,7 +31,7 @@
   {
    "v1_rep": "Adineta_vaga|UJR36058.1",
    "v2_rep": "Adineta_vaga|UJR36058.1",
-   "v1_emp_p": 0.012987012987012988,
+   "v1_emp_p": 0.023,
    "v2_emp_p_fisher": 0.012987012987012988,
    "origins": [
     true,
@@ -44,7 +44,7 @@
   {
    "v1_rep": "Adineta_vaga|UJR11615.1",
    "v2_rep": "Adineta_vaga|UJR11615.1",
-   "v1_emp_p": 0.012987012987012988,
+   "v1_emp_p": 0.023,
    "v2_emp_p_fisher": 0.012987012987012988,
    "origins": [
     true,
@@ -57,7 +57,7 @@
   {
    "v1_rep": "Adineta_vaga|UJR17759.1",
    "v2_rep": "Adineta_vaga|UJR17759.1",
-   "v1_emp_p": 0.012987012987012988,
+   "v1_emp_p": 0.023,
    "v2_emp_p_fisher": 0.012987012987012988,
    "origins": [
     true,
@@ -70,7 +70,7 @@
   {
    "v1_rep": "Deinococcus_geothermalis|WP_272975990.1",
    "v2_rep": "Deinococcus_geothermalis|WP_272975990.1",
-   "v1_emp_p": 0.012987012987012988,
+   "v1_emp_p": 0.023,
    "v2_emp_p_fisher": 0.012987012987012988,
    "origins": [
     true,
@@ -83,7 +83,7 @@
   {
    "v1_rep": "Adineta_vaga|UJR28130.1",
    "v2_rep": "Adineta_vaga|UJR28130.1",
-   "v1_emp_p": 0.012987012987012988,
+   "v1_emp_p": 0.023,
    "v2_emp_p_fisher": 0.012987012987012988,
    "origins": [
     true,
@@ -96,7 +96,7 @@
   {
    "v1_rep": "Adineta_vaga|UJR26281.1",
    "v2_rep": "Adineta_vaga|UJR26281.1",
-   "v1_emp_p": 0.012987012987012988,
+   "v1_emp_p": 0.023,
    "v2_emp_p_fisher": 0.012987012987012988,
    "origins": [
     true,
@@ -109,7 +109,7 @@
   {
    "v1_rep": "Adineta_vaga|UJR09360.1",
    "v2_rep": "Hypsibius_exemplaris|OQV24286.1",
-   "v1_emp_p": 0.012987012987012988,
+   "v1_emp_p": 0.023,
    "v2_emp_p_fisher": 0.5234765234765235,
    "origins": [
     true,
@@ -122,7 +122,7 @@
   {
    "v1_rep": "Deinococcus_deserti|WP_012692142.1",
    "v2_rep": "Deinococcus_deserti|WP_012692142.1",
-   "v1_emp_p": 0.012987012987012988,
+   "v1_emp_p": 0.023,
    "v2_emp_p_fisher": 0.012987012987012988,
    "origins": [
     true,
@@ -135,7 +135,7 @@
   {
    "v1_rep": "Deinococcus_geothermalis|WP_414646549.1",
    "v2_rep": "Deinococcus_geothermalis|WP_414646549.1",
-   "v1_emp_p": 0.016983016983016984,
+   "v1_emp_p": 0.029,
    "v2_emp_p_fisher": 0.016983016983016984,
    "origins": [
     true,
@@ -148,7 +148,7 @@
   {
    "v1_rep": "Deinococcus_geothermalis|WP_272975981.1",
    "v2_rep": "Deinococcus_geothermalis|WP_272975981.1",
-   "v1_emp_p": 0.012987012987012988,
+   "v1_emp_p": 0.023,
    "v2_emp_p_fisher": 0.012987012987012988,
    "origins": [
     true,

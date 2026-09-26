@@ -45,7 +45,7 @@ reps=list(clu.keys()); X=np.stack([clu[r] for r in reps]); n=len(reps)
 def fisher_p(pm,ps): return hypergeom.sf(pm-1,len(SP)-NCTRL,pm+ps,len(RES))
 def mwu_p(A,B):
     U=(A[:,:,None]>B[:,None,:]).sum(axis=(1,2))+0.5*(A[:,:,None]==B[:,None,:]).sum(axis=(1,2))
-    return norm.sf((U-18.0-0.5)/np.sqrt(39.0))
+    return norm.sf((U-15.0-0.5)/np.sqrt(30.0))  # corrected 00:54 IST: 5x6 MWU constants
 
 # gates re-run on v2 (resistant vs sensitive only; controls NOT in the Fisher/MWU partition)
 pm=(X[:,:len(RES)]>0).sum(1); ps=(X[:,len(RES):len(RES)+len(SEN)]>0).sum(1)
