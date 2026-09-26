@@ -234,6 +234,66 @@
    "tool": "mmseqs2 v17 createtsv",
    "used_for": "sensitive cluster table export",
    "ts": "2026-09-26T11:29+05:30"
+  },
+  {
+   "tool": "NCBI eutils esummary db=protein",
+   "used_for": "candidate annotation UJR10666.1",
+   "ts": "2026-09-26T11:34+05:30"
+  },
+  {
+   "tool": "NCBI eutils esummary db=protein",
+   "used_for": "candidate annotation WP_012692117.1",
+   "ts": "2026-09-26T11:34+05:30"
+  },
+  {
+   "tool": "NCBI eutils esummary db=protein",
+   "used_for": "candidate annotation UJR36058.1",
+   "ts": "2026-09-26T11:34+05:30"
+  },
+  {
+   "tool": "NCBI eutils esummary db=protein",
+   "used_for": "candidate annotation UJR11615.1",
+   "ts": "2026-09-26T11:34+05:30"
+  },
+  {
+   "tool": "NCBI eutils esummary db=protein",
+   "used_for": "candidate annotation UJR17759.1",
+   "ts": "2026-09-26T11:34+05:30"
+  },
+  {
+   "tool": "NCBI eutils esummary db=protein",
+   "used_for": "candidate annotation WP_272975990.1",
+   "ts": "2026-09-26T11:34+05:30"
+  },
+  {
+   "tool": "NCBI eutils esummary db=protein",
+   "used_for": "candidate annotation UJR28130.1",
+   "ts": "2026-09-26T11:34+05:30"
+  },
+  {
+   "tool": "NCBI eutils esummary db=protein",
+   "used_for": "candidate annotation UJR26281.1",
+   "ts": "2026-09-26T11:34+05:30"
+  },
+  {
+   "tool": "NCBI eutils esummary db=protein",
+   "used_for": "candidate annotation UJR09360.1",
+   "ts": "2026-09-26T11:34+05:30"
+  },
+  {
+   "tool": "NCBI eutils esummary db=protein",
+   "used_for": "candidate annotation WP_012692142.1",
+   "ts": "2026-09-26T11:34+05:30"
+  },
+  {
+   "tool": "NCBI eutils esummary db=protein",
+   "used_for": "candidate annotation WP_414646549.1",
+   "ts": "2026-09-26T11:34+05:30"
+  },
+  {
+   "tool": "NCBI eutils esummary db=protein",
+   "used_for": "candidate annotation WP_272975981.1",
+   "ts": "2026-09-26T11:34+05:30"
   }
  ],
  "accession_datasets": [
