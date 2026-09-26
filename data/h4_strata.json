@@ -1,0 +1,19 @@
+{
+ "locked": "2026-09-26 20:57 IST (Amendment H4, pre-computation)",
+ "species_tree_source": "cladogram fixed from NCBI taxonomy topology at lock time; unit branch lengths; no divergence-time claims",
+ "resistant_fixed": ["R_varieornatus", "A_vaga"],
+ "strata": {
+  "deinococcaceae_resistant": ["D_radiodurans", "D_geothermalis", "D_deserti"],
+  "thermus_controls": ["T_aquaticus", "T_thermophilus"],
+  "other_controls": ["L_plantarum", "E_coli", "P_furiosus", "S_solfataricus", "C_elegans", "D_melanogaster", "H_exemplaris", "S_cerevisiae"]
+ },
+ "rule": "resistant/sensitive labels permuted ONLY within a stratum; R_varieornatus and A_vaga resistant labels fixed (singleton origins cannot be permuted); 10000 structured permutations",
+ "species_to_panel": {
+  "D_radiodurans": "resistant", "D_geothermalis": "resistant", "D_deserti": "resistant",
+  "R_varieornatus": "resistant", "A_vaga": "resistant",
+  "T_aquaticus": "sensitive", "T_thermophilus": "sensitive", "H_exemplaris": "sensitive",
+  "C_elegans": "sensitive", "D_melanogaster": "sensitive", "E_coli": "sensitive",
+  "P_furiosus": "stress_control", "S_solfataricus": "stress_control",
+  "L_plantarum": "stress_control", "S_cerevisiae": "stress_control"
+ }
+}
