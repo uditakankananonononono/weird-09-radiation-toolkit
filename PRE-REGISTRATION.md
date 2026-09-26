@@ -67,3 +67,11 @@ Locked BEFORE analysis. Amendments:
 5. BENCHMARK NEGATIVES ADDED: radiation-sensitive relatives, unrelated stress-response proteins, random matched proteins; report recovery AND false-positive rate.
 6. INDEPENDENCE TRACKING: both accession count and independent biological units (species/lineages/studies) tracked; independence inflation disclosed.
 7. Judge dissent on dataset-count gates NOT adopted (user steering, verified WhatsApp 9:21/9:28 PM + 12:08 AM): count gates remain as deliverables alongside the scientific gates above.
+
+## AMENDMENT 2026-09-26 11:15 IST (pre-formal-analysis; locked before formal outcome inspection)
+Exploratory linclust tallies (results/orthology/) are QC-level only, no hypothesis claim. Formal tests locked here:
+1. ORTHOGROUP CALLING: mmseqs2 sensitive cluster primary (min_id 0.3, cov 0.5, cov-mode 1); linclust as sensitivity only. Subset concordance (subset20k_concordance.json: purity 0.914, retention 0.363) documents linclust fragmentation - formal claims never rest on linclust counts.
+2. ENRICHMENT TEST: per orthogroup, one-sided Fisher exact presence/absence resistant (Deinococcus x3 + tardigrade x2 + Adineta, independent origins) vs sensitive (Thermus x2, Hypsibius, C. elegans, Drosophila, E. coli); Mann-Whitney U on copy number. BH FDR 0.05.
+3. INDEPENDENCE: Deinococcus spp are one origin; convergent signal requires enrichment in >=2 independent resistant origins (Deinococcaceae, Tardigrada, Bdelloidea).
+4. NEGATIVE CONTROLS: 100 label permutations, FDR calibration reported.
+5. No threshold tuning after formal results.
