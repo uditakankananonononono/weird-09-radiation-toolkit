@@ -57,3 +57,13 @@ the project would win ISEF and for its weaknesses. Every round recorded verbatim
 in the repo (question, critique, fix applied). Iterate until no material
 weaknesses remain or only wet-lab/large-GPU items are left. Final judge verdict
 reported honestly; never claim a win the judge did not give.
+
+## AMENDMENT 2026-09-26 10:58 IST (pre-compute, ChatGPT design-verification round 1 - verbatim in judge/consult_design_round1.txt)
+Locked BEFORE analysis. Amendments:
+1. CONVERGENCE HIERARCHY PRE-DEFINED: ortholog-level where possible; else domain/fold/property-level; else pathway-level. Ortholog-level failure is NOT read as biological failure; primary analysis includes domain/property-level statistics from the start.
+2. CIRCULARITY SPLIT: discovery phase blind (no known-protectant labels; blind pathway/domain enrichment), evaluation phase separate (known protectants used only to score, never to discover).
+3. PHENOTYPE DEFINITIONS LOCKED: primary = quantitative radiation-survival metric (LD50/D10 where available); secondary categories recorded in ledger before sister-pair contrasts.
+4. H2 OBJECTIVE RUBRIC: scoring rubric locked pre-analysis (evolutionary evidence fixed points, structure-confidence threshold, experimental-validation category weights) - no post-hoc composite tuning.
+5. BENCHMARK NEGATIVES ADDED: radiation-sensitive relatives, unrelated stress-response proteins, random matched proteins; report recovery AND false-positive rate.
+6. INDEPENDENCE TRACKING: both accession count and independent biological units (species/lineages/studies) tracked; independence inflation disclosed.
+7. Judge dissent on dataset-count gates NOT adopted (user steering, verified WhatsApp 9:21/9:28 PM + 12:08 AM): count gates remain as deliverables alongside the scientific gates above.
