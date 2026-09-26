@@ -1,0 +1,174 @@
+{
+ "amendment": "H4b 2026-09-26 20:59 IST",
+ "nperm": 10000,
+ "seed": 260926,
+ "panel": "20 species (15 + H3 confirmation lineages); new-lineage presence is DOMAIN-LEVEL",
+ "asr": "Fitch minimum gains (PastML cross-check queued)",
+ "candidates": {
+  "Deinococcus_deserti|WP_012692117.1": {
+   "present_in": [
+    "A_ricciae",
+    "A_vaga",
+    "D_deserti",
+    "D_geothermalis",
+    "D_maricopensis",
+    "D_proteolyticus",
+    "D_radiodurans",
+    "D_radiophilus",
+    "R_magnacalcarata"
+   ],
+   "N_ind": 2,
+   "null_median": 2,
+   "p": 1.0,
+   "h4b_pass": false
+  },
+  "Adineta_vaga|UJR36058.1": {
+   "present_in": [
+    "A_ricciae",
+    "A_vaga",
+    "D_deserti",
+    "D_geothermalis",
+    "D_maricopensis",
+    "D_proteolyticus",
+    "D_radiodurans",
+    "D_radiophilus"
+   ],
+   "N_ind": 2,
+   "null_median": 2,
+   "p": 1.0,
+   "h4b_pass": false
+  },
+  "Adineta_vaga|UJR11615.1": {
+   "present_in": [
+    "A_ricciae",
+    "A_vaga",
+    "D_deserti",
+    "D_geothermalis",
+    "D_maricopensis",
+    "D_proteolyticus",
+    "D_radiodurans",
+    "D_radiophilus",
+    "L_plantarum",
+    "R_magnacalcarata"
+   ],
+   "N_ind": 2,
+   "null_median": 2,
+   "p": 1.0,
+   "h4b_pass": false
+  },
+  "Adineta_vaga|UJR17759.1": {
+   "present_in": [
+    "A_vaga",
+    "D_deserti",
+    "D_geothermalis",
+    "D_radiodurans"
+   ],
+   "N_ind": 2,
+   "null_median": 3,
+   "p": 1.0,
+   "h4b_pass": false
+  },
+  "Deinococcus_geothermalis|WP_272975990.1": {
+   "present_in": [
+    "A_ricciae",
+    "A_vaga",
+    "D_deserti",
+    "D_geothermalis",
+    "D_maricopensis",
+    "D_proteolyticus",
+    "D_radiodurans",
+    "D_radiophilus",
+    "R_magnacalcarata"
+   ],
+   "N_ind": 2,
+   "null_median": 2,
+   "p": 1.0,
+   "h4b_pass": false
+  },
+  "Adineta_vaga|UJR28130.1": {
+   "present_in": [
+    "A_ricciae",
+    "A_vaga",
+    "D_deserti",
+    "D_geothermalis",
+    "D_maricopensis",
+    "D_proteolyticus",
+    "D_radiodurans",
+    "D_radiophilus",
+    "R_magnacalcarata"
+   ],
+   "N_ind": 2,
+   "null_median": 2,
+   "p": 1.0,
+   "h4b_pass": false
+  },
+  "Adineta_vaga|UJR26281.1": {
+   "present_in": [
+    "A_ricciae",
+    "A_vaga",
+    "D_deserti",
+    "D_geothermalis",
+    "D_maricopensis",
+    "D_proteolyticus",
+    "D_radiodurans",
+    "D_radiophilus",
+    "R_magnacalcarata"
+   ],
+   "N_ind": 2,
+   "null_median": 2,
+   "p": 1.0,
+   "h4b_pass": false
+  },
+  "Deinococcus_deserti|WP_012692142.1": {
+   "present_in": [
+    "A_ricciae",
+    "A_vaga",
+    "D_deserti",
+    "D_geothermalis",
+    "D_maricopensis",
+    "D_proteolyticus",
+    "D_radiodurans",
+    "D_radiophilus",
+    "R_magnacalcarata"
+   ],
+   "N_ind": 2,
+   "null_median": 2,
+   "p": 1.0,
+   "h4b_pass": false
+  },
+  "Deinococcus_geothermalis|WP_414646549.1": {
+   "present_in": [
+    "A_ricciae",
+    "D_deserti",
+    "D_geothermalis",
+    "D_maricopensis",
+    "D_proteolyticus",
+    "D_radiodurans",
+    "D_radiophilus",
+    "R_magnacalcarata",
+    "R_varieornatus"
+   ],
+   "N_ind": 3,
+   "null_median": 3,
+   "p": 1.0,
+   "h4b_pass": false
+  },
+  "Deinococcus_geothermalis|WP_272975981.1": {
+   "present_in": [
+    "A_ricciae",
+    "A_vaga",
+    "D_deserti",
+    "D_geothermalis",
+    "D_maricopensis",
+    "D_proteolyticus",
+    "D_radiodurans",
+    "D_radiophilus",
+    "R_magnacalcarata"
+   ],
+   "N_ind": 2,
+   "null_median": 2,
+   "p": 1.0,
+   "h4b_pass": false
+  }
+ }
+}
