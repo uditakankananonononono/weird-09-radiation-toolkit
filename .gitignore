@@ -1,0 +1,4 @@
+results/orthology/mmdb/
+results/orthology/mmtmp_v2/
+data/proteomes/*.faa
+results/orthology/all_proteomes_tagged_v2.faa

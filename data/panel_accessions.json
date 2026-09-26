@@ -67,5 +67,49 @@
   "url": "https://api.ncbi.nlm.nih.gov/datasets/v2alpha/genome/accession/GCF_000001215.4/download?include_annotation_type=PROT_FASTA",
   "bytes": 9785236,
   "status": "ok"
+ },
+ "stress_control|Pyrococcus furiosus": {
+  "assembly": "GCF_008245085.1",
+  "assembly_name": "ASM824508v1 (DSM 3638, reference)",
+  "file": "GCF_008245085.1_protein.faa",
+  "bytes": 723314,
+  "sha256": "f3ff258c2fb2f8d05f5b7c8249cdc0674ae89d844b7531ebc852560e7428b3a6",
+  "url": "https://api.ncbi.nlm.nih.gov/datasets/v2alpha/genome/accession/GCF_008245085.1/download (PROT_FASTA)",
+  "source": "NCBI datasets v2alpha 2026-09-26",
+  "status": "ok",
+  "locked_role": "orthogonal stress-tolerant radiosensitive control (amendment 2026-09-26 13:18 IST; candidate must be absent in >=3/4 controls)"
+ },
+ "stress_control|Sulfolobus solfataricus": {
+  "assembly": "GCF_003852155.1",
+  "assembly_name": "ASM385215v1 (reference; NCBI reclassified Saccharolobus solfataricus; same species as locked)",
+  "file": "GCF_003852155.1_protein.faa",
+  "bytes": 912986,
+  "sha256": "91c30cc96b36bcb5e55daf519d1c5b3d21287772e442c5efb2b4a43ccf6c5d38",
+  "url": "https://api.ncbi.nlm.nih.gov/datasets/v2alpha/genome/accession/GCF_003852155.1/download (PROT_FASTA)",
+  "source": "NCBI datasets v2alpha 2026-09-26",
+  "status": "ok",
+  "locked_role": "orthogonal stress-tolerant radiosensitive control (amendment 2026-09-26 13:18 IST; candidate must be absent in >=3/4 controls)"
+ },
+ "stress_control|Lactobacillus plantarum": {
+  "assembly": "GCF_009913655.1",
+  "assembly_name": "ASM991365v1 (Lactiplantibacillus plantarum, reference)",
+  "file": "GCF_009913655.1_protein.faa",
+  "bytes": 1149545,
+  "sha256": "01a8850216b7ab2066179273b59ba50fbb9bf05ea08bfec1c3d81f1b57eb43c2",
+  "url": "https://api.ncbi.nlm.nih.gov/datasets/v2alpha/genome/accession/GCF_009913655.1/download (PROT_FASTA)",
+  "source": "NCBI datasets v2alpha 2026-09-26",
+  "status": "ok",
+  "locked_role": "orthogonal stress-tolerant radiosensitive control (amendment 2026-09-26 13:18 IST; candidate must be absent in >=3/4 controls)"
+ },
+ "stress_control|Saccharomyces cerevisiae": {
+  "assembly": "GCF_000146045.2",
+  "assembly_name": "R64 (S288C, reference)",
+  "file": "GCF_000146045.2_protein.faa",
+  "bytes": 3400039,
+  "sha256": "a376bcbd87c6caa8c0d81c2b1feb2d04246b438023bab3ced3821a61db718aac",
+  "url": "https://api.ncbi.nlm.nih.gov/datasets/v2alpha/genome/accession/GCF_000146045.2/download (PROT_FASTA)",
+  "source": "NCBI datasets v2alpha 2026-09-26",
+  "status": "ok",
+  "locked_role": "orthogonal stress-tolerant radiosensitive control (amendment 2026-09-26 13:18 IST; candidate must be absent in >=3/4 controls)"
  }
 }
