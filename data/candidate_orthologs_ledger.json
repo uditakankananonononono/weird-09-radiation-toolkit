@@ -1,0 +1,618 @@
+{
+ "UJR10666.1": {
+  "rep": "Adineta_vaga|UJR10666.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "ce2b177124976e8f9be738851038ad83fd915309d8a55ab1cce10123dd855d7c",
+  "bytes": 686,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "UJR12634.1": {
+  "rep": "Adineta_vaga|UJR10666.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "8f49e718cabacd949e342643d2312c3580c23c4d5e3d433322e2379cd76d8d63",
+  "bytes": 609,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "UJR26495.1": {
+  "rep": "Adineta_vaga|UJR10666.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "5ed383985182d00dd0db07fe9b1c72c459406500fe12b58bfc7e5556e32a3116",
+  "bytes": 502,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "UJR24451.1": {
+  "rep": "Adineta_vaga|UJR10666.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "f453f3299f6461b14eb767bca5ded6bfa042c31d12ceddc94236293ea505dd06",
+  "bytes": 598,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "UJR34349.1": {
+  "rep": "Adineta_vaga|UJR10666.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "24b708a58b40913d2203eada0368c463c6e7e364fe00cb71c23f203bd8998adc",
+  "bytes": 220,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "UJR09477.1": {
+  "rep": "Adineta_vaga|UJR10666.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "d5f0f1ff45d7114c7287337c45f08743a296fe2e4c67403106f8ec291e417b54",
+  "bytes": 502,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "UJR25916.1": {
+  "rep": "Adineta_vaga|UJR10666.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "05a37180c57c02c4256c017e842dbb362b3485917d26edefe39584cb4e02859f",
+  "bytes": 178,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "WP_012692117.1": {
+  "rep": "Deinococcus_deserti|WP_012692117.1",
+  "species": "Deinococcus_deserti",
+  "status": "ok",
+  "sha256": "2d6691f99e658c29b4010c0fa8532554a901e22b90c2951a7b28e64042f239df",
+  "bytes": 257,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "UJR21549.1": {
+  "rep": "Deinococcus_deserti|WP_012692117.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "8cbb67b8d7097cfcb373f01d2519e191c0584f0c67e3438a9f4518b999187bfa",
+  "bytes": 281,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "UJR27429.1": {
+  "rep": "Deinococcus_deserti|WP_012692117.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "24b10b96d67955595ecdff5c6ac3003a37a89881f622d3c2244c3972ccc75902",
+  "bytes": 281,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "WP_272976818.1": {
+  "rep": "Deinococcus_deserti|WP_012692117.1",
+  "species": "Deinococcus_geothermalis",
+  "status": "ok",
+  "sha256": "6d8e04ce65dddb0149aa3c31c3441ad3f30c27a898cb6083529cd278da1d909c",
+  "bytes": 329,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "WP_028328057.1": {
+  "rep": "Deinococcus_deserti|WP_012692117.1",
+  "species": "Deinococcus_radiodurans",
+  "status": "ok",
+  "sha256": "f3dffd102b507276804e4c69cf0d2deb37a9a634391ac517e6f8cf274c72824c",
+  "bytes": 315,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "WP_012693762.1": {
+  "rep": "Deinococcus_deserti|WP_012692117.1",
+  "species": "Deinococcus_deserti",
+  "status": "ok",
+  "sha256": "157f589f02d8966356daaf8a8e8e973def61d1fb1ba7af8d3b0c666b51a089b1",
+  "bytes": 315,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "UJR36058.1": {
+  "rep": "Adineta_vaga|UJR36058.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "7b34645124e251b2301b060a6ee39ec464da59ac5c79e0378fb3b3fc4d897281",
+  "bytes": 257,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "WP_227085949.1": {
+  "rep": "Adineta_vaga|UJR36058.1",
+  "species": "Deinococcus_radiodurans",
+  "status": "ok",
+  "sha256": "2de17c3ea720d3ef58516f01a3c1c80500cdf06917ad42c19cf05090e95f2946",
+  "bytes": 264,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "WP_011529430.1": {
+  "rep": "Adineta_vaga|UJR36058.1",
+  "species": "Deinococcus_geothermalis",
+  "status": "ok",
+  "sha256": "dcb622ecb901b3dd6ffdc1623751840454e7ca41bc5d4ba9fbc02c2882160f56",
+  "bytes": 244,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "WP_012694264.1": {
+  "rep": "Adineta_vaga|UJR36058.1",
+  "species": "Deinococcus_deserti",
+  "status": "ok",
+  "sha256": "fe4c63bab46bbd5ac211ed6733648a10e0f80940251cf6a0ffa1596a2133a236",
+  "bytes": 239,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "UJR11615.1": {
+  "rep": "Adineta_vaga|UJR11615.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "d9cf5010810c7cbe3874aa9a42d2dc742ccf6eef0c254a7de54ce063e8548a7f",
+  "bytes": 429,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "UJR29485.1": {
+  "rep": "Adineta_vaga|UJR11615.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "f047ec27277e62ae5afc6e894bc30f4a29da4f55c59e1ecfe9b71ddd83cc4345",
+  "bytes": 178,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "WP_003640554.1": {
+  "rep": "Adineta_vaga|UJR11615.1",
+  "species": "Lactobacillus_plantarum",
+  "status": "ok",
+  "sha256": "3c6a2632524b7109ba33b958fc39c0290d6dbfb4b709655ff06f820ea41e11d6",
+  "bytes": 409,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "UJR31524.1": {
+  "rep": "Adineta_vaga|UJR11615.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "b355a260329f1db0997bba8f0702dd9345955ebce3290a3919fb7a738bfe43d9",
+  "bytes": 413,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "UJR15159.1": {
+  "rep": "Adineta_vaga|UJR11615.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "3e8c4641bf0ab2a7016d06c54b5959fbb190b3f56a75a0b2060ffc3044a9f0bf",
+  "bytes": 384,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "WP_272976313.1": {
+  "rep": "Adineta_vaga|UJR11615.1",
+  "species": "Deinococcus_geothermalis",
+  "status": "ok",
+  "sha256": "3aaa0955c2847f15e3d157e8b8da8fa6825a7a5a36113a57ef58c7315c70effb",
+  "bytes": 408,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "WP_010889201.1": {
+  "rep": "Adineta_vaga|UJR11615.1",
+  "species": "Deinococcus_radiodurans",
+  "status": "ok",
+  "sha256": "f93a526d2eb71a98582a2e415355eacb099d0425da3fb474cc76867bef7091d1",
+  "bytes": 408,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "WP_012694199.1": {
+  "rep": "Adineta_vaga|UJR11615.1",
+  "species": "Deinococcus_deserti",
+  "status": "ok",
+  "sha256": "9e934c906d9b80109ce5b87ccd9e1f3e6b8c588430aa01920b85f37fa59326ab",
+  "bytes": 402,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "UJR17759.1": {
+  "rep": "Adineta_vaga|UJR17759.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "45a0e31999233e86db5a3504dd99c5c83fa0c6421872098500abd6b62fab7341",
+  "bytes": 1448,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "UJR34539.1": {
+  "rep": "Adineta_vaga|UJR17759.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "2bf30856fd570cdc3281c78398fc1feba48633b981ad5d8670c617c82f8c582d",
+  "bytes": 775,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "UJR36739.1": {
+  "rep": "Adineta_vaga|UJR17759.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "721bc085684367c7d0aa6b84b1de3a1b6bc25db4a130905e0a564e4a0c004dd9",
+  "bytes": 1043,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "UJR09426.1": {
+  "rep": "Adineta_vaga|UJR17759.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "99eca5e78e75833aa86e44ce99a0bd95a942e8cb65a63ba432cc627967032197",
+  "bytes": 819,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "UJR34756.1": {
+  "rep": "Adineta_vaga|UJR17759.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "ea140a77f4710890e64b3920ac0a4bfad1c14d4c92a755d4a1e457a38434cf87",
+  "bytes": 1048,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "UJR34538.1": {
+  "rep": "Adineta_vaga|UJR17759.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "53369262743e8564beaf3fcc64f04be553ec9ca9f732548c02e2255b9ecee755",
+  "bytes": 326,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "UJR06990.1": {
+  "rep": "Adineta_vaga|UJR17759.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "d8dbb2ee74bfadd1b7d7e6aaa80b943842a39b479bf097d6d041fdfda8535bc3",
+  "bytes": 697,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "UJR07640.1": {
+  "rep": "Adineta_vaga|UJR17759.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "9d365f60550d9b74b7d5cdaf7264186f72170e6500cdaaaeda9efe16fc4e09a1",
+  "bytes": 204,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "UJR07641.1": {
+  "rep": "Adineta_vaga|UJR17759.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "ebe5f21d903b476c6c9505b47167f56d15fb9543dd8247738ba3eeed21b6837a",
+  "bytes": 262,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "UJR07659.1": {
+  "rep": "Adineta_vaga|UJR17759.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "ef8f4d4b9b646dcd3ebdd34a35b381c51cc85b7a761c98b8bc096b47cda632fc",
+  "bytes": 639,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "UJR07681.1": {
+  "rep": "Adineta_vaga|UJR17759.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "f3deda01bcdd3a5e1ef7fc5ac90aef90943088f79328cebec504a03eeb521f2e",
+  "bytes": 639,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "WP_034350172.1": {
+  "rep": "Adineta_vaga|UJR17759.1",
+  "species": "Deinococcus_radiodurans",
+  "status": "ok",
+  "sha256": "06023a71e080ccac36296302658fe69569fc2e6739b7f151bcf759c0797693c9",
+  "bytes": 554,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "WP_012693138.1": {
+  "rep": "Adineta_vaga|UJR17759.1",
+  "species": "Deinococcus_deserti",
+  "status": "ok",
+  "sha256": "5ad4c1ac5902f49d0a4ced6f3db7e90734faee121500660c980fdbc60728da42",
+  "bytes": 538,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "WP_272976668.1": {
+  "rep": "Adineta_vaga|UJR17759.1",
+  "species": "Deinococcus_geothermalis",
+  "status": "ok",
+  "sha256": "97921edbd06e09eceb0fc5442596ed95d304bcaea37bec0940f6f7b610e77796",
+  "bytes": 542,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "UJR09425.1": {
+  "rep": "Adineta_vaga|UJR17759.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "ab4e820bf158e0ef964b2f1540adb7cacc4f7112da5477cb9dbc733c396c2df5",
+  "bytes": 1037,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "UJR08756.1": {
+  "rep": "Adineta_vaga|UJR17759.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "0a3056e9165053e17c230f24173f4db651113aa5bc2af19b019f295b71c2b99a",
+  "bytes": 1053,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "UJR32502.1": {
+  "rep": "Adineta_vaga|UJR17759.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "67b988c17ae3e7b4de8c74b75fa9e80cb503c026600b3b84ddab0975edd3fd06",
+  "bytes": 1041,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "UJR20528.1": {
+  "rep": "Adineta_vaga|UJR17759.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "aff7d4040f6f5af38bcbc82bcbb090fe4f9c6f66e78b2791a55fc55c9d2ce1bd",
+  "bytes": 739,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "UJR10484.1": {
+  "rep": "Adineta_vaga|UJR17759.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "ba9fbb0395509ce556e3542fc95322773b6fe8b0c5d09c26d5dedbfdf8a15a5b",
+  "bytes": 410,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "UJR07843.1": {
+  "rep": "Adineta_vaga|UJR17759.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "289eb78a895a8918761da52e99b7e7d89c7f596874b09150c3910fa621e05203",
+  "bytes": 1047,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "UJR20529.1": {
+  "rep": "Adineta_vaga|UJR17759.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "2bbfd9e62d42ccf4a08d8ed06f9feda81061d559cb1baff3203a07d35273dac3",
+  "bytes": 824,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "WP_272975990.1": {
+  "rep": "Deinococcus_geothermalis|WP_272975990.1",
+  "species": "Deinococcus_geothermalis",
+  "status": "ok",
+  "sha256": "996eb22fc5052f129a50514a461ffb4a353d4b1fa24a65db89aba36b0bbedea5",
+  "bytes": 331,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "WP_010887304.1": {
+  "rep": "Deinococcus_geothermalis|WP_272975990.1",
+  "species": "Deinococcus_radiodurans",
+  "status": "ok",
+  "sha256": "01f8909095aee0ea13c3a7165110739132959446cf26e1ad2a033963d112f268",
+  "bytes": 332,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "WP_049760420.1": {
+  "rep": "Deinococcus_geothermalis|WP_272975990.1",
+  "species": "Deinococcus_deserti",
+  "status": "ok",
+  "sha256": "5d90e5b30e2c970d1c66809d54257406252cda5129dcf70e2c1d316a02e04a2f",
+  "bytes": 325,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "UJR29358.1": {
+  "rep": "Deinococcus_geothermalis|WP_272975990.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "92906ec0ff7b62d02d82ed81f192b09cba02df6bd34103f5857ec39f9547e6c0",
+  "bytes": 288,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "UJR28130.1": {
+  "rep": "Adineta_vaga|UJR28130.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "ca9757b36ef8a4ad5c0c0cbcd48183f399de63c991349b9c5dad5bd4eeccdbed",
+  "bytes": 370,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "UJR19743.1": {
+  "rep": "Adineta_vaga|UJR28130.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "101cfca5efa3a7ffd278963e828ef8d48d385948e6c5954e92921e150761465c",
+  "bytes": 361,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "UJR21312.1": {
+  "rep": "Adineta_vaga|UJR28130.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "16ab6bfccbbe5a83e66053f7231b294c4ebe9702a6acb50bf051c7309f9d1919",
+  "bytes": 356,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "WP_010889481.1": {
+  "rep": "Adineta_vaga|UJR28130.1",
+  "species": "Deinococcus_radiodurans",
+  "status": "ok",
+  "sha256": "282333677b706d2e28f58dbe956d90cd1f555111e8c3cdaa92946f7d9f554ea4",
+  "bytes": 387,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "WP_272976831.1": {
+  "rep": "Adineta_vaga|UJR28130.1",
+  "species": "Deinococcus_geothermalis",
+  "status": "ok",
+  "sha256": "8de8f552bb72a7e2aa3e08a08a9923629510419c7a2d4e120a58730d53ad8649",
+  "bytes": 378,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "WP_012695134.1": {
+  "rep": "Adineta_vaga|UJR28130.1",
+  "species": "Deinococcus_deserti",
+  "status": "ok",
+  "sha256": "fad74f64550a3bcd5ee46a782aa6d3f9bb6794ffef465f8b26416695b177c6e3",
+  "bytes": 364,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "UJR26281.1": {
+  "rep": "Adineta_vaga|UJR26281.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "c5ca22c4b637d17172268e2a4cc1d5db81135ed648398993cf3490fa39fcf65b",
+  "bytes": 318,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "UJR26282.1": {
+  "rep": "Adineta_vaga|UJR26281.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "0596557cbfa16067bf257c0ebe6f4df78ac312182a9145e8230098023b6d2f00",
+  "bytes": 250,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "WP_272976429.1": {
+  "rep": "Adineta_vaga|UJR26281.1",
+  "species": "Deinococcus_geothermalis",
+  "status": "ok",
+  "sha256": "9890ec09abb00bcca51490ddf36130572d6b57c8d2d234005372d616c381c46f",
+  "bytes": 298,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "WP_051618825.1": {
+  "rep": "Adineta_vaga|UJR26281.1",
+  "species": "Deinococcus_radiodurans",
+  "status": "ok",
+  "sha256": "2c7d546e7e633548a75cb617454430cea79dceaa058c523c6904308593407565",
+  "bytes": 295,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "WP_012693755.1": {
+  "rep": "Adineta_vaga|UJR26281.1",
+  "species": "Deinococcus_deserti",
+  "status": "ok",
+  "sha256": "b7301793b7597edcd9737f21baadc7776e17552eb9d6c3ce7282f07896140600",
+  "bytes": 282,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "WP_012692142.1": {
+  "rep": "Deinococcus_deserti|WP_012692142.1",
+  "species": "Deinococcus_deserti",
+  "status": "ok",
+  "sha256": "e4c7aa14897fba8097a6f6da9e5ad49038c00bc9e6499170ffe05ee3f56e21a5",
+  "bytes": 311,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "WP_034350872.1": {
+  "rep": "Deinococcus_deserti|WP_012692142.1",
+  "species": "Deinococcus_radiodurans",
+  "status": "ok",
+  "sha256": "ca0d628f7f4caad867c3886cc7059e7377056ca18fb043cee79ce086b85fd959",
+  "bytes": 306,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "WP_332248763.1": {
+  "rep": "Deinococcus_deserti|WP_012692142.1",
+  "species": "Deinococcus_geothermalis",
+  "status": "ok",
+  "sha256": "f672d2999b9e483faa0d41b353ad608ea529b9b20f4999e4db8c14b46477ed2f",
+  "bytes": 216,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "WP_338064288.1": {
+  "rep": "Deinococcus_deserti|WP_012692142.1",
+  "species": "Deinococcus_geothermalis",
+  "status": "ok",
+  "sha256": "fa2a50a8214b974fd5e82cfbdb4370533e1e30e4a92ceae18c92b32321945593",
+  "bytes": 173,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "UJR24834.1": {
+  "rep": "Deinococcus_deserti|WP_012692142.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "095e7f6834f3aabac076d4883f69c58fde305d58e56884e15f15658668f753d5",
+  "bytes": 289,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "WP_414646549.1": {
+  "rep": "Deinococcus_geothermalis|WP_414646549.1",
+  "species": "Deinococcus_geothermalis",
+  "status": "ok",
+  "sha256": "5c808c90cfb5676334df1fa7e655e9ae1484b131a6778f2578bed4e93085fdc9",
+  "bytes": 452,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "WP_012694433.1": {
+  "rep": "Deinococcus_geothermalis|WP_414646549.1",
+  "species": "Deinococcus_deserti",
+  "status": "ok",
+  "sha256": "b0d0bb90e4e36bb9bd457f4ac3e61a9e4e046398b48e7d0061438198b3cdcf8c",
+  "bytes": 430,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "WP_051618851.1": {
+  "rep": "Deinococcus_geothermalis|WP_414646549.1",
+  "species": "Deinococcus_radiodurans",
+  "status": "ok",
+  "sha256": "95766fa43157285c77e851b67a5d166a494cf9f3a2529718986a5acb12198586",
+  "bytes": 437,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "GAV01133.1": {
+  "rep": "Deinococcus_geothermalis|WP_414646549.1",
+  "species": "Ramazzottius_varieornatus",
+  "status": "ok",
+  "sha256": "eae58b4aa844db43ec878b0baf82f02008c9cc8736576924df5f8dca416d35f7",
+  "bytes": 400,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "WP_272975981.1": {
+  "rep": "Deinococcus_geothermalis|WP_272975981.1",
+  "species": "Deinococcus_geothermalis",
+  "status": "ok",
+  "sha256": "fc3014c3fec69f43c8183a24ef13f5e530e2ccb314533fac382ad271bb094e0c",
+  "bytes": 247,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "WP_010887326.1": {
+  "rep": "Deinococcus_geothermalis|WP_272975981.1",
+  "species": "Deinococcus_radiodurans",
+  "status": "ok",
+  "sha256": "4b105a8fc39a8fe2a00a1f3a0f554ce6635752a10a94caa433253cfced3cc08a",
+  "bytes": 238,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "WP_012692000.1": {
+  "rep": "Deinococcus_geothermalis|WP_272975981.1",
+  "species": "Deinococcus_deserti",
+  "status": "ok",
+  "sha256": "f7e711f4b765ded037ed582e44d105be05e9f9b96e57cde52890ca904ac687fd",
+  "bytes": 241,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "WP_011531182.1": {
+  "rep": "Deinococcus_geothermalis|WP_272975981.1",
+  "species": "Deinococcus_geothermalis",
+  "status": "ok",
+  "sha256": "158f46ba7f393b419a4da566118379290e1e8fb64b9be1880bb20e67262db13e",
+  "bytes": 236,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "WP_027479494.1": {
+  "rep": "Deinococcus_geothermalis|WP_272975981.1",
+  "species": "Deinococcus_radiodurans",
+  "status": "ok",
+  "sha256": "1b40f6f51c1ac36a2297c3e6a280516951bcb5c7c010001811493052b2145a25",
+  "bytes": 231,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "WP_012692001.1": {
+  "rep": "Deinococcus_geothermalis|WP_272975981.1",
+  "species": "Deinococcus_deserti",
+  "status": "ok",
+  "sha256": "67655bb5dcd6fe0b8cf70ff58ade1af2aceb0b0d5c8fc8cfe5d29f8eba3a5386",
+  "bytes": 225,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "UJR17246.1": {
+  "rep": "Deinococcus_geothermalis|WP_272975981.1",
+  "species": "Adineta_vaga",
+  "status": "ok",
+  "sha256": "25aac89801da25306c6eb3849d650760b76008bd32c5d9d62c313ca44180a931",
+  "bytes": 229,
+  "source": "ncbi_protein_efetch_fasta"
+ }
+}
