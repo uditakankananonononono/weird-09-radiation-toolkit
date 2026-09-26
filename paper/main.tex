@@ -17,7 +17,7 @@ Extremotolerant organisms have evolved radiation resistance independently at lea
 \input{background_expansion}
 
 \section{Methods (pre-registered; amendments dated 2026-09-26)}
-Panel: 6 resistant proteomes (Deinococcus radiodurans, D. geothermalis, D. deserti [origin 1: Deinococcaceae]; Ramazzottius varieornatus [origin 2: Tardigrada]; Adineta vaga [origin 3: Bdelloidea]) vs 6 sensitive controls (Thermus aquaticus, T. thermophilus, Hypsibius exemplaris, Caenorhabditis elegans, Drosophila melanogaster, Escherichia coli). Milnesium tardigradum has no reference assembly; Tardigrada origin is single-proteome (power caveat carried throughout).
+Panel: 5 resistant proteomes available of the 6 locked (Deinococcus radiodurans, D. geothermalis, D. deserti [origin 1: Deinococcaceae]; Ramazzottius varieornatus [origin 2: Tardigrada]; Adineta vaga [origin 3: Bdelloidea]) vs 6 sensitive controls (Thermus aquaticus, T. thermophilus, Hypsibius exemplaris, Caenorhabditis elegans, Drosophila melanogaster, Escherichia coli). Milnesium tardigradum has no reference assembly; Tardigrada origin is single-proteome (power caveat carried throughout).
 
 Orthogroup calling: MMseqs2 v17 sensitive clustering (min\_seq\_id 0.3, coverage 0.5, cov-mode 1), 154,665 proteins. Linclust used only as sensitivity; subset concordance (20k proteins): linclust pair purity 0.914 vs sensitive, retention 0.363, so all formal claims rest on sensitive clustering.
 
@@ -35,7 +35,7 @@ which motivated replacing the BH-FDR gate by permutation calibration (pre-outcom
 \begin{equation}
 \hat{p}_g \;=\; \frac{1 + \sum_{b=1}^{B} \mathbf{1}\!\left[ T(x_g, \pi_b(y)) \ge T(x_g, y) \right]}{1 + B},
 \end{equation}
-with statistic $T$ the resistant-direction enrichment score; the floor resolution for complete-separation configurations is $\hat p = 1/(1+B) \approx 10^{-3}$ granularity at the observed $\hat p = 0.023$. The copy-number arm uses a one-sided Mann-Whitney statistic
+with statistic $T$ the resistant-direction enrichment score; the floor resolution for complete-separation configurations is $\hat p = 1/(1+B) \approx 10^{-3}$ granularity at the observed $\hat p = 0.013$. The copy-number arm uses a one-sided Mann-Whitney statistic
 \begin{equation}
 U_g \;=\; \sum_{i:\, y_i = 1} \sum_{j:\, y_j = 0} \mathbf{1}\!\left[ n_{gi} > n_{gj} \right] + \tfrac{1}{2}\,\mathbf{1}\!\left[ n_{gi} = n_{gj} \right]
 \end{equation}
