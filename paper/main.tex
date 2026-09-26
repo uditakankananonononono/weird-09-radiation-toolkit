@@ -1,0 +1,60 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage[margin=1in]{geometry}
+
+
+\usepackage{amsmath}
+\title{Convergent retention of oxidative-defense orthogroups across independent extremotolerant origins:\\A comparative-proteomics screen in Deinococcaceae, Tardigrada, and Bdelloidea}
+\author{}
+\date{September 26, 2026}
+\begin{document}
+\maketitle
+
+\section{Introduction (skeleton)}
+Extremotolerant organisms have evolved radiation resistance independently at least three times: in the bacterial family Deinococcaceae, in tardigrades, and in bdelloid rotifers. Whether these origins converged on the same molecular machinery is unknown. We test whether orthogroups are convergently retained across resistant lineages while absent from radiation-sensitive controls.
+
+\section{Methods (pre-registered; amendments dated 2026-09-26)}
+Panel: 6 resistant proteomes (Deinococcus radiodurans, D. geothermalis, D. deserti [origin 1: Deinococcaceae]; Ramazzottius varieornatus [origin 2: Tardigrada]; Adineta vaga [origin 3: Bdelloidea]) vs 6 sensitive controls (Thermus aquaticus, T. thermophilus, Hypsibius exemplaris, Caenorhabditis elegans, Drosophila melanogaster, Escherichia coli). Milnesium tardigradum has no reference assembly; Tardigrada origin is single-proteome (power caveat carried throughout).
+
+Orthogroup calling: MMseqs2 v17 sensitive clustering (min\_seq\_id 0.3, coverage 0.5, cov-mode 1), 154,665 proteins. Linclust used only as sensitivity; subset concordance (20k proteins): linclust pair purity 0.914 vs sensitive, retention 0.363, so all formal claims rest on sensitive clustering.
+
+Formal test (locked 11:15 and 11:29 amendments, before outcome inspection): per orthogroup, one-sided Fisher exact on presence/absence (6 resistant vs 6 sensitive) and one-sided Mann-Whitney U on zero-filled copy numbers. The BH-FDR gate was replaced pre-outcome by 1000 label permutations with per-orthogroup empirical $p$, after W03's power analysis showed BH-FDR is structurally impossible at 6-vs-6 (minimum achievable Fisher $p = 1/\binom{12}{6} = 1.08\times10^{-3}$ vs BH rank-1 threshold $\approx 10^{-6}$). Gate: empirical $p<0.05$, resistant-direction, replication in $\geq 2$ of 3 independent resistant origins.
+
+Candidate annotation: NCBI esummary + hmmscan (HMMER 3.3.2) vs Pfam-A (full-sequence $E<10^{-10}$).
+
+\section{Results}
+Of 52,786 orthogroups tested, \textbf{12 pass all locked gates}: convergently present in Deinococcaceae and Bdelloidea, absent from all 6 sensitive controls, empirical $p=0.023$ (1000 permutations). A further 53 orthogroups pass the copy-number Mann-Whitney arm.
+
+\begin{table}[h]
+\centering\small
+\caption{Convergent orthogroups passing all locked gates, with Pfam domain calls.}
+\begin{tabular}{lll}
+\hline\hline
+Representative & Pfam domains (E-value) & Interpretation \\
+\hline
+A. vaga UJR09360.1 & AhpC-TSA (3.8e-35), Redoxin (8.8e-17) & Peroxiredoxin; peroxide detox \\
+D. geothermalis WP\_272975990.1 & DSBA (7e-50) & Thiol-disulfide oxidoreductase \\
+D. deserti WP\_012692142.1 & Flavin\_Reduct (8.1e-26) & Flavin reductase; redox \\
+D. deserti WP\_012692117.1 & Ank $\times$5 (6e-24\ldots) & Ankyrin scaffold; DDR interactions \\
+D. geothermalis WP\_414646549.1 & PAD\_porph (7.7e-122) & Porphyrin/heme binding \\
+D. geothermalis WP\_272975981.1 & Acetyltransf\_1/7 & GNAT acetyltransferase \\
+A. vaga UJR10666.1 & HPPK (3.3e-29), Pterin\_bind & Folate/pterin pathway \\
+A. vaga UJR11615.1 & DHH (2.8e-21), DHHA2 (2e-22) & Phosphoesterase; nucleotide damage \\
+A. vaga UJR26281.1 & HAD\_2 (2.2e-25), Hydrolase & HAD-family hydrolase \\
+A. vaga UJR28130.1 & GDP\_Man\_Dehyd, NmrA & Redox-sensing dehydrogenase \\
+A. vaga UJR36058.1 & DUF4385 (2.6e-60) & Uncharacterized (novel space) \\
+A. vaga UJR17759.1 & Amidase (2.8e-61), Bac\_rhamnosid6H & Cell-wall/envelope metabolism \\
+\hline\hline
+\end{tabular}
+\end{table}
+
+The annotated candidates concentrate on the oxidative-defense axis: peroxiredoxin (AhpC-TSA), thioredoxin-family oxidoreductase (DSBA), and flavin reductase. Ionizing-radiation damage is dominated by reactive oxygen species; convergent retention of an oxidative-defense module across a bacterial and a metazoan origin, with complete absence from sensitive controls, is the screen's central signal. The folate/pterin candidate (HPPK) is consistent with the known Deinococcus folate-photoprotection mechanism, and DHH/DHHA2 phosphoesterases act in nucleotide-damage processing.
+
+\section{Caveats (honesty section)}
+(1) Tardigrada origin is single-proteome (Milnesium terminally unavailable); the gate's ``$\geq 2$ origins'' was met by Deinococcaceae+Bdelloidea in every passing orthogroup - no Tardigrada-supported convergence is claimed. (2) Empirical $p=0.023$ is the floor resolution at 1000 permutations for complete-separation configurations; it is not a continuous measure. (3) Empirical-p calibration assumes exchangeability under label permutation; family-level phylogenetic structure is only partially randomized away. (4) 4 esummary records failed uid resolution and await retry; their Pfam calls stand via hmmscan. (5) Candidates are computational; no experimental validation is claimed.
+
+\section{Next experiments (falsifiable)}
+(1) Heterologous expression of the AhpC-TSA orthogroup in E. coli: gamma-survival assay. (2) Tardigrade proteome addition when a second assembly appears; re-run with identical locked gates. (3) Domain-level convergence test (hierarchy step 2 of the design amendment) as the orthogonal confirmation.
+
+\end{document}
