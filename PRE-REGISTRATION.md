@@ -88,3 +88,14 @@ Judge verdict (judge/consult_formal_round1.txt, attachment-verified): surviving 
 2. TEST: identical locked pipeline (sensitive clustering on the expanded 16-proteome set, same Fisher/MWU/1000-permutation gates, same >=2-of-3-origins rule). The 12 gate-passing orthogroups are re-tested: the radiation-specificity claim survives ONLY for candidates absent from >=3 of 4 stress-matched controls (locked threshold). Candidates failing this are re-labeled broad-stress-adaptation and the paper says so.
 3. New proteomes logged as accession datasets with provenance verification (existing ledger rules).
 4. This extension does not reopen H1's gates or p-values; it adds a specificity layer on top of the already-committed result.
+
+## AMENDMENT 2026-09-26 20:21 IST (domain-level orthogonal confirmation arm; PRE-DATA: no new proteomes downloaded yet, no outcomes inspected)
+Locked BEFORE download/analysis. Purpose: test whether the 10 v2 radiation-specific candidates' PFAM DOMAIN content recurs in an INDEPENDENT set of radiation-resistant lineages absent from the original 15-species panel (paper "Next experiments" item 3; design-amendment hierarchy step 2).
+Extended confirmation panel (accessions live-verified via NCBI datasets v2alpha 20:19-20:21 IST):
+- Deinococcus radiophilus GCF_020889625.1 (Complete)
+- Deinococcus proteolyticus GCF_000190555.1 (Complete)
+- Deinococcus maricopensis GCF_000186385.1 (Complete)
+- Adineta ricciae GCA_905250025.1 (Scaffold)
+- Rotaria magnacalcarata GCA_965140935.1 (Scaffold)
+Unavailable (logged, no substitution): Richtersius coronifer (no assembly in datasets v2alpha), Milnesium tardigradum GCF_001039535.1 (API FAIL, consistent with earlier finding).
+Rules: (1) confirmation = a candidate's Pfam domain architecture (v1 annotation/pfam_domtblout calls) found in >=1 protein of >=2 of the 5 NEW proteomes; (2) NEW-panel hits count only at the domain level (no orthology claim to original reps); (3) candidates failing confirmation are NOT removed from the v2 set - the arm is confirmatory only, and a negative is reported as "domain-level support absent in extended panel"; (4) accessions ledgered with sha256 in data/panel_accessions.json at download; (5) no threshold changes after first result inspection.
