@@ -1,0 +1,134 @@
+{
+ "amendment": "2026-09-27 01:14 IST (locked pre-scoring)",
+ "ranking": [
+  {
+   "rep": "Adineta_vaga|UJR28130.1",
+   "score": 2,
+   "categories": [
+    "C2",
+    "C5"
+   ],
+   "confirmed": true,
+   "n_domains": 8,
+   "unmapped": [
+    "NAD_binding_10",
+    "NAD_binding_4"
+   ],
+   "rank": 1
+  },
+  {
+   "rep": "Deinococcus_deserti|WP_012692142.1",
+   "score": 1,
+   "categories": [
+    "C2"
+   ],
+   "confirmed": true,
+   "n_domains": 1,
+   "unmapped": [],
+   "rank": 2
+  },
+  {
+   "rep": "Adineta_vaga|UJR11615.1",
+   "score": 1,
+   "categories": [
+    "C1"
+   ],
+   "confirmed": true,
+   "n_domains": 2,
+   "unmapped": [],
+   "rank": 3
+  },
+  {
+   "rep": "Deinococcus_geothermalis|WP_272975990.1",
+   "score": 1,
+   "categories": [
+    "C2"
+   ],
+   "confirmed": true,
+   "n_domains": 2,
+   "unmapped": [],
+   "rank": 4
+  },
+  {
+   "rep": "Deinococcus_deserti|WP_012692117.1",
+   "score": 1,
+   "categories": [
+    "C3"
+   ],
+   "confirmed": true,
+   "n_domains": 5,
+   "unmapped": [],
+   "rank": 5
+  },
+  {
+   "rep": "Adineta_vaga|UJR10666.1",
+   "score": 1,
+   "categories": [
+    "C4"
+   ],
+   "confirmed": false,
+   "n_domains": 2,
+   "unmapped": [],
+   "rank": 6
+  },
+  {
+   "rep": "Adineta_vaga|UJR17759.1",
+   "score": 1,
+   "categories": [
+    "C5"
+   ],
+   "confirmed": false,
+   "n_domains": 5,
+   "unmapped": [],
+   "rank": 7
+  },
+  {
+   "rep": "Adineta_vaga|UJR36058.1",
+   "score": 0,
+   "categories": [],
+   "confirmed": true,
+   "n_domains": 1,
+   "unmapped": [
+    "DUF4385"
+   ],
+   "rank": 8
+  },
+  {
+   "rep": "Deinococcus_geothermalis|WP_414646549.1",
+   "score": 0,
+   "categories": [],
+   "confirmed": true,
+   "n_domains": 1,
+   "unmapped": [
+    "PAD_porph"
+   ],
+   "rank": 9
+  },
+  {
+   "rep": "Adineta_vaga|UJR26281.1",
+   "score": 0,
+   "categories": [],
+   "confirmed": true,
+   "n_domains": 3,
+   "unmapped": [
+    "HAD_2",
+    "Hydrolase",
+    "Hydrolase_like"
+   ],
+   "rank": 10
+  },
+  {
+   "rep": "Deinococcus_geothermalis|WP_272975981.1",
+   "score": 0,
+   "categories": [],
+   "confirmed": true,
+   "n_domains": 3,
+   "unmapped": [
+    "Acetyltransf_1",
+    "Acetyltransf_10",
+    "Acetyltransf_7"
+   ],
+   "rank": 11
+  }
+ ]
+}
