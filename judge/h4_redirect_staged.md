@@ -5,3 +5,5 @@
 - Status: paper keeps the quantified identifiability boundary as primary limitation, reframed "redirect in progress" (paper edit committed alongside this file)
 
 ## Addendum 23:48 IST (user steer via main): DeepSeek approved as second judge surface for NEW consultations. This H4-redirect consult is a NEW consultation -> eligible for DeepSeek (chat.deepseek.com, free tier). DeepSeek variant staged at /tmp/w09_h4_redirect_deepseek.txt (byte-identical content, sha256 recorded). Existing ChatGPT threads stay ChatGPT (R3 stays ChatGPT). Round records must tag the model used.
+
+## Addendum 2, 00:11 IST (user steer via main): Gemini (gemini.google.com, free tier) approved as third judge surface for NEW consultations. This H4 consult may go to DeepSeek OR Gemini. Variant staged at /tmp/w09_h4_redirect_gemini.txt (byte-identical, sha256 recorded). If a surface demands sign-in/payment, record status and use a working surface; never burn the holding. One holding may carry up to 3 consultations (ChatGPT + DeepSeek + Gemini).
