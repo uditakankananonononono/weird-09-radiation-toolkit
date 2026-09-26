@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.8.14)  27 SEP 2026 00:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.8.14)  27 SEP 2026 01:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -271,6 +271,18 @@ ed an-tiox-i-dant de-fense with horizontal-
  []
 
 [2])
+Overfull \hbox (5.49965pt too wide) in paragraph at lines 20--21
+\T1/ptm/m/n/12 Adineta vaga [ori-gin 3: Bdel-loidea]) vs 6 sen-si-tive con-trol
+s (Ther-mus aquati-cus, T. ther-mophilus,
+ []
+
+
+Overfull \hbox (1.38347pt too wide) in paragraph at lines 20--21
+\T1/ptm/m/n/12 Mil-ne-sium tardi-gradum has no ref-er-ence as-sem-bly; Tardigra
+da ori-gin is single-proteome (power
+ []
+
+
 Overfull \hbox (3.52032pt too wide) in paragraph at lines 24--25
 \T1/ptm/m/n/12 by 1000 la-bel per-mu-ta-tions with per-orthogroup em-pir-i-cal 
 $\OML/ztmcm/m/it/12 p$\T1/ptm/m/n/12 , af-ter W03's power anal-y-sis showed
@@ -326,7 +338,7 @@ re/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on main.pdf (8 pages, 130308 bytes).
+Output written on main.pdf (8 pages, 130314 bytes).
 PDF statistics:
  87 PDF objects out of 1000 (max. 8388607)
  54 compressed objects within 1 object stream

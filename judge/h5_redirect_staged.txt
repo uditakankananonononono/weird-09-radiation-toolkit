@@ -1,0 +1,11 @@
+I need redirection on a falsified rubric in a cross-kingdom radiation-survival comparative-proteomics project (laptop only, public data only).
+
+SETUP: 11 candidate radiation-resistance proteins were ranked under a rubric locked BEFORE scoring (mechanistic breadth across 5 damage classes C1-C5, scored from protein-family/domain architecture and published evidence). The locked win condition required the top-ranked candidate to have FAMILY-LEVEL published evidence tying it to radiation/desiccation resistance.
+
+RESULT (falsification branch taken, reported not patched): the top-ranked candidate (a bacterial NmrA-family oxidoreductase, ranked first on mechanism breadth C2+C5) has only MECHANISM-LEVEL evidence (its family chemistry fits oxidative-stress damage repair) - direct PubMed checks returned no family-level radiation-resistance evidence (3/3 hits were false positives on inspection). The first candidate WITH family-level published radiation evidence sits at rank 4 (DsbA/FrnE thiol-disulfide oxidoreductase; PMIDs 23603741, 29518000). Under the strict locked reading the rubric v1 win condition FAILED; the falsification was committed as-is with no post-hoc retuning.
+
+THE PROBLEM: I need a v2 endpoint that is not a post-hoc patch. Options I can see - rank, falsify, or replace them:
+(a) Two-tier claim: mechanism-level prioritization becomes the primary endpoint (the tool's actual deliverable - it orders candidates for lab follow-up), with family-level literature anchoring reported as a separate secondary layer. Win condition: top-3 all carry mechanism-level evidence AND at least one top-5 candidate carries family-level evidence.
+(b) Evidence-weighted rescore: fold publication-evidence strength into the rubric itself as a locked v2 weighting, re-rank, and require the new top rank to pass the ORIGINAL family-level standard.
+(c) Pivot the deliverable: the toolkit output becomes the ranked shortlist + the explicit evidence-grading of each candidate (mechanism-level vs family-level vs none), and the falsifiable claim shifts to coverage/recall against a locked reference set of known resistance proteins.
+Constraint: whatever you propose must be lockable as a dated amendment BEFORE I re-inspect any outcome, with an exact statistic, exact null, and exact win condition. Be concrete.
