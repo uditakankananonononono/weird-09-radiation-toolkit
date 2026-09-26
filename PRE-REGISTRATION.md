@@ -75,3 +75,9 @@ Exploratory linclust tallies (results/orthology/) are QC-level only, no hypothes
 3. INDEPENDENCE: Deinococcus spp are one origin; convergent signal requires enrichment in >=2 independent resistant origins (Deinococcaceae, Tardigrada, Bdelloidea).
 4. NEGATIVE CONTROLS: 100 label permutations, FDR calibration reported.
 5. No threshold tuning after formal results.
+
+## AMENDMENT 2026-09-26 11:29 IST (PRE-OUTCOME: no formal test results exist yet for this project)
+W03's locked H1 run proved the BH-FDR(0.05)-over-all-orthogroups gate is structurally impossible at this panel size (results in W03 repo: h1_power_analysis.json - minimum achievable p at 6v6 complete separation 1.08e-3 vs BH rank-1 threshold ~1e-6). The same flaw applies to this project's 11:15 amendment. Locked correction BEFORE any formal outcome inspection:
+1. The Fisher+MWU tests, one-sidedness, independence tiers, and convergence criteria stand unchanged.
+2. The BH-FDR GATE is replaced by permutation-calibrated empirical significance: 1000 label permutations; per-orthogroup empirical p = fraction of permutations with a more extreme statistic; GATE = empirical p<0.05 with effect in the locked direction, replicating in the locked number of independent origins. This is a power correction, not a relaxation: the permutation null is stricter than BH for correlated tests and is the same calibration already locked as the negative control.
+3. Rationale and W03 power analysis cited in the paper's methods/honesty section.
