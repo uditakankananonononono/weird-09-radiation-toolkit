@@ -111,5 +111,55 @@
   "source": "NCBI datasets v2alpha 2026-09-26",
   "status": "ok",
   "locked_role": "orthogonal stress-tolerant radiosensitive control (amendment 2026-09-26 13:18 IST; candidate must be absent in >=3/4 controls)"
+ },
+ "confirmation|Deinococcus radiophilus": {
+  "assembly": "GCF_020889625.1",
+  "url": "https://api.ncbi.nlm.nih.gov/datasets/v2alpha/genome/accession/GCF_020889625.1/download?include_annotation_type=PROT_FASTA",
+  "file": "data/ext/Deinococcus_radiophilus.faa",
+  "sha256": "91629dd331094f34246ba5a6c9a47ce10e78406d89a7b31347c9efef8ced0e1e",
+  "n_proteins": 2685,
+  "status": "ok",
+  "fetched_at": "2026-09-26T20:20+05:30",
+  "note": "domain-level confirmation panel, amendment 2026-09-26 20:21"
+ },
+ "confirmation|Deinococcus proteolyticus": {
+  "assembly": "GCF_000190555.1",
+  "url": "https://api.ncbi.nlm.nih.gov/datasets/v2alpha/genome/accession/GCF_000190555.1/download?include_annotation_type=PROT_FASTA",
+  "file": "data/ext/Deinococcus_proteolyticus.faa",
+  "sha256": "abfb7b8fde367254e0ae2ad4912979230835cc37577d50d76c6df0551621baf9",
+  "n_proteins": 2694,
+  "status": "ok",
+  "fetched_at": "2026-09-26T20:20+05:30",
+  "note": "domain-level confirmation panel, amendment 2026-09-26 20:21"
+ },
+ "confirmation|Deinococcus maricopensis": {
+  "assembly": "GCF_000186385.1",
+  "url": "https://api.ncbi.nlm.nih.gov/datasets/v2alpha/genome/accession/GCF_000186385.1/download?include_annotation_type=PROT_FASTA",
+  "file": "data/ext/Deinococcus_maricopensis.faa",
+  "sha256": "83375944d09865f43ca5df33706830973c43576c7988feee551bbab9523bef89",
+  "n_proteins": 3311,
+  "status": "ok",
+  "fetched_at": "2026-09-26T20:20+05:30",
+  "note": "domain-level confirmation panel, amendment 2026-09-26 20:21"
+ },
+ "confirmation|Adineta ricciae": {
+  "assembly": "GCA_905250025.1",
+  "url": "https://api.ncbi.nlm.nih.gov/datasets/v2alpha/genome/accession/GCA_905250025.1/download?include_annotation_type=PROT_FASTA",
+  "file": "data/ext/Adineta_ricciae.faa",
+  "sha256": "5fad250fae520829e417309ebc3f5d346ad6ed85b4fb821ed714e57beb87fe7d",
+  "n_proteins": 49015,
+  "status": "ok",
+  "fetched_at": "2026-09-26T20:20+05:30",
+  "note": "domain-level confirmation panel, amendment 2026-09-26 20:21"
+ },
+ "confirmation|Rotaria magnacalcarata": {
+  "assembly": "GCA_965140935.1",
+  "url": "https://api.ncbi.nlm.nih.gov/datasets/v2alpha/genome/accession/GCA_965140935.1/download?include_annotation_type=PROT_FASTA",
+  "file": "data/ext/Rotaria_magnacalcarata.faa",
+  "sha256": "020cc00a18757acf195b437b19137ea2cc5b513a67f5ef79b3fc154da0dd2616",
+  "n_proteins": 37657,
+  "status": "ok",
+  "fetched_at": "2026-09-26T20:20+05:30",
+  "note": "domain-level confirmation panel, amendment 2026-09-26 20:21"
  }
 }
