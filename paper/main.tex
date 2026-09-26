@@ -105,6 +105,15 @@ As an independent check, the panel was extended with five radiation-resistant pr
 
 \subsection{Phylogenetically controlled convergence test (amendments H4--H4c, 2026-09-26)}
 The strongest remaining objection to the v2 labels is phylogenetic confounding: the three \emph{Deinococcus} proteomes (like the two \emph{Thermus} controls) are not independent replicates, so a label permutation that treats species as exchangeable only partially randomizes family-level structure. We therefore implemented a phylogenetically controlled convergence test, locked before computation (amendment H4): for each radiation-specific candidate, presence/absence was mapped onto a fixed 15-species cladogram (topology from NCBI taxonomy, unit branch lengths), and the minimum number of independent gains into resistant-subtending branches was computed by Fitch-parsimony ancestral-state reconstruction (the minimum-gain count is method-independent; a PastML maximum-likelihood cross-check is queued). The null was 10{,}000 structure-preserving permutations that shuffle presence assignments only within exchangeable strata (Deinococcaceae, Thermus, other controls), never across.
+Formally, let $x_g \in \{0,1\}^{|\mathrm{leaves}(\tau)|}$ be the presence vector of candidate $g$ on the fixed cladogram $\tau$. The Fitch bottom-up pass assigns each internal node $v$ the intersection of its children's state sets when non-empty, else their union, and the minimum-gain statistic is the number of union events,
+\begin{equation}
+G(x_g;\tau) \;=\; \sum_{v \in \mathrm{int}(\tau)} \mathbf{1}\!\left[ S_v = S_{v_1} \cup S_{v_2} \right],
+\end{equation}
+where $S_v$ is the Fitch state set of node $v$ with children $v_1, v_2$, and a union event implies exactly one gain on the branch subtending the child absent the state. The structure-preserving null draws permutations $\pi_b$ that shuffle presence labels only within exchangeable strata $\mathcal{S} \in \{\text{Deinococcaceae}, \text{Thermus}, \text{other controls}\}$, and the corrected (lower-tail, amendment H4c) empirical convergence $p$-value is
+\begin{equation}
+\hat{p}^{\,\mathrm{conv}}_g \;=\; \frac{1 + \sum_{b=1}^{B} \mathbf{1}\!\left[ G(\pi_b(x_g);\tau) \le G(x_g;\tau) \right]}{1 + B},
+\end{equation}
+with $B = 10{,}000$; the lower tail is the convergence-consistent direction because scattered presence forces \emph{more} gains, so unusually \emph{few} gains reject the structured null.
 
 \textbf{The test returned a structural null}: for all ten candidates the null distribution has zero variance (observed 2 gains, null median 2, $p=1.0$). The cause is identifiability, not biology: every candidate is present in all three Deinococcaceae, and the Tardigrada and Bdelloidea origins are singletons whose labels cannot be permuted, so no within-strata shuffle can move the signal. Resistance labels are perfectly confounded with tree topology on this panel.
 
