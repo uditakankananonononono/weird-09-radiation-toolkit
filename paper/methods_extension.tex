@@ -1,0 +1,35 @@
+\section{Orthogonal Stress-Matched Control Panel (Pre-Registered Extension)}
+\label{sec:stresspanel}
+
+A surviving alternative explanation for the primary result is broad
+stress-adaptation rather than radiation-specific selection. To close this
+gap, a stress-matched, radiation-sensitive control panel was locked by
+amendment before any control data were downloaded or inspected.
+
+\subsection{Panel definition (locked)}
+Four species, all stress-tolerant and radiation-sensitive by prior
+literature: \emph{Pyrococcus furiosus} (hyperthermophile; reference
+assembly GCF\_008245085.1), \emph{Sulfolobus solfataricus}
+(thermoacidophile; GCF\_003852155.1; NCBI taxonomic reclassification
+\emph{Saccharolobus solfataricus} noted in the provenance ledger),
+\emph{Lactiplantibacillus plantarum} (acid- and osmo-tolerant;
+GCF\_009913655.1), and \emph{Saccharomyces cerevisiae} (osmo- and
+ethanol-tolerant; GCF\_000146045.2). The amendment further locked that if
+any panel member proves radiation-resistant, it remains in the panel and
+the fact is reported; no swapping is permitted.
+
+\subsection{Identical pipeline}
+The control proteomes were appended to the tagged proteome set (168,186
+proteins across the expanded panel) and re-clustered with the identical
+locked orthogroup-calling pipeline: cascaded sensitive MMseqs2 clustering,
+minimum sequence identity 0.3, minimum coverage 0.5, cov-mode 1. All formal
+tests (one-sided Fisher presence/absence, one-sided Mann--Whitney U on copy
+number, BH FDR 0.05, 1000 label permutations, $\geq$2-of-3 independent
+origins rule) are re-run unchanged on the expanded clustering.
+
+\subsection{Specificity layer (locked threshold)}
+Each of the twelve gate-passing candidate orthogroups is re-tested for
+radiation specificity: the radiation-specificity claim survives only for
+candidates absent from at least three of the four stress-matched controls.
+Candidates failing this threshold are re-labeled broad-stress-adaptation,
+and the paper reports them as such.
