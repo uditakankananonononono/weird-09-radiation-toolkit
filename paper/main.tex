@@ -25,6 +25,43 @@ Formal test (locked 11:15 and 11:29 amendments, before outcome inspection): per 
 
 Candidate annotation: NCBI esummary + hmmscan (HMMER 3.3.2) vs Pfam-A (full-sequence $E<10^{-10}$).
 
+
+\subsection{Formal framework}
+Each orthogroup $g$ is a partition of the panel proteomes into member sets; for species $i$ let $n_{gi} \ge 0$ be the copy number and $x_{gi} = \mathbf{1}[n_{gi} > 0]$ the presence indicator. The resistant and sensitive label vectors $y \in \{0,1\}^{12}$ are fixed by the panel definition. The presence/absence arm applies a one-sided Fisher exact test to the $2\times2$ table of $x_g$ against $y$; under complete separation (all resistant present, all sensitive absent) the minimum achievable value is
+\begin{equation}
+p_{\min} \;=\; \frac{1}{\binom{12}{6}} \;=\; 1.08\times10^{-3},
+\end{equation}
+which motivated replacing the BH-FDR gate by permutation calibration (pre-outcome amendment). The empirical $p$-value for orthogroup $g$ over $B=1000$ label permutations $\pi_b$ is
+\begin{equation}
+\hat{p}_g \;=\; \frac{1 + \sum_{b=1}^{B} \mathbf{1}\!\left[ T(x_g, \pi_b(y)) \ge T(x_g, y) \right]}{1 + B},
+\end{equation}
+with statistic $T$ the resistant-direction enrichment score; the floor resolution for complete-separation configurations is $\hat p = 1/(1+B) \approx 10^{-3}$ granularity at the observed $\hat p = 0.023$. The copy-number arm uses a one-sided Mann-Whitney statistic
+\begin{equation}
+U_g \;=\; \sum_{i:\, y_i = 1} \sum_{j:\, y_j = 0} \mathbf{1}\!\left[ n_{gi} > n_{gj} \right] + \tfrac{1}{2}\,\mathbf{1}\!\left[ n_{gi} = n_{gj} \right]
+\end{equation}
+on zero-filled copy numbers. The convergence gate additionally requires replication across independent origins:
+\begin{equation}
+\sum_{k \in \{\text{Deino},\, \text{Tardi},\, \text{Bdello}\}} \mathbf{1}\!\left[ \max_{i \in k} x_{gi} = 1 \right] \;\ge\; 2.
+\end{equation}
+
+For the specificity layer, each v1 candidate was re-clustered with four stress-tolerant but radiation-sensitive controls and re-tested identically; a candidate keeps the label radiation-specific only if
+\begin{equation}
+\left| \{ c \in \text{stress controls} : x_{gc} = 1 \} \right| \;\le\; 1,
+\end{equation}
+otherwise it is re-labeled broad-stress adaptation. Domain-level confirmation searches each candidate's full Pfam architecture $\mathcal{D}_g = \{d_1, \dots, d_m\}$ against the five confirmation proteomes with family HMMs, accepting a proteome as supporting iff
+\begin{equation}
+\exists\, \text{protein } q : \bigwedge_{d \in \mathcal{D}_g} \left[ E(q, d) \le 10^{-5} \right],
+\end{equation}
+and confirming the candidate iff at least two of five proteomes support it. The phylogenetic layer (H4--H4c) maps presence onto a fixed cladogram $\tau$ and counts minimum gains by Fitch reconstruction,
+\begin{equation}
+N_{\text{ind}}(g) \;=\; \min_{\text{ASR}} \; \sum_{e \in \tau} \mathbf{1}\!\left[ 0 \to 1 \text{ on } e,\; e \text{ subtends a resistant leaf} \right],
+\end{equation}
+against a null of $10^{4}$ within-strata presence shuffles $\sigma_r$ preserving stratum counts,
+\begin{equation}
+p_{\text{lower}}(g) \;=\; \frac{1 + \sum_{r} \mathbf{1}\!\left[ N_{\text{ind}}^{\sigma_r} \le N_{\text{ind}}(g) \right]}{1 + 10^{4}},
+\end{equation}
+which proved degenerate on saturated strata (zero null variance), yielding the identifiability boundary reported in Section 3.4.
+
 \section{Results}
 Of 52,786 orthogroups tested, \textbf{12 pass all locked gates}: convergently present in Deinococcaceae and Bdelloidea, absent from all 6 sensitive controls, empirical $p=0.023$ (1000 permutations). A further 53 orthogroups pass the copy-number Mann-Whitney arm.
 
