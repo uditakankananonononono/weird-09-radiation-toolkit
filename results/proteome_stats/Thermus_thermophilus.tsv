@@ -1,0 +1,2 @@
+file	format	type	num_seqs	sum_len	min_len	avg_len	max_len	Q1	Q2	Q3	sum_gap	N50	N50_num	Q20(%)	Q30(%)	AvgQual	GC(%)	sum_n
+data/proteomes/Thermus_thermophilus.faa.gz	FASTA	Protein	2290	678478	27	296.3	2672	156.0	258.0	383.0	0	368	304	0.00	0.00	0.00	0.00	0

@@ -1,0 +1,2 @@
+file	format	type	num_seqs	sum_len	min_len	avg_len	max_len	Q1	Q2	Q3	sum_gap	N50	N50_num	Q20(%)	Q30(%)	AvgQual	GC(%)	sum_n
+data/proteomes/Deinococcus_geothermalis.faa.gz	FASTA	Protein	2897	885977	22	305.8	3243	169.0	269.0	391.0	0	370	360	0.00	0.00	0.00	0.00	7

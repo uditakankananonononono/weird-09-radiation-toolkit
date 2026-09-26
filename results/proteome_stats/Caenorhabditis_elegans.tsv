@@ -1,0 +1,2 @@
+file	format	type	num_seqs	sum_len	min_len	avg_len	max_len	Q1	Q2	Q3	sum_gap	N50	N50_num	Q20(%)	Q30(%)	AvgQual	GC(%)	sum_n
+data/proteomes/Caenorhabditis_elegans.faa.gz	FASTA	Protein	28602	13600139	9	475.5	15188	201.0	342.0	543.0	0	624	1589	0.00	0.00	0.00	0.00	0

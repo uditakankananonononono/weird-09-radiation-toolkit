@@ -19,6 +19,61 @@
    "tool": "NCBI datasets v2alpha API",
    "used_for": "reference-genome fallback for eutils-hostile taxa",
    "ts": "2026-09-25T21:12+05:30"
+  },
+  {
+   "tool": "seqkit v2.10.0 stats -a -T",
+   "used_for": "per-proteome sequence statistics (stage-1 QC, results/proteome_stats/Adineta_vaga.tsv)",
+   "ts": "2026-09-26T11:01+05:30"
+  },
+  {
+   "tool": "seqkit v2.10.0 stats -a -T",
+   "used_for": "per-proteome sequence statistics (stage-1 QC, results/proteome_stats/Caenorhabditis_elegans.tsv)",
+   "ts": "2026-09-26T11:01+05:30"
+  },
+  {
+   "tool": "seqkit v2.10.0 stats -a -T",
+   "used_for": "per-proteome sequence statistics (stage-1 QC, results/proteome_stats/Deinococcus_deserti.tsv)",
+   "ts": "2026-09-26T11:01+05:30"
+  },
+  {
+   "tool": "seqkit v2.10.0 stats -a -T",
+   "used_for": "per-proteome sequence statistics (stage-1 QC, results/proteome_stats/Deinococcus_geothermalis.tsv)",
+   "ts": "2026-09-26T11:01+05:30"
+  },
+  {
+   "tool": "seqkit v2.10.0 stats -a -T",
+   "used_for": "per-proteome sequence statistics (stage-1 QC, results/proteome_stats/Deinococcus_radiodurans.tsv)",
+   "ts": "2026-09-26T11:01+05:30"
+  },
+  {
+   "tool": "seqkit v2.10.0 stats -a -T",
+   "used_for": "per-proteome sequence statistics (stage-1 QC, results/proteome_stats/Drosophila_melanogaster.tsv)",
+   "ts": "2026-09-26T11:01+05:30"
+  },
+  {
+   "tool": "seqkit v2.10.0 stats -a -T",
+   "used_for": "per-proteome sequence statistics (stage-1 QC, results/proteome_stats/Escherichia_coli.tsv)",
+   "ts": "2026-09-26T11:01+05:30"
+  },
+  {
+   "tool": "seqkit v2.10.0 stats -a -T",
+   "used_for": "per-proteome sequence statistics (stage-1 QC, results/proteome_stats/Hypsibius_exemplaris.tsv)",
+   "ts": "2026-09-26T11:01+05:30"
+  },
+  {
+   "tool": "seqkit v2.10.0 stats -a -T",
+   "used_for": "per-proteome sequence statistics (stage-1 QC, results/proteome_stats/Ramazzottius_varieornatus.tsv)",
+   "ts": "2026-09-26T11:01+05:30"
+  },
+  {
+   "tool": "seqkit v2.10.0 stats -a -T",
+   "used_for": "per-proteome sequence statistics (stage-1 QC, results/proteome_stats/Thermus_aquaticus.tsv)",
+   "ts": "2026-09-26T11:01+05:30"
+  },
+  {
+   "tool": "seqkit v2.10.0 stats -a -T",
+   "used_for": "per-proteome sequence statistics (stage-1 QC, results/proteome_stats/Thermus_thermophilus.tsv)",
+   "ts": "2026-09-26T11:01+05:30"
   }
  ],
  "accession_datasets": [
