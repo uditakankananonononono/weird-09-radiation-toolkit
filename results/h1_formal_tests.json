@@ -1,0 +1,142 @@
+{
+ "n_orthogroups_tested": 52786,
+ "n_permutations": 1000,
+ "fisher_empirical_hits_2of3_origins": 12,
+ "mwu_empirical_hits": 53,
+ "hits": [
+  {
+   "rep": "Adineta_vaga|UJR10666.1",
+   "res_copies": 12,
+   "sen_copies": 0,
+   "origins": [
+    true,
+    false,
+    true
+   ],
+   "emp_p": 0.023
+  },
+  {
+   "rep": "Deinococcus_deserti|WP_012692117.1",
+   "res_copies": 6,
+   "sen_copies": 0,
+   "origins": [
+    true,
+    false,
+    true
+   ],
+   "emp_p": 0.023
+  },
+  {
+   "rep": "Adineta_vaga|UJR36058.1",
+   "res_copies": 4,
+   "sen_copies": 0,
+   "origins": [
+    true,
+    false,
+    true
+   ],
+   "emp_p": 0.023
+  },
+  {
+   "rep": "Adineta_vaga|UJR11615.1",
+   "res_copies": 7,
+   "sen_copies": 0,
+   "origins": [
+    true,
+    false,
+    true
+   ],
+   "emp_p": 0.023
+  },
+  {
+   "rep": "Adineta_vaga|UJR17759.1",
+   "res_copies": 21,
+   "sen_copies": 0,
+   "origins": [
+    true,
+    false,
+    true
+   ],
+   "emp_p": 0.023
+  },
+  {
+   "rep": "Deinococcus_geothermalis|WP_272975990.1",
+   "res_copies": 4,
+   "sen_copies": 0,
+   "origins": [
+    true,
+    false,
+    true
+   ],
+   "emp_p": 0.023
+  },
+  {
+   "rep": "Adineta_vaga|UJR28130.1",
+   "res_copies": 6,
+   "sen_copies": 0,
+   "origins": [
+    true,
+    false,
+    true
+   ],
+   "emp_p": 0.023
+  },
+  {
+   "rep": "Adineta_vaga|UJR26281.1",
+   "res_copies": 5,
+   "sen_copies": 0,
+   "origins": [
+    true,
+    false,
+    true
+   ],
+   "emp_p": 0.023
+  },
+  {
+   "rep": "Adineta_vaga|UJR09360.1",
+   "res_copies": 7,
+   "sen_copies": 0,
+   "origins": [
+    true,
+    false,
+    true
+   ],
+   "emp_p": 0.023
+  },
+  {
+   "rep": "Deinococcus_deserti|WP_012692142.1",
+   "res_copies": 5,
+   "sen_copies": 0,
+   "origins": [
+    true,
+    false,
+    true
+   ],
+   "emp_p": 0.023
+  },
+  {
+   "rep": "Deinococcus_geothermalis|WP_414646549.1",
+   "res_copies": 4,
+   "sen_copies": 0,
+   "origins": [
+    true,
+    true,
+    false
+   ],
+   "emp_p": 0.029
+  },
+  {
+   "rep": "Deinococcus_geothermalis|WP_272975981.1",
+   "res_copies": 7,
+   "sen_copies": 0,
+   "origins": [
+    true,
+    false,
+    true
+   ],
+   "emp_p": 0.023
+  }
+ ],
+ "gate_met": true,
+ "method": "sensitive mmseqs cluster; Fisher one-sided presence/absence; MWU one-sided copy number (normal approx, cc, no tie correction); 1000 label permutations, per-orthogroup empirical p; gate: empirical p<0.05 + resistant-direction + >=2 of 3 independent origins (Deinococcaceae/Tardigrada/Bdelloidea). Milnesium missing (no assembly): Tardigrada origin = R. varieornatus only."
+}
