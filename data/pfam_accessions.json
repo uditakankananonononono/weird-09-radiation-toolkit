@@ -1,0 +1,390 @@
+{
+ "locked": "2026-09-26 23:08 IST accession-level Pfam HMM ledger (InterPro API per family, gzipped HMMER3 decompressed)",
+ "count": 64,
+ "families": {
+  "PF00023": {
+   "file": "data/pfam_hmms/PF00023.hmm",
+   "sha256": "2c402c528045fae2c2a4de382746740155121c94d6a136b47d7175783d649667",
+   "bytes": 16531,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00023?annotation=hmm"
+  },
+  "PF00106": {
+   "file": "data/pfam_hmms/PF00106.hmm",
+   "sha256": "1a7cfad57dcbdb522a0cdb05a2eba78e00ee64103a00f43d06c2303ee48e6819",
+   "bytes": 91872,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00106?annotation=hmm"
+  },
+  "PF00291": {
+   "file": "data/pfam_hmms/PF00291.hmm",
+   "sha256": "f5ac9e8127af300e0791a7994a2b30962c0d521d31446a6edc7977697c4747e3",
+   "bytes": 138376,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00291?annotation=hmm"
+  },
+  "PF00578": {
+   "file": "data/pfam_hmms/PF00578.hmm",
+   "sha256": "27bee3f01ab122481b936e4aae0e2884ce614db955ad72a67d8fe96af9342c51",
+   "bytes": 58842,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00578?annotation=hmm"
+  },
+  "PF00583": {
+   "file": "data/pfam_hmms/PF00583.hmm",
+   "sha256": "35db870d27a2e9de02e514723e7d900f0935a211c192f0b7521c610b6d78282f",
+   "bytes": 55154,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00583?annotation=hmm"
+  },
+  "PF00702": {
+   "file": "data/pfam_hmms/PF00702.hmm",
+   "sha256": "0063fd2789e9aa8cea4e6b50c19db991e13d35fa33e98f2d946b7734f33b8abe",
+   "bytes": 90038,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00702?annotation=hmm"
+  },
+  "PF00809": {
+   "file": "data/pfam_hmms/PF00809.hmm",
+   "sha256": "d1d5a1154bbe3645f814a981b88a3a20c204e2ad31a7163f8fb9e7a072672598",
+   "bytes": 114659,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00809?annotation=hmm"
+  },
+  "PF01073": {
+   "file": "data/pfam_hmms/PF01073.hmm",
+   "sha256": "76aace056d0926a9f3aac11140a5a82af597643fe8a55eecb387ffbc2a2b9f37",
+   "bytes": 131419,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF01073?annotation=hmm"
+  },
+  "PF01288": {
+   "file": "data/pfam_hmms/PF01288.hmm",
+   "sha256": "aaded64bc57daf103138254b0c69ea0dc18f37feac1e2e478d4e69bf71ab5fe6",
+   "bytes": 54701,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF01288?annotation=hmm"
+  },
+  "PF01323": {
+   "file": "data/pfam_hmms/PF01323.hmm",
+   "sha256": "07b0f764807cc03cd1cfe6dfcad9973e00ce513579868a179a5b7b30587a8c55",
+   "bytes": 90014,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF01323?annotation=hmm"
+  },
+  "PF01368": {
+   "file": "data/pfam_hmms/PF01368.hmm",
+   "sha256": "731c4ee15600951db6fb779c2eb70d65eb2fe85229ebc8239ded5de18535209e",
+   "bytes": 59795,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF01368?annotation=hmm"
+  },
+  "PF01370": {
+   "file": "data/pfam_hmms/PF01370.hmm",
+   "sha256": "e712d841390836af84173fe4bccc0cc822d8aa258557a8794eb9a8d3b8020fa1",
+   "bytes": 112818,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF01370?annotation=hmm"
+  },
+  "PF01425": {
+   "file": "data/pfam_hmms/PF01425.hmm",
+   "sha256": "e30d663c4fe77f0657738379d48ec5b08be4871371a855922ce9786b995b2a26",
+   "bytes": 208098,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF01425?annotation=hmm"
+  },
+  "PF01613": {
+   "file": "data/pfam_hmms/PF01613.hmm",
+   "sha256": "6d354c738e577de9e92e391aca009bb0b95000b2e6fb27a5bcbded1754441748",
+   "bytes": 72345,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF01613?annotation=hmm"
+  },
+  "PF02535": {
+   "file": "data/pfam_hmms/PF02535.hmm",
+   "sha256": "4a1be79edef46d3b22d0bda4aa40e7de7097345bc66eb2de02cc0dd8804fa984",
+   "bytes": 151381,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF02535?annotation=hmm"
+  },
+  "PF02719": {
+   "file": "data/pfam_hmms/PF02719.hmm",
+   "sha256": "79724faa63b90d96ae8d1034f79ba3c2d7515d466172052d4d1b56614c2218d3",
+   "bytes": 137462,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF02719?annotation=hmm"
+  },
+  "PF02833": {
+   "file": "data/pfam_hmms/PF02833.hmm",
+   "sha256": "2a54f12f521bdc8928d4afe547bea76b0b94a934801f1b1a9726508e1e530513",
+   "bytes": 59766,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF02833?annotation=hmm"
+  },
+  "PF03435": {
+   "file": "data/pfam_hmms/PF03435.hmm",
+   "sha256": "c2bd513efd524a972dd4a95a5dece8ae14f35ba1f20cd8f5f20f530649ac80af",
+   "bytes": 61208,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF03435?annotation=hmm"
+  },
+  "PF03767": {
+   "file": "data/pfam_hmms/PF03767.hmm",
+   "sha256": "19bc33c39c49055e213c92930a6d0cf4f7eb5ca43a13ec8d604aaef904d6a3e9",
+   "bytes": 108174,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF03767?annotation=hmm"
+  },
+  "PF04321": {
+   "file": "data/pfam_hmms/PF04321.hmm",
+   "sha256": "b3b7579d861bde18142ce0585f6008274f3b156a736ef657358ab0915d4b3cc7",
+   "bytes": 134656,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF04321?annotation=hmm"
+  },
+  "PF04371": {
+   "file": "data/pfam_hmms/PF04371.hmm",
+   "sha256": "e62fdb50801d9b1a02faef60ad46d4f273d600b061a1fc91424cb832f1fd6a50",
+   "bytes": 150019,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF04371?annotation=hmm"
+  },
+  "PF05368": {
+   "file": "data/pfam_hmms/PF05368.hmm",
+   "sha256": "1ab517e0db3aea20d3e259c6d751deb1f65aa6f5891d086ca15328f4bbbef94d",
+   "bytes": 139749,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF05368?annotation=hmm"
+  },
+  "PF05592": {
+   "file": "data/pfam_hmms/PF05592.hmm",
+   "sha256": "17d124fcf14e56921d7ee787e07ae39cba0c11844211ee574af49cc6c8b004e4",
+   "bytes": 48665,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF05592?annotation=hmm"
+  },
+  "PF05988": {
+   "file": "data/pfam_hmms/PF05988.hmm",
+   "sha256": "acb690af4ef060226e77f0cb500b062d99e3b2505406d464166a5afd84395e16",
+   "bytes": 105371,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF05988?annotation=hmm"
+  },
+  "PF07848": {
+   "file": "data/pfam_hmms/PF07848.hmm",
+   "sha256": "02b139148a6f2e018889634be73e569c2e7760b97e7a6107af0f9180c9066b12",
+   "bytes": 33737,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF07848?annotation=hmm"
+  },
+  "PF07993": {
+   "file": "data/pfam_hmms/PF07993.hmm",
+   "sha256": "1fb7973687dc6ca2d8dbcb4f0c831f2613894de851f8b877b9778cfbbd1174c4",
+   "bytes": 121168,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF07993?annotation=hmm"
+  },
+  "PF08228": {
+   "file": "data/pfam_hmms/PF08228.hmm",
+   "sha256": "ebc8c2c9ee325d08808fc9868ff26ba12ffb6850842a1118eeed5a2babb3c6a8",
+   "bytes": 74660,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF08228?annotation=hmm"
+  },
+  "PF08445": {
+   "file": "data/pfam_hmms/PF08445.hmm",
+   "sha256": "1a5d44ff0031baa7a6800ab263841f632ae8f16d1bec8ab8af9c8cb5c1414823",
+   "bytes": 41172,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF08445?annotation=hmm"
+  },
+  "PF08531": {
+   "file": "data/pfam_hmms/PF08531.hmm",
+   "sha256": "4b6fe6110212cae2fa9c4914b661d942418a44bf88775678e3959f1610fb74bb",
+   "bytes": 81192,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF08531?annotation=hmm"
+  },
+  "PF08534": {
+   "file": "data/pfam_hmms/PF08534.hmm",
+   "sha256": "ef1cf73a07f725a1ed637a8c4ecfee10489c8b053a78205082910fd7caaa22e9",
+   "bytes": 70001,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF08534?annotation=hmm"
+  },
+  "PF08659": {
+   "file": "data/pfam_hmms/PF08659.hmm",
+   "sha256": "c02c72bea44bc102260ed65b91b8abacc884241d657d4608b48d953ca4d56294",
+   "bytes": 84877,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF08659?annotation=hmm"
+  },
+  "PF12096": {
+   "file": "data/pfam_hmms/PF12096.hmm",
+   "sha256": "f24bdbdae14cba85354b4043135c9c7397f73ea887c37efe9a02659239da715f",
+   "bytes": 40266,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF12096?annotation=hmm"
+  },
+  "PF12689": {
+   "file": "data/pfam_hmms/PF12689.hmm",
+   "sha256": "28836e8d1b8d5baf60092fb0de9918b8795660dd869b63233f47bace6a16584a",
+   "bytes": 79770,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF12689?annotation=hmm"
+  },
+  "PF12710": {
+   "file": "data/pfam_hmms/PF12710.hmm",
+   "sha256": "1eae147c04f801e12c55bbcf242a03ccbd973bacaeab802a526bde24be07c59c",
+   "bytes": 89084,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF12710?annotation=hmm"
+  },
+  "PF12796": {
+   "file": "data/pfam_hmms/PF12796.hmm",
+   "sha256": "6addf68b503d8dec1a56b08b6d5b9f5195ebf5d698047551f5f017815da5b86e",
+   "bytes": 43057,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF12796?annotation=hmm"
+  },
+  "PF13098": {
+   "file": "data/pfam_hmms/PF13098.hmm",
+   "sha256": "76fc6b2e4f1142e078a69fff814807d924163347929092dd8ffd66112dc9577d",
+   "bytes": 56529,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF13098?annotation=hmm"
+  },
+  "PF13192": {
+   "file": "data/pfam_hmms/PF13192.hmm",
+   "sha256": "a1240c22cd35483e8a486d53b543d889bb25061de562d285179bec3d231635df",
+   "bytes": 36537,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF13192?annotation=hmm"
+  },
+  "PF13242": {
+   "file": "data/pfam_hmms/PF13242.hmm",
+   "sha256": "0f3fec165ffef49b2dcf1530c67a66e46a4b1f8da00ac6245c53d004f8b84084",
+   "bytes": 36065,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF13242?annotation=hmm"
+  },
+  "PF13419": {
+   "file": "data/pfam_hmms/PF13419.hmm",
+   "sha256": "e6d5f76a2d05021a8cb925b28967ae8577d6b1fc95e8d63de51c274782dbef34",
+   "bytes": 83978,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF13419?annotation=hmm"
+  },
+  "PF13460": {
+   "file": "data/pfam_hmms/PF13460.hmm",
+   "sha256": "4f294fa84ffc5af665b7025d6615b825e2493881453d655a166789ba0305a7e4",
+   "bytes": 86758,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF13460?annotation=hmm"
+  },
+  "PF13462": {
+   "file": "data/pfam_hmms/PF13462.hmm",
+   "sha256": "9a48b52af3bb63c23779a23b06826c91b11ea60677f0b3af7bee19b4f9c46979",
+   "bytes": 77916,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF13462?annotation=hmm"
+  },
+  "PF13508": {
+   "file": "data/pfam_hmms/PF13508.hmm",
+   "sha256": "e5168a21718751d8fd601f483e798592ade37cd66d5db3c17ba2c66ffb5f1348",
+   "bytes": 40266,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF13508?annotation=hmm"
+  },
+  "PF13527": {
+   "file": "data/pfam_hmms/PF13527.hmm",
+   "sha256": "66cc7e0991d3f66598c4b65783d1fd81a49cbdeb69d5512e2874dbf84e886cc9",
+   "bytes": 60257,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF13527?annotation=hmm"
+  },
+  "PF13606": {
+   "file": "data/pfam_hmms/PF13606.hmm",
+   "sha256": "10d3117329578e730b83020782eca198406aaf1233a6bd7d58df0eaa33842e0f",
+   "bytes": 15602,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF13606?annotation=hmm"
+  },
+  "PF13637": {
+   "file": "data/pfam_hmms/PF13637.hmm",
+   "sha256": "954ecd50da2f29e20e4cf5dd883257d625cb9a987d6879fc14c45dc77945f00f",
+   "bytes": 24451,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF13637?annotation=hmm"
+  },
+  "PF13673": {
+   "file": "data/pfam_hmms/PF13673.hmm",
+   "sha256": "6d7b02755364f59f779389e8c45be3d1d1201af868605000ff90e5f97d99cc07",
+   "bytes": 60267,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF13673?annotation=hmm"
+  },
+  "PF13743": {
+   "file": "data/pfam_hmms/PF13743.hmm",
+   "sha256": "664eb6271438313d8efcf881ffe82ea8807b90c0768a8fd6a740fd2ba8f4a6ad",
+   "bytes": 83023,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF13743?annotation=hmm"
+  },
+  "PF13857": {
+   "file": "data/pfam_hmms/PF13857.hmm",
+   "sha256": "fd080ba89f4fd0080a0e220caded76785a10db703464cd832f4b153c67fff37e",
+   "bytes": 27233,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF13857?annotation=hmm"
+  },
+  "PF14328": {
+   "file": "data/pfam_hmms/PF14328.hmm",
+   "sha256": "805b7037b3d6111c74ce48dcd59f2e7efcb7ab2a655f53ca0bc9cdfbe38db62f",
+   "bytes": 69095,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF14328?annotation=hmm"
+  },
+  "PF14542": {
+   "file": "data/pfam_hmms/PF14542.hmm",
+   "sha256": "4260836a20acdebad3a128e42f37f031455603dc0819c651d9a993efdfe46510",
+   "bytes": 38872,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF14542?annotation=hmm"
+  },
+  "PF16363": {
+   "file": "data/pfam_hmms/PF16363.hmm",
+   "sha256": "9d8a333c0d123c161cb5d49540d6d17a20f3b11fb21f7062b45e50f94ebb8679",
+   "bytes": 155580,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF16363?annotation=hmm"
+  },
+  "PF17389": {
+   "file": "data/pfam_hmms/PF17389.hmm",
+   "sha256": "595631ee95a4d0d452c099478078d7e6cb4a75f3f7e39d4b787e0a234273d9e1",
+   "bytes": 158875,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF17389?annotation=hmm"
+  },
+  "PF17390": {
+   "file": "data/pfam_hmms/PF17390.hmm",
+   "sha256": "925c8dc046204c0267b45d2816e8a0af88651e74dba024561d9cee823fd7e8af",
+   "bytes": 37494,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF17390?annotation=hmm"
+  },
+  "PF19955": {
+   "file": "data/pfam_hmms/PF19955.hmm",
+   "sha256": "95a5c0bfa6eb749975b86c090aa83689e70dfd2bf418c3083d56d78ee3740a18",
+   "bytes": 43046,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF19955?annotation=hmm"
+  },
+  "PF20869": {
+   "file": "data/pfam_hmms/PF20869.hmm",
+   "sha256": "34df439e44b58cb5755001765bd3f3008599f181537fd4ad9e2a719282c1441a",
+   "bytes": 20730,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF20869?annotation=hmm"
+  },
+  "PF21229": {
+   "file": "data/pfam_hmms/PF21229.hmm",
+   "sha256": "925c89f6eb3531f082304d62c4a36629a991c5509b282053d65b4b3cfeda37a4",
+   "bytes": 46289,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF21229?annotation=hmm"
+  },
+  "PF23745": {
+   "file": "data/pfam_hmms/PF23745.hmm",
+   "sha256": "27f405cc1694eeec81d18688f7b4e612cee9e67f8f1827769613f07fb2378eb5",
+   "bytes": 61641,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF23745?annotation=hmm"
+  },
+  "PF24521": {
+   "file": "data/pfam_hmms/PF24521.hmm",
+   "sha256": "0d240f7f03a63db1788bd33608850a411ee90513e9c1b75d52f41b8cef536d88",
+   "bytes": 70480,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF24521?annotation=hmm"
+  },
+  "PF25109": {
+   "file": "data/pfam_hmms/PF25109.hmm",
+   "sha256": "8d4816f0d50a53aed74a40b6b940d5fd36b7acb9e6fbcce1341fc2c885ba77da",
+   "bytes": 67714,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF25109?annotation=hmm"
+  },
+  "PF25788": {
+   "file": "data/pfam_hmms/PF25788.hmm",
+   "sha256": "4da4fff0efd96a9d290ba10f9fbfd84380c53fabf76079d133a80eb7bca8f7f2",
+   "bytes": 50039,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF25788?annotation=hmm"
+  },
+  "PF27070": {
+   "file": "data/pfam_hmms/PF27070.hmm",
+   "sha256": "8db399133606cdf86a22362e339ac9b7c3709b4b914ef7af90b6597a5c63acd2",
+   "bytes": 18424,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF27070?annotation=hmm"
+  },
+  "PF28177": {
+   "file": "data/pfam_hmms/PF28177.hmm",
+   "sha256": "cb29f3bd21d522940e5fb18a9ebdda027fcb096f1ecb712bf1d2fa4e17654214",
+   "bytes": 186733,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF28177?annotation=hmm"
+  },
+  "PF29052": {
+   "file": "data/pfam_hmms/PF29052.hmm",
+   "sha256": "d35e838c3584e00c9f47692a1a68cc9a906a2717a2bdcacfc7a391b70bb823bd",
+   "bytes": 99815,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF29052?annotation=hmm"
+  },
+  "PF29315": {
+   "file": "data/pfam_hmms/PF29315.hmm",
+   "sha256": "9be2181b8366bcec08e92deac606f4f1aa473822da509a8bbd6c9aa96120a43c",
+   "bytes": 45839,
+   "source": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF29315?annotation=hmm"
+  }
+ }
+}
