@@ -1,0 +1,7 @@
+# Judge Round 3 - meta record
+- MODEL: ChatGPT (existing thread, per continuity rule): https://chatgpt.com/c/6ab7e163-e3fc-83ee-8249-cc9284f93250
+- Route: text-paste, 4 parts (~3.5k each) sent sequentially 2026-09-27 00:33-00:34 IST; source sha256 (4-part concatenation): c102c6b4ad6b714e (staged record judge/round3_staged.md).
+- Version-unique quotes in verdict (verifiably THIS version): "structural null", "the cause is identifiability, not biology", "resistance labels are perfectly confounded with tree topology on this panel", "terminal identifiability statement", "convergence beyond relatedness is not claimed for any candidate".
+- Verdict: score RAISED ("stronger finalist... would send to finals; not automatic Grand Award"). Score table: research question/design/controls excellent, statistical maturity very strong, honesty exceptional; VALIDATION = WEAK, biological interpretation moderate.
+- CRITIQUE (the counted novelty demand): biggest remaining hole is mechanistic prioritization/validation, not more statistics; concrete addition = reframe from "ten candidates" to "a principled computational framework for prioritizing radiation-resistance mechanisms".
+- FOLDBACK (logged change): paper Introduction + Next-experiments reframed to the prioritization-framework claim and a mechanistic-prioritization arm added (delta-radiation survival literature features as ranking layer), committed with this record.

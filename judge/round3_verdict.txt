@@ -1,0 +1,102 @@
+This revision is scientifically stronger than the previous version, even though the headline mechanistic claim became weaker.
+The key difference is that the authors did not “patch” the phylogenetic criticism with an inflated result. They performed the requested analysis, found that the design could not answer the question, and converted that failure into a quantified methodological boundary.
+That is a very different scientific behavior from simply adding a favorable analysis.
+(1) Does reporting a correctly implemented test that failed strengthen or weaken the score?
+It raises the score.
+A judge would not award points because the hypothesis was supported; they would award points because the authors demonstrated that they understood identifiability.
+The most impressive new section is not a positive result. It is:
+“Terminal identifiability statement. On a panel whose resistant lineages form saturated clades, structured-presence-permutation tests cannot separate convergence from clade structure”
+That is a mature conclusion.
+Many student projects make one of two mistakes:
+Ignore the phylogenetic confounder.
+Run an underpowered phylogenetic correction and claim success.
+This paper does neither.
+The authors explicitly state:
+“The strengthened claim ‘convergence beyond what species relatedness predicts’ is therefore not earned by any candidate, and none receives it.”
+That sentence increases my confidence in every other claim in the paper.
+Score effect:
+Scientific rigor: ↑
+Credibility: ↑
+Novelty of methodology: ↑
+Biological certainty: ↓ slightly, because the stronger claim was removed
+Net: positive revision.
+(2) Biggest remaining scientific hole
+After the phylogenetic issue is honestly bounded, the largest remaining weakness becomes:
+The candidates lack functional discrimination.
+The paper now has a strong computational discovery pipeline:
+orthogroup enrichment,
+stress-matched controls,
+domain confirmation,
+phylogenetic identifiability analysis.
+But the surviving candidates remain a ranked list of hypotheses.
+The problem is visible in the wording:
+“DUF4385 protein --- the last representing genuinely novel candidate space”
+and:
+“PAD-porphyrin binding protein”
+These are interesting, but a judge will ask:
+“Which candidate is most likely to explain radiation resistance, and what evidence separates it from a passenger protein?”
+The project currently demonstrates:
+associated with radiation-resistant lineages
+but not:
+mechanistically involved in radiation resistance
+That distinction is the remaining gap.
+(3) One laptop-feasible addition that would most improve the project
+Add a candidate prioritization model based on independent evidence layers.
+Not another enrichment test.
+The project already has enough statistics.
+The next useful step is to build a transparent evidence score for each candidate using features such as:
+recurrence across resistant lineages,
+absence from stress-only controls,
+domain novelty,
+predicted localization,
+conservation pattern,
+gene neighborhood conservation (especially in bacterial candidates),
+structural similarity to known DNA repair/oxidative-defense proteins.
+Then predefine:
+“Candidate priority is determined by evidence integration, not p-value alone.”
+For example:
+A DUF4385 candidate might rank highly because:
+rare in controls,
+recurrent in resistant taxa,
+conserved architecture,
+no obvious housekeeping function.
+A peroxiredoxin might rank lower because:
+biologically relevant,
+but ubiquitous stress protein.
+This would transform the project from:
+“Here are ten candidates.”
+into:
+“Here is a principled computational framework for prioritizing radiation-resistance mechanisms.”
+This is feasible on a laptop.
+(4) Overall verdict
+Current status: stronger finalist project, but still not automatic grand-award level.
+My revised judge assessment:
+Before revision:
+Strong finalist / possible category contender.
+After revision:
+Stronger finalist, with significantly improved scientific maturity.
+The reason is paradoxical: the project became more compelling by admitting that its most ambitious claim was unsupported.
+The strongest phrases from this version are exactly the ones a judge would remember:
+“structural null”
+“the cause is identifiability, not biology”
+“resistance labels are perfectly confounded with tree topology on this panel”
+“convergence beyond relatedness is not claimed for any candidate”
+“terminal identifiability statement”
+Those phrases show scientific restraint.
+Approximate ISEF scoring perspective
+Category	Assessment
+Research question	Excellent
+Computational design	Excellent
+Controls	Excellent
+Statistical maturity	Very strong
+Biological interpretation	Moderate
+Novelty	Strong
+Validation	Weak
+Scientific honesty	Exceptional
+Would I send this to finals?
+Yes.
+Would I give it Grand Award automatically?
+Not yet.
+The missing ingredient is not another statistical correction. The project has already demonstrated statistical maturity.
+The missing ingredient is mechanistic prioritization or validation.
+The most likely judge comment would be:
