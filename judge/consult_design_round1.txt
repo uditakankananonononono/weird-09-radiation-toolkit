@@ -1,0 +1,288 @@
+===== W09 design-verification judge round (pre-execution) =====
+Captured 2026-09-26T05:11:39Z
+===== PROMPT =====
+Design-verification ISEF-judge round, project W09 "radiation-survival toolkit" (one of ten weird-science projects). This project has NOT run its main compute yet - you are reviewing the pre-registered design BEFORE execution, which is the cheapest time to catch fatal flaws. Build state: 11/12 proteomes assembled (R. varieornatus covers tardigrade; Milnesium genuinely absent - documented gap); no compute run yet.
+
+Standing rules: exacting judge; identify MATERIAL design weaknesses only (fatal or near-fatal: wrong metric, circular validation, data that cannot exist, gate that cannot distinguish hypothesis from artifact), ranked, each with a concrete fix that stays within public-data feasibility (~1 day compute, 2 CPUs). If the design is sound, say so plainly and list at most 2 strengthening suggestions. End with a one-paragraph verdict: proceed as-is / proceed with fixes / redesign.
+
+PRE-REGISTRATION (locked):
+# W09 PRE-REGISTRATION - RADIATION-SURVIVAL TOOLKIT (locked 2026-09-25)
+
+## Question
+Which molecular mechanisms for surviving extreme radiation/desiccation recur across independently radioresistant organisms (Deinococcus, tardigrades, bdelloid rotifers, radiotrophic fungi, extreme archaea), and which are plausibly transferable?
+
+## Hypotheses
+- H1: Cross-kingdom comparative analysis of radioresistant vs sensitive sister taxa identifies a convergent protective module set (Mn-antioxidant systems, DNA repair architectures, IDP protectants like Dsup/CAHS/LEA) enriched beyond a locked permutation null (p<0.01).
+- H2: >=5 nominated transferable protectants show orthogonal support: convergent recruitment + structural evidence + (where published) heterologous-protection experiments concordant at locked thresholds.
+
+## Locked gates
+- G1 DATA: >=120 accession-level datasets (genomes/proteomes/transcriptomes of resistant + sister sensitive species; irradiation response datasets; protein structure resources).
+- G2 TOOLS: >=40 genuine external tools (NCBI/SRA, OrthoFinder, HMMER/Pfam, MAFFT, IQ-TREE, HyPhy, ESMFold/AlphaFold DB, IUPred, enrichment stacks, etc.).
+- G3 BENCHMARK: pipeline recovers the locked known protectants (Dsup, CAHS, DdrO/PprI axis, Mn-peptide antioxidants literature list) at >=80% recall before new nominations.
+- G4 FORMULAS: >=10 numbered (convergence stats, enrichment nulls, dN/dS, structural metrics).
+- G5 PAPER: >=20 pages TNR. G6 TOOL: "radshield" scorer ranking any proteome for predicted radioresistance toolkit completeness.
+
+## Analysis plan
+1. Freeze species panel: resistant/sensitive sister pairs per kingdom.
+2. Orthogroup + convergence analysis (H1).
+3. Structural/functional deep-dive on convergent modules; nomination list (H2).
+4. Transferability scoring (expression feasibility, toxicity flags, literature support).
+5. Toolkit tool + tests + paper.
+
+## Redirect rules
+- If H1 convergence fails at gene level: redirect to pathway/metabolite-level convergence (Mn/Fe homeostasis, metabolite protectants).
+- If orthogroups across kingdoms are too sparse: redirect to domain-level and IDP-property-level analysis.
+- If transferability scoring lacks ground truth: pivot to an astronaut/crop-relevant prioritization framework with explicit assumption ledger.
+
+## Honest-negative policy
+Modules found in only one lineage are labeled lineage-specific, never counted as convergent.
+
+## AMENDMENT 2026-09-25 19:44 IST (user steering, authenticated WhatsApp 7:43 PM)
+G5 PAPER floor raised: >= 50 pages of actual research content, EXCLUDING headings
+and references (supersedes the >=20-page floor). Real content only - methods,
+full per-attempt result tables, benchmark comparisons vs all relevant published
+baselines, boundary analyses, negative-result supplements. Padding prohibited.
+Also locked: world's-best-tools standard; continuous depth/feature improvement
+after gates pass; negatives never published as the result (angles redirect until
+a genuine positive, else escalate). Stacks on all prior steering; nothing relaxed.
+
+## AMENDMENT 2026-09-25 21:29 IST (user steering, authenticated WhatsApp 9:28 PM, relayed by parent)
+Every natural sub-project inside this item is a SEPARATE project with its own FULL
+gate set: 40+ genuine external tools, 120+ accession datasets, 50-page TNR paper,
+benchmark win or match+named-plus-point. Shared pipelines DO NOT transfer gate
+credit between sub-projects: a run counts for a sub-project only when genuinely
+execut
+
+===== RESPONSE (execute-js tail slice) =====
+ing relaxed.
+
+## AMENDMENT 2026-09-25 21:29 IST (user steering, authenticated WhatsApp 9:28 PM, relayed by parent)
+Every natural sub-project inside this item is a SEPARATE project with its own FULL
+gate set: 40+ genuine external tools, 120+ accession datasets, 50-page TNR paper,
+benchmark win or match+named-plus-point. Shared pipelines DO NOT transfer gate
+credit between sub-projects: a run counts for a sub-project only when genuinely
+execut
+Show more
+Ranked material weaknesses
+1. The cross-kingdom convergence claim has a serious comparability problem (major)
+
+Problem: H1 asks whether a shared protective module set exists across:
+
+bacteria (Deinococcus),
+
+animals (tardigrades, rotifers),
+
+fungi,
+
+archaea.
+
+At this evolutionary distance, direct ortholog convergence is often the wrong unit. The same phenotype can arise from:
+
+unrelated proteins,
+
+different pathway implementations,
+
+different molecular mechanisms.
+
+A failed ortholog-level convergence test would not necessarily mean no shared biology exists; it may only mean the analysis unit is too narrow.
+
+Fix:
+Predefine a hierarchy:
+
+ortholog-level convergence where possible;
+
+domain/fold/property-level convergence;
+
+pathway-level convergence.
+
+Do not interpret ortholog failure as biological failure. The redirect rule partly addresses this, but the primary analysis should already include domain/property-level statistics.
+
+2. The “protective module enrichment” test risks circularity from known radiation-resistance genes (major)
+
+Problem: The benchmark list includes:
+
+Dsup,
+
+CAHS,
+
+DdrO/PprI,
+
+Mn antioxidants.
+
+Those same categories are likely to influence feature selection. A model could rediscover the literature rather than discover convergence.
+
+The risk is especially high because the field has a small number of famous radioresistance examples.
+
+Fix:
+Separate:
+
+Discovery phase
+
+no known protectant labels;
+
+blind pathway/domain enrichment.
+
+Evaluation phase
+
+test whether known protectants appear.
+
+Do not include known protectants in feature engineering before the blind analysis.
+
+3. The radioresistant vs sensitive sister-pair design needs a stronger phenotype definition (major)
+
+Problem: “Radioresistant organism” is not a single trait.
+
+Resistance may differ by:
+
+acute irradiation survival,
+
+chronic exposure,
+
+desiccation tolerance,
+
+DNA damage repair,
+
+oxidative stress resistance.
+
+Mixing these can produce a false convergence signal driven by general stress tolerance.
+
+Fix:
+Lock phenotype categories:
+
+Example:
+
+Primary:
+
+radiation survival dose metric (LD50/D10/etc., where available).
+
+Secondary:
+
+desiccation survival,
+
+oxidative stress.
+
+Analyze them separately first. Only combine them in a meta-analysis.
+
+4. H2 transferability scoring lacks a sufficiently objective success criterion (major)
+
+Problem: The phrase:
+
+“>=5 nominated transferable protectants show orthogonal support”
+
+contains subjective components:
+
+“transferable”
+
+“structural evidence”
+
+“literature support”
+
+A candidate-ranking system can always produce plausible candidates after inspection.
+
+Fix:
+Before analysis, define a scoring rubric:
+
+Example:
+
+evolutionary evidence: fixed points;
+
+structure confidence threshold;
+
+experimental validation category;
+
+toxicity/compatibility penalty;
+
+uncertainty score.
+
+Require independent evidence categories. Do not let “interesting biology” substitute for a gate.
+
+5. The G3 benchmark is necessary but insufficient (moderate)
+
+Problem: Recovering known protectants at ≥80% recall tests whether the pipeline can find famous examples.
+
+It does not test whether the pipeline avoids false positives.
+
+A tool that predicts every stress protein as a protectant could pass.
+
+Fix:
+Add benchmark negatives:
+
+proteins from radiation-sensitive relatives,
+
+unrelated stress-response proteins,
+
+random matched proteins.
+
+Report:
+
+precision,
+
+false discovery rate,
+
+enrichment over random.
+
+6. The G1 dataset count may inflate independence (moderate)
+
+Problem: “120 accession-level datasets” may include:
+
+replicate sequencing runs,
+
+multiple assemblies of the same organism,
+
+transcriptome conditions from one study.
+
+This is not equivalent to 120 independent evolutionary observations.
+
+Fix:
+Track both:
+
+accession count,
+
+independent species count,
+
+independent radiation phenotypes,
+
+independent clades.
+
+The evolutionary unit should be species/lineage, not accession.
+
+7. The Radshield scorer risks becoming an unsupported composite score (moderate)
+
+Problem: Combining:
+
+Mn systems,
+
+repair pathways,
+
+IDP proteins,
+
+structural features,
+
+into a “radioresistance completeness” score may look quantitative while depending heavily on arbitrary weights.
+
+Fix:
+Use:
+
+interpretable component scores,
+
+no hidden weighting,
+
+calibration against known resistant/sensitive organisms.
+
+Report uncertainty rather than a single ranking.
+
+Strengthening suggestions
+
+Add a leave-one-lineage-out test:
+Train/derive the convergence signature without one major group (e.g., tardigrades), then test whether the same mechanisms appear. This addresses whether the signal is dominated by one famous organism.
+
+Add negative control phenotypes:
+Test whether the same pipeline incorrectly predicts unrelated extremes (e.g., longevity, thermotolerance) as radiation resistance.
+
+Verdict
+
+Proceed with fixes. The core question is strong and the design is more defensible than many “extreme organism” comparative genomics projects because it includes sister taxa, convergence testing, and honest lineage-specific reporting. The main risks are not computational feasibility but inference: cross-kingdom convergence can easily become a pathway-storytelling exercise, and candidate nomination can become circular around already famous protectants. Locking phenotype definitions, separating discovery from benchmark recovery, and making H2 scoring objective would convert this from a catalog of interesting radiation proteins into a rigorous comparative evolution study.
+
+ChatGPT can make mistakes. Check important info.
+
+Think
