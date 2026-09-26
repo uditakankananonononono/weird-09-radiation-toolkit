@@ -1,0 +1,185 @@
+{
+ "rule": "full v1 domain set in >=1 protein of >=2/5 new proteomes; E<=1e-05",
+ "candidates": [
+  {
+   "rep": "Adineta_vaga|UJR10666.1",
+   "n_domains": 2,
+   "domains": [
+    "HPPK",
+    "Pterin_bind"
+   ],
+   "support_proteomes": [
+    "Adineta_ricciae"
+   ],
+   "confirmed": false
+  },
+  {
+   "rep": "Deinococcus_deserti|WP_012692117.1",
+   "n_domains": 5,
+   "domains": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5"
+   ],
+   "support_proteomes": [
+    "Deinococcus_radiophilus",
+    "Deinococcus_proteolyticus",
+    "Deinococcus_maricopensis",
+    "Adineta_ricciae",
+    "Rotaria_magnacalcarata"
+   ],
+   "confirmed": true
+  },
+  {
+   "rep": "Adineta_vaga|UJR36058.1",
+   "n_domains": 1,
+   "domains": [
+    "DUF4385"
+   ],
+   "support_proteomes": [
+    "Deinococcus_radiophilus",
+    "Deinococcus_proteolyticus",
+    "Deinococcus_maricopensis",
+    "Adineta_ricciae"
+   ],
+   "confirmed": true
+  },
+  {
+   "rep": "Adineta_vaga|UJR11615.1",
+   "n_domains": 2,
+   "domains": [
+    "DHH",
+    "DHHA2"
+   ],
+   "support_proteomes": [
+    "Deinococcus_radiophilus",
+    "Deinococcus_proteolyticus",
+    "Deinococcus_maricopensis",
+    "Adineta_ricciae",
+    "Rotaria_magnacalcarata"
+   ],
+   "confirmed": true
+  },
+  {
+   "rep": "Adineta_vaga|UJR17759.1",
+   "n_domains": 5,
+   "domains": [
+    "Amidase",
+    "Bac_rhamnosid",
+    "Bac_rhamnosid6H",
+    "Bac_rhamnosid_N",
+    "Ig_Rha78A_N"
+   ],
+   "support_proteomes": [],
+   "confirmed": false
+  },
+  {
+   "rep": "Deinococcus_geothermalis|WP_272975990.1",
+   "n_domains": 2,
+   "domains": [
+    "DSBA",
+    "Thioredoxin_4"
+   ],
+   "support_proteomes": [
+    "Deinococcus_radiophilus",
+    "Deinococcus_proteolyticus",
+    "Deinococcus_maricopensis",
+    "Adineta_ricciae",
+    "Rotaria_magnacalcarata"
+   ],
+   "confirmed": true
+  },
+  {
+   "rep": "Adineta_vaga|UJR28130.1",
+   "n_domains": 8,
+   "domains": [
+    "3Beta_HSD",
+    "Epimerase",
+    "GDP_Man_Dehyd",
+    "NAD_binding_10",
+    "NAD_binding_4",
+    "NmrA",
+    "Polysacc_synt_2",
+    "RmlD_sub_bind"
+   ],
+   "support_proteomes": [
+    "Deinococcus_radiophilus",
+    "Deinococcus_proteolyticus",
+    "Deinococcus_maricopensis",
+    "Adineta_ricciae",
+    "Rotaria_magnacalcarata"
+   ],
+   "confirmed": true
+  },
+  {
+   "rep": "Adineta_vaga|UJR26281.1",
+   "n_domains": 3,
+   "domains": [
+    "HAD_2",
+    "Hydrolase",
+    "Hydrolase_like"
+   ],
+   "support_proteomes": [
+    "Deinococcus_radiophilus",
+    "Deinococcus_proteolyticus",
+    "Deinococcus_maricopensis",
+    "Adineta_ricciae",
+    "Rotaria_magnacalcarata"
+   ],
+   "confirmed": true
+  },
+  {
+   "rep": "Deinococcus_deserti|WP_012692142.1",
+   "n_domains": 1,
+   "domains": [
+    "Flavin_Reduct"
+   ],
+   "support_proteomes": [
+    "Deinococcus_radiophilus",
+    "Deinococcus_proteolyticus",
+    "Deinococcus_maricopensis",
+    "Adineta_ricciae",
+    "Rotaria_magnacalcarata"
+   ],
+   "confirmed": true
+  },
+  {
+   "rep": "Deinococcus_geothermalis|WP_414646549.1",
+   "n_domains": 1,
+   "domains": [
+    "PAD_porph"
+   ],
+   "support_proteomes": [
+    "Deinococcus_radiophilus",
+    "Deinococcus_proteolyticus",
+    "Deinococcus_maricopensis",
+    "Adineta_ricciae",
+    "Rotaria_magnacalcarata"
+   ],
+   "confirmed": true
+  },
+  {
+   "rep": "Deinococcus_geothermalis|WP_272975981.1",
+   "n_domains": 3,
+   "domains": [
+    "Acetyltransf_1",
+    "Acetyltransf_10",
+    "Acetyltransf_7"
+   ],
+   "support_proteomes": [
+    "Deinococcus_radiophilus",
+    "Deinococcus_proteolyticus",
+    "Deinococcus_maricopensis",
+    "Adineta_ricciae",
+    "Rotaria_magnacalcarata"
+   ],
+   "confirmed": true
+  }
+ ],
+ "summary": {
+  "confirmed": 9,
+  "of": 11
+ }
+}
