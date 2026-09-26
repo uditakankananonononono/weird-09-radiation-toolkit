@@ -1,0 +1,8 @@
+{
+ "clusters_total": 76507,
+ "shared_resistant_sensitive": 8203,
+ "resistant_only": 31816,
+ "sensitive_only": 36488,
+ "candidate_resistant_expansions": 1334,
+ "method": "mmseqs2 linclust v17 min_id 0.3 cov 0.5 cov_mode 1 kmer_per_seq 80 (PRELIMINARY; Milnesium proteome still missing - 11/12 panel)"
+}

@@ -74,6 +74,76 @@
    "tool": "seqkit v2.10.0 stats -a -T",
    "used_for": "per-proteome sequence statistics (stage-1 QC, results/proteome_stats/Thermus_thermophilus.tsv)",
    "ts": "2026-09-26T11:01+05:30"
+  },
+  {
+   "tool": "mmseqs2 v17 createdb",
+   "used_for": "per-species mmseqs DB Adineta_vaga",
+   "ts": "2026-09-26T11:05+05:30"
+  },
+  {
+   "tool": "mmseqs2 v17 createdb",
+   "used_for": "per-species mmseqs DB Caenorhabditis_elegans",
+   "ts": "2026-09-26T11:05+05:30"
+  },
+  {
+   "tool": "mmseqs2 v17 createdb",
+   "used_for": "per-species mmseqs DB Deinococcus_deserti",
+   "ts": "2026-09-26T11:05+05:30"
+  },
+  {
+   "tool": "mmseqs2 v17 createdb",
+   "used_for": "per-species mmseqs DB Deinococcus_geothermalis",
+   "ts": "2026-09-26T11:05+05:30"
+  },
+  {
+   "tool": "mmseqs2 v17 createdb",
+   "used_for": "per-species mmseqs DB Deinococcus_radiodurans",
+   "ts": "2026-09-26T11:05+05:30"
+  },
+  {
+   "tool": "mmseqs2 v17 createdb",
+   "used_for": "per-species mmseqs DB Drosophila_melanogaster",
+   "ts": "2026-09-26T11:05+05:30"
+  },
+  {
+   "tool": "mmseqs2 v17 createdb",
+   "used_for": "per-species mmseqs DB Escherichia_coli",
+   "ts": "2026-09-26T11:05+05:30"
+  },
+  {
+   "tool": "mmseqs2 v17 createdb",
+   "used_for": "per-species mmseqs DB Hypsibius_exemplaris",
+   "ts": "2026-09-26T11:05+05:30"
+  },
+  {
+   "tool": "mmseqs2 v17 createdb",
+   "used_for": "per-species mmseqs DB Ramazzottius_varieornatus",
+   "ts": "2026-09-26T11:05+05:30"
+  },
+  {
+   "tool": "mmseqs2 v17 createdb",
+   "used_for": "per-species mmseqs DB Thermus_aquaticus",
+   "ts": "2026-09-26T11:05+05:30"
+  },
+  {
+   "tool": "mmseqs2 v17 createdb",
+   "used_for": "per-species mmseqs DB Thermus_thermophilus",
+   "ts": "2026-09-26T11:05+05:30"
+  },
+  {
+   "tool": "mmseqs2 v17 createdb",
+   "used_for": "combined tagged DB (results/orthology/mmdb/COMBINED)",
+   "ts": "2026-09-26T11:07+05:30"
+  },
+  {
+   "tool": "mmseqs2 v17 linclust",
+   "used_for": "30% orthogroup clustering (mmdb/CLU30)",
+   "ts": "2026-09-26T11:07+05:30"
+  },
+  {
+   "tool": "mmseqs2 v17 createtsv",
+   "used_for": "cluster table export (clusters_linclust30.tsv)",
+   "ts": "2026-09-26T11:07+05:30"
   }
  ],
  "accession_datasets": [
