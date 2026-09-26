@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.8.14)  26 SEP 2026 13:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.8.14)  26 SEP 2026 20:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -244,55 +244,95 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 22.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 22.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 22.
- [1
+
+(./background_expansion.tex
+Overfull \hbox (3.49669pt too wide) in paragraph at lines 1--1
+[]\T1/ptm/b/n/17.28 Background: The Bi-ol-ogy of Ex-treme Ra-di-a-tion Re-sis-t
+ance 
+ []
+
+[1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
 
-Overfull \hbox (75.09875pt too wide) in paragraph at lines 32--50
+LaTeX Warning: Reference `sec:stresspanel' on page 2 undefined on input line 75
+.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 84.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 84.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 84.
+
+Overfull \hbox (4.0946pt too wide) in paragraph at lines 81--101
+\T1/ptm/m/n/12 sis-tance ex-ists; bdel-loid ro-tifers com-bine desiccation-link
+ed an-tiox-i-dant de-fense with horizontal-
+ []
+
+[2]) [3]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 34.
+
+Overfull \hbox (75.09875pt too wide) in paragraph at lines 34--52
  [][] 
  []
 
 
-Overfull \hbox (0.49509pt too wide) in paragraph at lines 55--56
+Overfull \hbox (0.91661pt too wide) in paragraph at lines 57--57
+[]\T1/ptm/b/n/14.4 Specificity layer on the ex-tended panel (amend-ment 2026-09
+-26, 13:18
+ []
+
+[4]
+Overfull \hbox (4.07193pt too wide) in paragraph at lines 62--63
+\T1/ptm/m/n/12 PAD-porphyrin bind-ing pro-tein, GNAT acetyl-trans-ferase, DHH/D
+HHA2 phos-pho-esterase, HAD
+ []
+
+
+Overfull \hbox (2.88997pt too wide) in paragraph at lines 65--65
+[]\T1/ptm/b/n/14.4 Domain-level or-thog-o-nal con-fir-ma-tion (amend-ment 2026-
+09-26, 20:21
+ []
+
+
+Overfull \hbox (0.49509pt too wide) in paragraph at lines 69--70
 \T1/ptm/m/n/12 mu-ta-tions for complete-separation con-fig-u-ra-tions; it is no
 t a con-tin-u-ous mea-sure. (3) Empirical-
  []
 
 
-Overfull \hbox (0.20718pt too wide) in paragraph at lines 55--56
+Overfull \hbox (0.20718pt too wide) in paragraph at lines 69--70
 \T1/ptm/m/n/12 p cal-i-bra-tion as-sumes ex-change-abil-ity un-der la-bel per-m
 u-ta-tion; family-level phy-lo-ge-netic struc-
  []
 
-[2] (./main.aux) ) 
+[5] (./main.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2155 strings out of 480247
- 31984 string characters out of 5896151
- 328551 words of memory out of 5000000
- 20090 multiletter control sequences out of 15000+600000
- 514005 words of font info for 103 fonts, out of 8000000 for 9000
+ 2170 strings out of 480247
+ 32251 string characters out of 5896151
+ 330559 words of memory out of 5000000
+ 20098 multiletter control sequences out of 15000+600000
+ 521288 words of font info for 108 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 55i,9n,62p,713b,243s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr
-i8a.pfb>
-Output written on main.pdf (2 pages, 78152 bytes).
+ 55i,9n,62p,1018b,243s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi
+8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (5 pages, 103300 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 61 PDF objects out of 1000 (max. 8388607)
+ 37 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
