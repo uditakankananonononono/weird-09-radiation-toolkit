@@ -1,0 +1,110 @@
+# W09 supplementary judge round: H5 v2 redirect consult
+# model: Gemini (gemini.google.com) - SUPPLEMENTARY ONLY, not counted (parent ruling 08:59)
+# thread: https://gemini.google.com/app/9098779be8e670b7
+# captured 2026-09-27 ~09:19 IST
+
+To resolve this without committing a post-hoc patch or biasing the protocol, Option (c) is the most methodologically sound and standard path in bioinformatics pipeline validation.
+
+Option (b) is a post-hoc patch because re-weighting the rubric using knowledge of the current rankings directly biases the new metric. Option (a) alters the win condition to accommodate known scores. Option (c), by contrast, re-frames the software's true objective: prioritization quality and diagnostic accuracy across a reference standard.
+
+Below is a concrete, lockable v2 protocol amendment.
+
+Protocol Amendment v2: Prioritization Metric & Reference Set Benchmark
+1. Objective & Deliverable
+
+The pipeline deliverable is defined as a ranked candidate list accompanied by a two-tier evidence classification matrix for each candidate:
+
+Tier 1 (Family-Level Evidence): Direct published experimental evidence tying the protein family/ortholog group to radiation, desiccation, or oxidative stress resistance.
+
+Tier 2 (Mechanism-Level Evidence): Biochemical/domain-architecture mechanism consistent with repair or protection against classes C1–C5 damage, without direct family-level literature binding.
+
+2. Reference Set Definition (Locked Pre-Evaluation)
+
+To evaluate ranking performance without post-hoc bias, candidates are evaluated against a locked Positive Reference Standard (S
++
+) consisting of N known, literature-validated radiation-resistance proteins across the targeted kingdoms (e.g., Deinococcus radiodurans, Tardigrada, Acinetobacter baylyi orthologs).
+
+Positive Reference Set (S
++
+): N=10 pre-selected, positive-control protein families possessing Tier 1 evidence.
+
+Candidate Pool (C): The full set of evaluated candidate proteins (∣C∣=K).
+
+3. Primary Metric & Statistical Test
+
+The primary performance endpoint is the Enrichment Factor at Rank k (EF
+k
+	​
+
+) and the Mean Reciprocal Rank (MRR) of Tier 1/Reference proteins within the top fraction of the output.
+
+MRR=
+∣S
++
+∣
+1
+	​
+
+i∈S
++
+∑
+	​
+
+rank
+i
+	​
+
+1
+	​
+
+
+Null Hypothesis (H
+0
+	​
+
+): The pipeline's ranking order of candidate proteins with Tier 1 evidence is no better than a uniform random permutation of the candidate pool C.
+
+Alternative Hypothesis (H
+1
+	​
+
+): The pipeline significantly concentrates Tier 1/Reference proteins near the top of the ranked list (p<0.05 via a one-tailed Hypergeometric Test / Fisher's Exact Test at threshold k).
+
+4. Locked Win Condition (v2)
+
+The v2 amendment passes if and only if both of the following pre-registered criteria are met:
+
+Top-k Precision (P@k): For k=5, at least 60% (≥3/5) of top-ranked candidates must possess documented Tier 1 or Tier 2 evidence, with at least one candidate in the top 3 carrying Tier 1 evidence.
+
+Statistical Significance of Enrichment: The hypergeometric probability P(X≥x) of observing x or more Tier 1 reference families within the top 5 candidates from a pool of size K under random selection is less than α=0.05:
+
+P(X≥x)=
+(
+k
+K
+	​
+
+)
+(
+x
+∣S
++
+∣
+	​
+
+)(
+k−x
+K−∣S
++
+∣
+	​
+
+)
+	​
+
+<0.05
+Implementation Instructions for Locking
+
+Date and stamp this amendment in your repository commit log before running the evaluation script across the updated candidate pool.
+
+Report the failure of Rubric v1 explicitly alongside the results of Rubric v2 in the final manuscript or project report to maintain full transparency.

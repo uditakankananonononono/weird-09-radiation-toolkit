@@ -1,0 +1,5 @@
+# Round supp2 (H5 v2 redirect) meta - SUPPLEMENTARY (Gemini), not counted
+- Thread: https://gemini.google.com/app/9098779be8e670b7 ; verdict: judge/round_supp2_h5v2_verdict_gemini.txt
+- Verdict: option (c) wins - pivot deliverable to ranked shortlist + two-tier evidence classification (Tier 1 family-level, Tier 2 mechanism-level). (b) rejected as post-hoc patch (re-weighting with knowledge of rankings); (a) rejected as accommodating known scores.
+- Judge-specified lockable v2 protocol: Positive Reference Standard S+ (N=10 literature-validated Tier-1 families, locked pre-evaluation); primary metrics EF@k + MRR; null = uniform random permutation; WIN iff BOTH (i) P@5 >= 3/5 with >=1 Tier-1 in top 3, (ii) hypergeometric enrichment P(X>=x) < 0.05 at k=5. Report v1 failure explicitly alongside v2.
+- Foldback: draft the v2 amendment with an exact S+ list (10 families + PMIDs, chosen from literature independent of pool rankings), exact K (ranked pool definition), exact statistic/null/win, date-lock it BEFORE any evaluation. NEXT WAKE ACTION.
