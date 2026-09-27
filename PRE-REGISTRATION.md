@@ -260,3 +260,6 @@ QUESTION: does the screen, blind to identity, rank known stress orthogroups at t
 
 ## AMENDMENT 2026-09-27 14:18 IST (provided-verdict queue #11: independent clade - Deinococcus indicus confirmation arm, locked BEFORE scanning)
 NEW PROTEOME: Deinococcus indicus GCA_014653295.1 (4,153 proteins, NCBI FTP fetch 14:16 IST, sha256 ledgered) - a 6th independent confirmation proteome (Deinococcaceae, not among the 5 used in h3). RULE: identical to committed h3 - hmmscan vs the 64 committed Pfam HMMs at E<=1e-05; a candidate's v1 domain set is SUPPORTED in D. indicus if its full set appears in >=1 D. indicus protein. REPORT-ONLY: per-candidate support added to the tier record; no re-scoring of any completed test.
+
+## AMENDMENT 2026-09-27 14:20 IST (provided-verdict queue #11, 2nd arm: Deinococcus wulumuqiensis - locked BEFORE scanning)
+7th independent confirmation proteome: D. wulumuqiensis GCA_053878665.1 (NCBI FTP fetch 14:19 IST, sha256 ledgered). Rule identical to the 14:18 arm (h3 rule, E<=1e-05, full v1 domain set in >=1 protein). REPORT-ONLY.
