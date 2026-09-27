@@ -130,3 +130,20 @@ HPPK->C4; Pterin_bind->C4; Ank,Ank_2,Ank_3,Ank_4,Ank_5->C3 (scaffold mediating r
 SCORE: number of DISTINCT mechanism categories hit by a candidate's confirmed Pfam domain set (0-2 expected, max 5). Tie-breaks in order: (a) domain-confirmation status (confirmed in extended panel first); (b) FEWER total domains (specificity over promiscuity).
 WIN CONDITION (falsifiable): the top-ranked candidate's protein family has independent literature evidence of a radiation- or desiccation-resistance phenotype (PubMed title/abstract search, queries locked below, executed after scoring). If the top rank lacks support while a lower-ranked candidate has it, the rubric's current form is falsified and reported honestly; the ranking is not tuned post-hoc.
 LOCKED QUERIES (PubMed esearch, per candidate family): "<family name> AND (radiation resistance OR radioresistance OR desiccation resistance OR ionizing radiation)". Hits inspected by title/abstract; a hit counts only if it reports a resistance-associated phenotype for the family, not mere co-occurrence of words.
+
+## AMENDMENT 2026-09-27 08:59 IST (H4 redirect foldback: Saturated Co-Retention test - locked BEFORE any S-value inspection)
+Source: judge redirect consult round 4 (Gemini, thread https://gemini.google.com/app/5033ed15bb2f6e00, verdict archived judge/round4_h4redirect_verdict_gemini.txt). The H4 boundary stands: convergence-beyond-relatedness is unidentifiable on the saturated 11-species panel. The verdict's immediately computable reframe is locked here as the next arm. (Its other two directions - HyPhy/codeml RELAX selection-intensity test and dispersed-origin panel expansion with named taxa - are staged follow-ups that get their own locked amendments before any run.)
+
+REFRAMED CLAIM: conserved co-retention across deep divides - candidate orthogroups show COMPLETE co-retention across all sampled resistant clades with absence from all sensitive controls, a configuration that is RARE against the proteome-wide orthogroup background.
+
+STATISTIC (exact, per verdict): for orthogroup g, clade completeness c_C(g) = (# resistant species of clade C with a member of g) / (# resistant species of clade C in the panel). Clades: Deinococcaceae (3 species), Tardigrada (1: R. varieornatus; Milnesium terminally unavailable, disclosed), Bdelloidea (1: A. vaga). S(g) = c_Deino * c_Tardi * c_Bdello. Complete co-retention tier: S(g) = 1.0 AND zero sensitive-lineage copies.
+
+NULL DISTRIBUTION: all M = 52,786 tested orthogroups in results/orthology/clusters_sensitive.tsv (same corrected 5v6 panel mapping as the 00:54 amendment; no re-clustering, no new data).
+
+EMPIRICAL P (exact): P = (1 + #{background orthogroups with S = 1.0 AND sensitive copies = 0}) / (M + 1).
+
+WIN CONDITION (locked, from verdict): P < 0.005 - i.e. fewer than 0.5% of background orthogroups attain complete co-retention while remaining absent from controls, so the candidate configuration sits in the extreme tail.
+
+FALSIFICATION BRANCH: if P >= 0.005, complete co-retention is not rare on this panel; the reframe is reported as NOT earned and the paper keeps the quantified H4 identifiability boundary as the terminal statement (no post-hoc re-tuning).
+
+HONESTY CAVEATS (locked into the report): (i) candidates were selected on presence criteria that overlap S, so this test quantifies the background RARITY of the selection configuration; it is not an independent validation of convergence; (ii) Tardigrada completeness is a 1-species call; (iii) P is a background-frequency statement, not a phylogenetic-independence statement - convergence beyond relatedness remains unclaimed.
