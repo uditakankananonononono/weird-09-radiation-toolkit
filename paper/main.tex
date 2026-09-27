@@ -124,6 +124,51 @@ A judge redirect consult (round 4, Gemini) proposed reframing the finding as con
 
 \textbf{Identifiability boundary (quantified; redirect in progress).} On a panel whose resistant lineages form saturated clades, the structured-presence-permutation test implemented here cannot separate convergence from clade structure; power exists only for phylogenetically dispersed or partially occupied strata. The strengthened claim ``convergence beyond what species relatedness predicts'' is therefore \emph{not} earned by any candidate at this stage, and none receives it. All ten candidates retain their v2 radiation-specific labels with an explicit phylogenetic-structure caveat (locked rule: the confirmation layer never removes candidates). This boundary is not accepted as terminal: a redirection is in progress on three axes - (i) test designs that escape the saturation degeneracy on the same data (gene-tree/species-tree reconciliation, selection-regime comparisons on candidate orthogroups, phylogenetic regression of resistance on presence); (ii) additional phylogenetically dispersed resistant genomes that make the structured null non-degenerate; (iii) reframings in which clade-saturating cross-kingdom presence itself becomes the testable evidence. Whichever redesign is adopted will be locked as a dated amendment before evaluation. Until then, this quantified boundary stands as the primary limitation of the study, replacing our earlier qualitative admission (caveat 3).
 
+\subsection{The Identifiability Score: what this panel can and cannot decide (amendment 2026-09-27 12:06 IST, locked before computation)}
+The H4--H4c arc shows the convergence question failing for two different reasons, and the distinction matters: a claim can be \emph{falsified} (tested and rejected) or \emph{untestable in principle} on a given panel (no observation could have rejected it). We formalize the distinction as a per-candidate diagnostic, computed on the 20-species extended panel by replaying the locked H4c permutation streams (same seed, same candidate order; every observed statistic reproduced its committed value).
+
+Let $\mathcal{S}$ range over the shuffled strata (Deinococcaceae, $n=6$; Bdelloida, $n=3$), and let $k_{\mathcal{S}}(x_g) = \sum_{i \in \mathcal{S}} x_{g,i}$ be the occupancy of stratum $\mathcal{S}$. A stratum is \emph{informative} for $g$ when partially occupied,
+\begin{equation}
+\mathcal{I}_{\mathcal{S}}(x_g) \;=\; \mathbf{1}\!\left[\, 0 < k_{\mathcal{S}}(x_g) < |\mathcal{S}|\, \right],
+\end{equation}
+since only then does the within-strata shuffle have any freedom at all. The operative identifiability quantity is the variance of the locked null distribution of the gain statistic, and the smallest lower-tail $p$-value any observation could achieve under it:
+\begin{equation}
+\sigma^2_{\mathrm{null}}(g) \;=\; \mathrm{Var}_{b}\!\left[ G(\pi_b(x_g);\tau) \right], \qquad
+p_{\min}(g) \;=\; \frac{1 + \sum_{b=1}^{B} \mathbf{1}\!\left[ G(\pi_b(x_g);\tau) \le g_{\min} \right]}{1 + B},
+\end{equation}
+where $g_{\min} = \min_b G(\pi_b(x_g);\tau)$ is the smallest gain count the panel's occupancy admits. The classification is locked:
+\begin{equation}
+\mathrm{class}(g) \;=\; \begin{cases}
+\textsc{impossible}, & \sigma_{\mathrm{null}}(g) = 0,\\
+\textsc{underpowered}, & \sigma_{\mathrm{null}}(g) > 0 \;\wedge\; p_{\min}(g) \ge 0.05,\\
+\textsc{testable}, & p_{\min}(g) < 0.05.
+\end{cases}
+\end{equation}
+Partial occupancy is necessary but not sufficient for identifiability: with three bdelloids, a $k=2$ occupancy permits three arrangements, yet all can yield the same gain count because the stratum subtends one resistant branch; the null variance, not the occupancy count, is the decisive quantity.
+
+\begin{table}[ht]\centering\scriptsize\setlength{\tabcolsep}{3.5pt}
+\caption{Per-candidate Identifiability Scores on the 20-species panel (10{,}000 within-strata shuffles, locked seed; all observed statistics reproduce the committed H4c values). Occupancy is Deinococcaceae/Bdelloida.}
+\label{tab:identifiability}
+\begin{tabular}{lccccccl}
+\hline
+Candidate & occupancy & inf.\ strata & $G_{\mathrm{obs}}$ & null SD & $p_{\mathrm{obs}}$ & $p_{\min}$ & class \\
+\hline
+WP\_012692117.1 & 6/6, 3/3 & 0 & 2 & 0 & 1.0 & 1.0 & \textsc{impossible} \\
+UJR36058.1 & 6/6, 2/3 & 1 & 2 & 0 & 1.0 & 1.0 & \textsc{impossible} \\
+UJR11615.1 & 6/6, 3/3 & 0 & 2 & 0 & 1.0 & 1.0 & \textsc{impossible} \\
+UJR17759.1 & 3/6, 1/3 & 2 & 2 & 0.458 & 0.299 & 0.299 & \textsc{underpowered} \\
+WP\_272975990.1 & 6/6, 3/3 & 0 & 2 & 0 & 1.0 & 1.0 & \textsc{impossible} \\
+UJR28130.1 & 6/6, 3/3 & 0 & 2 & 0 & 1.0 & 1.0 & \textsc{impossible} \\
+UJR26281.1 & 6/6, 3/3 & 0 & 2 & 0 & 1.0 & 1.0 & \textsc{impossible} \\
+WP\_012692142.1 & 6/6, 3/3 & 0 & 2 & 0 & 1.0 & 1.0 & \textsc{impossible} \\
+WP\_414646549.1 & 6/6, 2/3 & 1 & 2 & 0 & 1.0 & 1.0 & \textsc{impossible} \\
+WP\_272975981.1 & 6/6, 3/3 & 0 & 2 & 0 & 1.0 & 1.0 & \textsc{impossible} \\
+\hline
+\end{tabular}
+\end{table}
+
+\textbf{Panel verdict: no candidate is testable.} Nine candidates are \textsc{impossible} -- the structured null is a constant, so the convergence question cannot be asked of them on this panel at all -- and the single candidate with real null variance is \textsc{underpowered}: even its most extreme achievable configuration yields $p_{\min} = 0.299$, an order of magnitude from significance. This sharpens the H4c statement (``power exists only for partially occupied strata''): partial occupancy is where power \emph{could} live, but this panel's one partially occupied candidate shows it need not live there. The score thereby converts a qualitative limitation into a reusable diagnostic with an explicit remedy: only phylogenetically \emph{dispersed} resistant lineages raise $p_{\min}$ below the decision threshold -- additional proteomes within the same clades change nothing, which is the quantitative content of the identifiability boundary. On the original 15-species panel, all ten candidates were \textsc{impossible} (committed H4: zero-variance nulls throughout). No H4 gate, label, or caveat changes; the score is the framework's self-diagnostic layer, and it is what a reviewer can apply to any future panel before believing a convergence claim from it.
+
 \section{Caveats (honesty section)}
 An implementation audit (2026-09-27, correction amendment 00:54 IST) found that the first H1 run encoded a 12-slot panel vector over the 11-species true panel, placing \emph{Thermus aquaticus} in the resistant arm with wrong 6-vs-6 Fisher/MWU constants. The locked gates were re-run on the corrected mapping with unchanged thresholds, seed, and permutation count (PRE-REGISTRATION.md): all 12 Fisher candidate identities and all specificity labels survive unchanged, the Fisher floor becomes $1/\binom{11}{5}$, the complete-separation empirical $p$ becomes 0.013, and the secondary MWU arm shrinks from 53 to 26 hits (the earlier constants had inflated it). No downstream claim (H2 labels, H3 domain confirmation, H4 phylogenetic boundary) used the broken code path. The buggy outputs are archived in results/ for the audit trail.
 (1) Tardigrada origin is single-proteome (Milnesium terminally unavailable); the gate's ``$\geq 2$ origins'' was met by Deinococcaceae+Bdelloidea in every passing orthogroup - no Tardigrada-supported convergence is claimed. (2) Empirical $p=0.013$ is a 1000-permutation count estimate ($13/1001$) for complete-separation configurations at the true 5-vs-6 panel; the estimator floor is $1/1001 \approx 10^{-3}$ and the exact-enumeration Fisher floor is $1/\binom{11}{5} \approx 2.2\times10^{-3}$, so 0.013 means roughly a dozen permuted labelings scored as extreme as the observed - it is not a continuous measure. (3) Empirical-p calibration assumes exchangeability under label permutation; family-level phylogenetic structure is only partially randomized away. Section 3.4 quantifies this: structured-presence-permutation tests are degenerate on saturated clades, so convergence beyond relatedness is not claimed for any candidate (terminal identifiability statement). (4) 4 esummary records failed uid resolution and await retry; their Pfam calls stand via hmmscan. (5) Candidates are computational; no experimental validation is claimed. (6) The v1 headline peroxiredoxin did not survive the specificity layer (Section 3.1); v1-era claims about AhpC-TSA as radiation-specific are superseded by the v2 labels.

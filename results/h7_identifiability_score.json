@@ -1,0 +1,196 @@
+{
+ "amendment": "2026-09-27 12:06 IST queue #3 Identifiability Score",
+ "nperm": 10000,
+ "seed": 260926,
+ "panel": "20-species extended (H4c)",
+ "candidates": {
+  "Deinococcus_deserti|WP_012692117.1": {
+   "occupancy": {
+    "deinococcaceae": "6/6",
+    "bdelloida": "3/3"
+   },
+   "n_informative_strata": 0,
+   "obs_gains": 2,
+   "gains_range": [
+    2,
+    2
+   ],
+   "null_sd": 0.0,
+   "null_median": 2,
+   "p_obs": 1.0,
+   "p_min_achievable": 1.0,
+   "class": "IMPOSSIBLE"
+  },
+  "Adineta_vaga|UJR36058.1": {
+   "occupancy": {
+    "deinococcaceae": "6/6",
+    "bdelloida": "2/3"
+   },
+   "n_informative_strata": 1,
+   "obs_gains": 2,
+   "gains_range": [
+    2,
+    2
+   ],
+   "null_sd": 0.0,
+   "null_median": 2,
+   "p_obs": 1.0,
+   "p_min_achievable": 1.0,
+   "class": "IMPOSSIBLE"
+  },
+  "Adineta_vaga|UJR11615.1": {
+   "occupancy": {
+    "deinococcaceae": "6/6",
+    "bdelloida": "3/3"
+   },
+   "n_informative_strata": 0,
+   "obs_gains": 2,
+   "gains_range": [
+    2,
+    2
+   ],
+   "null_sd": 0.0,
+   "null_median": 2,
+   "p_obs": 1.0,
+   "p_min_achievable": 1.0,
+   "class": "IMPOSSIBLE"
+  },
+  "Adineta_vaga|UJR17759.1": {
+   "occupancy": {
+    "deinococcaceae": "3/6",
+    "bdelloida": "1/3"
+   },
+   "n_informative_strata": 2,
+   "obs_gains": 2,
+   "gains_range": [
+    2,
+    3
+   ],
+   "null_sd": 0.4579,
+   "null_median": 3,
+   "p_obs": 0.29917,
+   "p_min_achievable": 0.29917,
+   "class": "UNDERPOWERED"
+  },
+  "Deinococcus_geothermalis|WP_272975990.1": {
+   "occupancy": {
+    "deinococcaceae": "6/6",
+    "bdelloida": "3/3"
+   },
+   "n_informative_strata": 0,
+   "obs_gains": 2,
+   "gains_range": [
+    2,
+    2
+   ],
+   "null_sd": 0.0,
+   "null_median": 2,
+   "p_obs": 1.0,
+   "p_min_achievable": 1.0,
+   "class": "IMPOSSIBLE"
+  },
+  "Adineta_vaga|UJR28130.1": {
+   "occupancy": {
+    "deinococcaceae": "6/6",
+    "bdelloida": "3/3"
+   },
+   "n_informative_strata": 0,
+   "obs_gains": 2,
+   "gains_range": [
+    2,
+    2
+   ],
+   "null_sd": 0.0,
+   "null_median": 2,
+   "p_obs": 1.0,
+   "p_min_achievable": 1.0,
+   "class": "IMPOSSIBLE"
+  },
+  "Adineta_vaga|UJR26281.1": {
+   "occupancy": {
+    "deinococcaceae": "6/6",
+    "bdelloida": "3/3"
+   },
+   "n_informative_strata": 0,
+   "obs_gains": 2,
+   "gains_range": [
+    2,
+    2
+   ],
+   "null_sd": 0.0,
+   "null_median": 2,
+   "p_obs": 1.0,
+   "p_min_achievable": 1.0,
+   "class": "IMPOSSIBLE"
+  },
+  "Deinococcus_deserti|WP_012692142.1": {
+   "occupancy": {
+    "deinococcaceae": "6/6",
+    "bdelloida": "3/3"
+   },
+   "n_informative_strata": 0,
+   "obs_gains": 2,
+   "gains_range": [
+    2,
+    2
+   ],
+   "null_sd": 0.0,
+   "null_median": 2,
+   "p_obs": 1.0,
+   "p_min_achievable": 1.0,
+   "class": "IMPOSSIBLE"
+  },
+  "Deinococcus_geothermalis|WP_414646549.1": {
+   "occupancy": {
+    "deinococcaceae": "6/6",
+    "bdelloida": "2/3"
+   },
+   "n_informative_strata": 1,
+   "obs_gains": 3,
+   "gains_range": [
+    3,
+    3
+   ],
+   "null_sd": 0.0,
+   "null_median": 3,
+   "p_obs": 1.0,
+   "p_min_achievable": 1.0,
+   "class": "IMPOSSIBLE"
+  },
+  "Deinococcus_geothermalis|WP_272975981.1": {
+   "occupancy": {
+    "deinococcaceae": "6/6",
+    "bdelloida": "3/3"
+   },
+   "n_informative_strata": 0,
+   "obs_gains": 2,
+   "gains_range": [
+    2,
+    2
+   ],
+   "null_sd": 0.0,
+   "null_median": 2,
+   "p_obs": 1.0,
+   "p_min_achievable": 1.0,
+   "class": "IMPOSSIBLE"
+  }
+ },
+ "sanity": [
+  "Deinococcus_deserti|WP_012692117.1 reproduces committed N_ind and p",
+  "Adineta_vaga|UJR36058.1 reproduces committed N_ind and p",
+  "Adineta_vaga|UJR11615.1 reproduces committed N_ind and p",
+  "Adineta_vaga|UJR17759.1 reproduces committed N_ind and p",
+  "Deinococcus_geothermalis|WP_272975990.1 reproduces committed N_ind and p",
+  "Adineta_vaga|UJR28130.1 reproduces committed N_ind and p",
+  "Adineta_vaga|UJR26281.1 reproduces committed N_ind and p",
+  "Deinococcus_deserti|WP_012692142.1 reproduces committed N_ind and p",
+  "Deinococcus_geothermalis|WP_414646549.1 reproduces committed N_ind and p",
+  "Deinococcus_geothermalis|WP_272975981.1 reproduces committed N_ind and p"
+ ],
+ "panel_summary": {
+  "IMPOSSIBLE": 9,
+  "UNDERPOWERED": 1
+ },
+ "panel_15_note": "Committed H4 (15-species): zero-variance nulls on all 10 candidates - all IMPOSSIBLE (no recomputation, per amendment)",
+ "framing": "Separates falsified from untestable-in-principle; remedy = dispersed resistant lineages, not more within-clade proteomes. No H4 gate or label changes."
+}
