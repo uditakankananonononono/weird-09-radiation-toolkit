@@ -7,7 +7,7 @@
   "Tardigrada",
   "Rotifera"
  ],
- "archaeal_provenance": "verdict-asserted (round-4 archived verdict), flagged per amendment",
+ "archaeal_provenance": "verdict-asserted (round-4 archived verdict); literature spot-check 16:43 IST: H. salinarum IR-supported, M. formicicum UVC-level only (data/panel_expansion_v1/archaeal_provenance_memo.md)",
  "n_clusters": 11,
  "cross_origin_core_n": 9,
  "cross_origin_core": [
