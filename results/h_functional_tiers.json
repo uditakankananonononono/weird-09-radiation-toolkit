@@ -1,5 +1,5 @@
 {
- "amendment": "2026-09-27 13:25 IST + 13:27 addendum",
+ "amendment": "2026-09-27 14:23 IST arms merged (K. radiotolerans + R. radiotolerans, true independent origins)",
  "candidates": [
   {
    "candidate": "Adineta_vaga|UJR10666.1",
@@ -20,7 +20,9 @@
    "T2_dwulumuqiensis_support": false,
    "T2_rsordida_support": false,
    "T2_asteineri_support": true,
-   "T2_new_proteomes_supported_count": 1
+   "T2_new_proteomes_supported_count": 1,
+   "T2_kradiotolerans_support": false,
+   "T2_rradiotolerans_support": false
   },
   {
    "candidate": "Deinococcus_deserti|WP_012692117.1",
@@ -44,7 +46,9 @@
    "T2_dwulumuqiensis_support": true,
    "T2_rsordida_support": true,
    "T2_asteineri_support": true,
-   "T2_new_proteomes_supported_count": 4
+   "T2_new_proteomes_supported_count": 5,
+   "T2_kradiotolerans_support": true,
+   "T2_rradiotolerans_support": false
   },
   {
    "candidate": "Adineta_vaga|UJR36058.1",
@@ -64,7 +68,9 @@
    "T2_dwulumuqiensis_support": true,
    "T2_rsordida_support": true,
    "T2_asteineri_support": true,
-   "T2_new_proteomes_supported_count": 4
+   "T2_new_proteomes_supported_count": 5,
+   "T2_kradiotolerans_support": false,
+   "T2_rradiotolerans_support": true
   },
   {
    "candidate": "Adineta_vaga|UJR11615.1",
@@ -85,7 +91,9 @@
    "T2_dwulumuqiensis_support": true,
    "T2_rsordida_support": true,
    "T2_asteineri_support": true,
-   "T2_new_proteomes_supported_count": 4
+   "T2_new_proteomes_supported_count": 5,
+   "T2_kradiotolerans_support": false,
+   "T2_rradiotolerans_support": true
   },
   {
    "candidate": "Adineta_vaga|UJR17759.1",
@@ -109,7 +117,9 @@
    "T2_dwulumuqiensis_support": false,
    "T2_rsordida_support": false,
    "T2_asteineri_support": false,
-   "T2_new_proteomes_supported_count": 0
+   "T2_new_proteomes_supported_count": 0,
+   "T2_kradiotolerans_support": false,
+   "T2_rradiotolerans_support": false
   },
   {
    "candidate": "Deinococcus_geothermalis|WP_272975990.1",
@@ -130,7 +140,9 @@
    "T2_dwulumuqiensis_support": true,
    "T2_rsordida_support": true,
    "T2_asteineri_support": true,
-   "T2_new_proteomes_supported_count": 4
+   "T2_new_proteomes_supported_count": 6,
+   "T2_kradiotolerans_support": true,
+   "T2_rradiotolerans_support": true
   },
   {
    "candidate": "Adineta_vaga|UJR28130.1",
@@ -157,7 +169,9 @@
    "T2_dwulumuqiensis_support": true,
    "T2_rsordida_support": true,
    "T2_asteineri_support": true,
-   "T2_new_proteomes_supported_count": 4
+   "T2_new_proteomes_supported_count": 6,
+   "T2_kradiotolerans_support": true,
+   "T2_rradiotolerans_support": true
   },
   {
    "candidate": "Adineta_vaga|UJR26281.1",
@@ -179,7 +193,9 @@
    "T2_dwulumuqiensis_support": true,
    "T2_rsordida_support": true,
    "T2_asteineri_support": true,
-   "T2_new_proteomes_supported_count": 4
+   "T2_new_proteomes_supported_count": 6,
+   "T2_kradiotolerans_support": true,
+   "T2_rradiotolerans_support": true
   },
   {
    "candidate": "Adineta_vaga|UJR09360.1",
@@ -197,7 +213,9 @@
    "T2_dwulumuqiensis_support": null,
    "T2_rsordida_support": null,
    "T2_asteineri_support": null,
-   "T2_new_proteomes_supported_count": 0
+   "T2_new_proteomes_supported_count": 0,
+   "T2_kradiotolerans_support": null,
+   "T2_rradiotolerans_support": null
   },
   {
    "candidate": "Deinococcus_deserti|WP_012692142.1",
@@ -217,7 +235,9 @@
    "T2_dwulumuqiensis_support": true,
    "T2_rsordida_support": false,
    "T2_asteineri_support": true,
-   "T2_new_proteomes_supported_count": 3
+   "T2_new_proteomes_supported_count": 5,
+   "T2_kradiotolerans_support": true,
+   "T2_rradiotolerans_support": true
   },
   {
    "candidate": "Deinococcus_geothermalis|WP_414646549.1",
@@ -237,7 +257,9 @@
    "T2_dwulumuqiensis_support": true,
    "T2_rsordida_support": false,
    "T2_asteineri_support": true,
-   "T2_new_proteomes_supported_count": 3
+   "T2_new_proteomes_supported_count": 4,
+   "T2_kradiotolerans_support": true,
+   "T2_rradiotolerans_support": false
   },
   {
    "candidate": "Deinococcus_geothermalis|WP_272975981.1",
@@ -259,7 +281,9 @@
    "T2_dwulumuqiensis_support": true,
    "T2_rsordida_support": true,
    "T2_asteineri_support": true,
-   "T2_new_proteomes_supported_count": 4
+   "T2_new_proteomes_supported_count": 6,
+   "T2_kradiotolerans_support": true,
+   "T2_rradiotolerans_support": true
   }
  ]
 }
