@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.8.14)  27 SEP 2026 14:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.8.14)  27 SEP 2026 14:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -356,9 +356,15 @@ Overfull \hbox (211.76186pt too wide) in paragraph at lines 216--234
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [12]
-Overfull \hbox (5.78708pt too wide) in paragraph at lines 242--243
-\T1/ptm/m/n/12 pro-teins) - acti-nobac-te-rial ra-diore-sis-tance, phy-lo-ge-ne
-t-i-cally out-side Deinococ-caceae, Tardigrada,
+Overfull \hbox (33.41306pt too wide) in paragraph at lines 242--243
+\T1/ptm/m/n/12 ra-diotol-er-ans (GCF_014191015.1, 4,368 pro-teins) and Rubrobac
+-ter ra-diotol-er-ans (GCF_033842665.1,
+ []
+
+
+Overfull \hbox (35.06711pt too wide) in paragraph at lines 242--243
+\T1/ptm/m/n/12 3,244 pro-teins) - acti-nobac-te-rial ra-diore-sis-tance, phy-lo
+-ge-net-i-cally out-side Deinococ-caceae, Tardigrada,
  []
 
 
@@ -446,7 +452,7 @@ hare/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on main.pdf (16 pages, 183667 bytes).
+Output written on main.pdf (16 pages, 183646 bytes).
 PDF statistics:
  168 PDF objects out of 1000 (max. 8388607)
  78 compressed objects within 1 object stream

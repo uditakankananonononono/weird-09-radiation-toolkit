@@ -1,5 +1,5 @@
 {
- "amendment": "2026-09-27 14:23 IST (true independent origins, confirmation-grade, locked pre-scan)",
+ "amendment": "2026-09-27 14:20:15 IST commit b412839 (labeled 14:23, erratum 14:25; true independent origins, confirmation-grade, locked pre-scan)",
  "proteome": "rubro GCF_033842665.1",
  "n_proteins": 3244,
  "sha256_gz": "e67659d9117c9a5e4c23fd42d309ebaceb687ea47aacf2c42764166dbbb20967",
