@@ -263,3 +263,6 @@ NEW PROTEOME: Deinococcus indicus GCA_014653295.1 (4,153 proteins, NCBI FTP fetc
 
 ## AMENDMENT 2026-09-27 14:20 IST (provided-verdict queue #11, 2nd arm: Deinococcus wulumuqiensis - locked BEFORE scanning)
 7th independent confirmation proteome: D. wulumuqiensis GCA_053878665.1 (NCBI FTP fetch 14:19 IST, sha256 ledgered). Rule identical to the 14:18 arm (h3 rule, E<=1e-05, full v1 domain set in >=1 protein). REPORT-ONLY.
+
+## AMENDMENT 2026-09-27 14:21 IST (provided-verdict queue #11, 3rd/4th arms: bdelloid confirmation proteomes - locked BEFORE scanning)
+Two bdelloid proteomes (origin 3 clades, needed because the two unsupported candidates are bdelloid-originating and Deinococcus proteomes cannot confirm them): Rotaria sordida GCA_905332105.1 (44,209 proteins) and Adineta steineri GCA_905332015.1 (54,870 proteins), NCBI FTP fetch 14:17 IST, sha256 ledgered. Rule identical to the 14:18 arm (h3 rule, E<=1e-05, full v1 domain set in >=1 protein). REPORT-ONLY. These replicate WITHIN origin 3, not independent origins (same precision as the 14:20 clarification).
