@@ -1,0 +1,200 @@
+{
+ "amendment_commit": "823696a",
+ "seed": 260927,
+ "n_trees": 100,
+ "k_nni": 3,
+ "nperm": 2000,
+ "scope": "NNI-perturbed alternative topologies; bootstrap/Bayesian arms deferred (no aligner/MSA) - recorded",
+ "candidates": {
+  "Deinococcus_deserti|WP_012692117.1": {
+   "committed_tree": {
+    "N_ind": 2,
+    "p": 1.0,
+    "h4_pass": false
+   },
+   "pass_flips": 0,
+   "N_ind_min_med_max": [
+    2,
+    2,
+    3
+   ],
+   "p_min_med_max": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "topology_sensitive": false
+  },
+  "Adineta_vaga|UJR36058.1": {
+   "committed_tree": {
+    "N_ind": 2,
+    "p": 1.0,
+    "h4_pass": false
+   },
+   "pass_flips": 0,
+   "N_ind_min_med_max": [
+    2,
+    2,
+    3
+   ],
+   "p_min_med_max": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "topology_sensitive": false
+  },
+  "Adineta_vaga|UJR11615.1": {
+   "committed_tree": {
+    "N_ind": 2,
+    "p": 1.0,
+    "h4_pass": false
+   },
+   "pass_flips": 0,
+   "N_ind_min_med_max": [
+    2,
+    2,
+    2
+   ],
+   "p_min_med_max": [
+    0.87006,
+    1.0,
+    1.0
+   ],
+   "topology_sensitive": false
+  },
+  "Adineta_vaga|UJR17759.1": {
+   "committed_tree": {
+    "N_ind": 2,
+    "p": 1.0,
+    "h4_pass": false
+   },
+   "pass_flips": 0,
+   "N_ind_min_med_max": [
+    2,
+    2,
+    3
+   ],
+   "p_min_med_max": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "topology_sensitive": false
+  },
+  "Deinococcus_geothermalis|WP_272975990.1": {
+   "committed_tree": {
+    "N_ind": 2,
+    "p": 1.0,
+    "h4_pass": false
+   },
+   "pass_flips": 0,
+   "N_ind_min_med_max": [
+    2,
+    2,
+    3
+   ],
+   "p_min_med_max": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "topology_sensitive": false
+  },
+  "Adineta_vaga|UJR28130.1": {
+   "committed_tree": {
+    "N_ind": 2,
+    "p": 1.0,
+    "h4_pass": false
+   },
+   "pass_flips": 0,
+   "N_ind_min_med_max": [
+    2,
+    2,
+    3
+   ],
+   "p_min_med_max": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "topology_sensitive": false
+  },
+  "Adineta_vaga|UJR26281.1": {
+   "committed_tree": {
+    "N_ind": 2,
+    "p": 1.0,
+    "h4_pass": false
+   },
+   "pass_flips": 0,
+   "N_ind_min_med_max": [
+    2,
+    2,
+    3
+   ],
+   "p_min_med_max": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "topology_sensitive": false
+  },
+  "Deinococcus_deserti|WP_012692142.1": {
+   "committed_tree": {
+    "N_ind": 2,
+    "p": 1.0,
+    "h4_pass": false
+   },
+   "pass_flips": 0,
+   "N_ind_min_med_max": [
+    2,
+    2,
+    3
+   ],
+   "p_min_med_max": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "topology_sensitive": false
+  },
+  "Deinococcus_geothermalis|WP_414646549.1": {
+   "committed_tree": {
+    "N_ind": 2,
+    "p": 1.0,
+    "h4_pass": false
+   },
+   "pass_flips": 0,
+   "N_ind_min_med_max": [
+    2,
+    2,
+    3
+   ],
+   "p_min_med_max": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "topology_sensitive": false
+  },
+  "Deinococcus_geothermalis|WP_272975981.1": {
+   "committed_tree": {
+    "N_ind": 2,
+    "p": 1.0,
+    "h4_pass": false
+   },
+   "pass_flips": 0,
+   "N_ind_min_med_max": [
+    2,
+    2,
+    3
+   ],
+   "p_min_med_max": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "topology_sensitive": false
+  }
+ }
+}
