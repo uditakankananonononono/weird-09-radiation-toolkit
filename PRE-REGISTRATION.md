@@ -248,3 +248,6 @@ CLASSIFICATION-ONLY from committed data: each of the 12 committed candidates get
 
 ## ADDENDUM to the 13:25 IST tier amendment (13:27 IST) - locked BEFORE classification
 The amendment's T1 rule cited the screen-level E<1e-10 threshold, but the committed per-candidate Pfam evidence is results/h3_domain_confirmation.json at its own committed rule (E<=1e-05, support in new proteomes). LOCKED CORRECTION: T1 pass = candidate appears in committed h3_domain_confirmation.json with n_domains>=1; the domain threshold is the committed h3 rule, named in the output. All other terms unchanged.
+
+## AMENDMENT 2026-09-27 13:31 IST (provided-verdict queue #17: ranked public resource - artifact-only, locked BEFORE assembly)
+ARTIFACT-ONLY: assemble the committed 12-candidate evidence into one ranked atlas table (data/stress_atlas_v1.json + paper table): per candidate - rep, domains (h3), tier record (h_functional_tiers), h12 class, h8b FDR context, h10 stability. Ranking key LOCKED: pm descending, ties broken by T1-then-T2 pass. No new compute; every cell traces to a committed file.
