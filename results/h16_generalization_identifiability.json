@@ -1,0 +1,47 @@
+{
+ "amendment_commit": "41508da",
+ "panel": "20-species extended (committed)",
+ "phenotypes": {
+  "thermophily": {
+   "positives": [
+    "T_aquaticus",
+    "T_thermophilus"
+   ],
+   "positive_strata": [
+    "thermus"
+   ],
+   "n_independent_strata": 1,
+   "radiation_arm_overlap": [],
+   "class": "UNDERPOWERED",
+   "reason": "positives in a single clade stratum - zero independent origins, no convergence test possible"
+  },
+  "desiccation": {
+   "positives": [
+    "H_exemplaris",
+    "R_varieornatus",
+    "A_vaga"
+   ],
+   "positive_strata": [
+    "bdelloida",
+    "tardigrada"
+   ],
+   "n_independent_strata": 2,
+   "radiation_arm_overlap": [
+    "bdelloida",
+    "tardigrada"
+   ],
+   "class": "IMPOSSIBLE",
+   "reason": "positive strata ['bdelloida', 'tardigrada'] are exactly the radiation-resistant arm - cannot separate desiccation signal from radiation signal on this panel (confounded)"
+  },
+  "hypoxia": {
+   "positives": [],
+   "positive_strata": [],
+   "n_independent_strata": 0,
+   "radiation_arm_overlap": [],
+   "class": "IMPOSSIBLE",
+   "reason": "no committed positive species in panel"
+  }
+ },
+ "rule": "no screen run for UNDERPOWERED/IMPOSSIBLE; identifiability refusal is the deliverable",
+ "deliverable_note": "all three alternative phenotypes are refused pre-compute by the framework identifiability layer; generalization requires panel expansion (feeds queue #2 panel arm)"
+}
