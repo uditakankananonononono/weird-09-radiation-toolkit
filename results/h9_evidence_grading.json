@@ -1,0 +1,245 @@
+{
+ "protocol": "locked 10:10 grading; pool shuffled Random(26092708); B1 via locked S+ anchors; B2 11 reused h5v2 grades + 1 new pass; B0 per-entry basis",
+ "grades": {
+  "G01": {
+   "tier": 0,
+   "basis": "reused h5v2 rank-blind grade: uncharacterized; no mapped mechanism (rubric score 0)"
+  },
+  "G02": {
+   "tier": 2,
+   "basis": "reused h5v2 rank-blind grade: mechanism C3 (DDR scaffolding); plant ANK drought/salt literature is not radiation-resistance family evidence"
+  },
+  "G03": {
+   "tier": 1,
+   "basis": "family-level resistance literature (locked S+ anchor PMID 28318683); abstracts verified at 10:10 S+ lock; B1 selection is BY this family - tautology disclosed"
+  },
+  "G04": {
+   "tier": 1,
+   "basis": "family-level resistance literature (locked S+ anchor PMID 17006450); abstracts verified at 10:10 S+ lock; B1 selection is BY this family - tautology disclosed"
+  },
+  "G05": {
+   "tier": 1,
+   "basis": "family-level resistance literature (locked S+ anchor PMID 26290287); abstracts verified at 10:10 S+ lock; B1 selection is BY this family - tautology disclosed"
+  },
+  "G06": {
+   "tier": 0,
+   "basis": "sulfite exporter: 0 query hits; abstract-inspected where hits existed"
+  },
+  "G07": {
+   "tier": 0,
+   "basis": "no family annotation (hypothetical/uncharacterized; no Pfam hit in locked 64-HMM set) - no literature query possible"
+  },
+  "G08": {
+   "tier": 0,
+   "basis": "reused h5v2 rank-blind grade: no mapped mechanism (rubric score 0); porphyrin literature shows photosensitization DAMAGE, not protection"
+  },
+  "G09": {
+   "tier": 1,
+   "basis": "family-level resistance literature (locked S+ anchor PMC3268515); abstracts verified at 10:10 S+ lock; B1 selection is BY this family - tautology disclosed"
+  },
+  "G10": {
+   "tier": 0,
+   "basis": "no family annotation (hypothetical/uncharacterized; no Pfam hit in locked 64-HMM set) - no literature query possible"
+  },
+  "G11": {
+   "tier": 0,
+   "basis": "no family annotation (hypothetical/uncharacterized; no Pfam hit in locked 64-HMM set) - no literature query possible"
+  },
+  "G12": {
+   "tier": 0,
+   "basis": "no family annotation (hypothetical/uncharacterized; no Pfam hit in locked 64-HMM set) - no literature query possible"
+  },
+  "G13": {
+   "tier": 2,
+   "basis": "reused h5v2 rank-blind grade: mechanism C4 (folate/pterin); no family-level resistance paper found"
+  },
+  "G14": {
+   "tier": 0,
+   "basis": "no family annotation (hypothetical/uncharacterized; no Pfam hit in locked 64-HMM set) - no literature query possible"
+  },
+  "G15": {
+   "tier": 0,
+   "basis": "no family annotation (hypothetical/uncharacterized; no Pfam hit in locked 64-HMM set) - no literature query possible"
+  },
+  "G16": {
+   "tier": 1,
+   "basis": "family-level resistance literature (locked S+ anchor PMID 27649274); abstracts verified at 10:10 S+ lock; B1 selection is BY this family - tautology disclosed"
+  },
+  "G17": {
+   "tier": 0,
+   "basis": "no family annotation (hypothetical/uncharacterized; no Pfam hit in locked 64-HMM set) - no literature query possible"
+  },
+  "G18": {
+   "tier": 2,
+   "basis": "reused h5v2 rank-blind grade: mechanism C1 (nucleotide-damage processing; DHH family incl. RecJ); no family-level resistance paper"
+  },
+  "G19": {
+   "tier": 1,
+   "basis": "family-level resistance literature (locked S+ anchor PMID 28318683); abstracts verified at 10:10 S+ lock; B1 selection is BY this family - tautology disclosed"
+  },
+  "G20": {
+   "tier": 0,
+   "basis": "CX domain: 18 hits, all cancer/osteoarthritis, unrelated; abstract-inspected where hits existed"
+  },
+  "G21": {
+   "tier": 0,
+   "basis": "no family annotation (hypothetical/uncharacterized; no Pfam hit in locked 64-HMM set) - no literature query possible"
+  },
+  "G22": {
+   "tier": 0,
+   "basis": "no family annotation (hypothetical/uncharacterized; no Pfam hit in locked 64-HMM set) - no literature query possible"
+  },
+  "G23": {
+   "tier": 2,
+   "basis": "AhpC/peroxiredoxin: peroxide-stress mechanism papers verified by abstract (PMIDs 41474264, 41462622); no family-level radiation-phenotype paper in query top hits; v1 AhpC radiation-specificity superseded by H2 specificity layer"
+  },
+  "G24": {
+   "tier": 0,
+   "basis": "no family annotation (hypothetical/uncharacterized; no Pfam hit in locked 64-HMM set) - no literature query possible"
+  },
+  "G25": {
+   "tier": 2,
+   "basis": "reused h5v2 rank-blind grade: mechanism C2+C5; v1 PubMed pass: 3/3 NmrA hits false positives; EPS-desiccation = general-mechanism literature, not fami"
+  },
+  "G26": {
+   "tier": 0,
+   "basis": "TAF1: genotoxic-stress apoptosis regulation, not C1-C5 chemistry; abstract-inspected where hits existed"
+  },
+  "G27": {
+   "tier": 0,
+   "basis": "LAMTOR5: 0 hits; abstract-inspected where hits existed"
+  },
+  "G28": {
+   "tier": 2,
+   "basis": "reused h5v2 rank-blind grade: mechanism C5; PG remodeling/stress literature is general, not family-level resistance"
+  },
+  "G29": {
+   "tier": 0,
+   "basis": "SXP/RAL-2: 0 hits; abstract-inspected where hits existed"
+  },
+  "G30": {
+   "tier": 0,
+   "basis": "tPA: mammalian radiopathology context, not resistance; abstract-inspected where hits existed"
+  },
+  "G31": {
+   "tier": 0,
+   "basis": "no family annotation (hypothetical/uncharacterized; no Pfam hit in locked 64-HMM set) - no literature query possible"
+  },
+  "G32": {
+   "tier": 0,
+   "basis": "no family annotation (hypothetical/uncharacterized; no Pfam hit in locked 64-HMM set) - no literature query possible"
+  },
+  "G33": {
+   "tier": 0,
+   "basis": "reused h5v2 rank-blind grade: no mapped mechanism (rubric score 0)"
+  },
+  "G34": {
+   "tier": 0,
+   "basis": "dauer/aging overexpression: aging biology, not C1-C5 chemistry; abstract-inspected where hits existed"
+  },
+  "G35": {
+   "tier": 0,
+   "basis": "serpentine receptor H: 0 hits; abstract-inspected where hits existed"
+  },
+  "G36": {
+   "tier": 0,
+   "basis": "no family annotation (hypothetical/uncharacterized; no Pfam hit in locked 64-HMM set) - no literature query possible"
+  },
+  "G37": {
+   "tier": 2,
+   "basis": "reused h5v2 rank-blind grade: mechanism C2; searches show general Deinococcus antioxidant systems, no family-level resistance phenotype"
+  },
+  "G38": {
+   "tier": 0,
+   "basis": "no family annotation (hypothetical/uncharacterized; no Pfam hit in locked 64-HMM set) - no literature query possible"
+  },
+  "G39": {
+   "tier": 0,
+   "basis": "no family annotation (hypothetical/uncharacterized; no Pfam hit in locked 64-HMM set) - no literature query possible"
+  },
+  "G40": {
+   "tier": 1,
+   "basis": "family-level resistance literature (locked S+ anchor DOI 10.1371/journal.pbio.0020304); abstracts verified at 10:10 S+ lock; B1 selection is BY this family - tautology disclosed"
+  },
+  "G41": {
+   "tier": 0,
+   "basis": "no family annotation (hypothetical/uncharacterized; no Pfam hit in locked 64-HMM set) - no literature query possible"
+  },
+  "G42": {
+   "tier": 0,
+   "basis": "no family annotation (hypothetical/uncharacterized; no Pfam hit in locked 64-HMM set) - no literature query possible"
+  },
+  "G43": {
+   "tier": 0,
+   "basis": "mabiki: 0 hits; abstract-inspected where hits existed"
+  },
+  "G44": {
+   "tier": 0,
+   "basis": "no family annotation (hypothetical/uncharacterized; no Pfam hit in locked 64-HMM set) - no literature query possible"
+  },
+  "G45": {
+   "tier": 1,
+   "basis": "family-level resistance literature (locked S+ anchor DOI 10.1111/j.1365-2958.2004.04272.x); abstracts verified at 10:10 S+ lock; B1 selection is BY this family - tautology disclosed"
+  },
+  "G46": {
+   "tier": 0,
+   "basis": "dementin: hits are author-name false positives; abstract-inspected where hits existed"
+  },
+  "G47": {
+   "tier": 0,
+   "basis": "no family annotation (hypothetical/uncharacterized; no Pfam hit in locked 64-HMM set) - no literature query possible"
+  },
+  "G48": {
+   "tier": 0,
+   "basis": "HYOU1: general ER/hypoxia chaperone; sole hit unrelated case report; no C1-C5 chemistry; abstract-inspected where hits existed"
+  },
+  "G49": {
+   "tier": 0,
+   "basis": "no family annotation (hypothetical/uncharacterized; no Pfam hit in locked 64-HMM set) - no literature query possible"
+  },
+  "G50": {
+   "tier": 1,
+   "basis": "family-level resistance literature (locked S+ anchor DOI 10.1371/journal.pone.0044209); abstracts verified at 10:10 S+ lock; B1 selection is BY this family - tautology disclosed"
+  },
+  "G51": {
+   "tier": 0,
+   "basis": "reused h5v2 rank-blind grade: no mapped mechanism (rubric score 0); acetylome study shows regulation, not family-level resistance phenotype"
+  },
+  "G52": {
+   "tier": 0,
+   "basis": "no family annotation (hypothetical/uncharacterized; no Pfam hit in locked 64-HMM set) - no literature query possible"
+  },
+  "G53": {
+   "tier": 0,
+   "basis": "C-type lectin: cancer/inflammation hits, unrelated; abstract-inspected where hits existed"
+  },
+  "G54": {
+   "tier": 0,
+   "basis": "no family annotation (hypothetical/uncharacterized; no Pfam hit in locked 64-HMM set) - no literature query possible"
+  },
+  "G55": {
+   "tier": 0,
+   "basis": "CCHamide-1: 0 hits; abstract-inspected where hits existed"
+  },
+  "G56": {
+   "tier": 1,
+   "basis": "family-level resistance literature (locked S+ anchor PMID 28318683); abstracts verified at 10:10 S+ lock; B1 selection is BY this family - tautology disclosed"
+  },
+  "G57": {
+   "tier": 1,
+   "basis": "reused h5v2 rank-blind grade: FAMILY-LEVEL: disulfide isomerase chaperone characterized in D. radiodurans (PMID 23603741); DsbA-family among Deinococc"
+  },
+  "G58": {
+   "tier": 0,
+   "basis": "no family annotation (hypothetical/uncharacterized; no Pfam hit in locked 64-HMM set) - no literature query possible"
+  },
+  "G59": {
+   "tier": 1,
+   "basis": "family-level resistance literature (locked S+ anchor DOI 10.1038/s41467-024-46208-9); abstracts verified at 10:10 S+ lock; B1 selection is BY this family - tautology disclosed"
+  },
+  "G60": {
+   "tier": 1,
+   "basis": "family-level resistance literature (locked S+ anchor PMID 22857940); abstracts verified at 10:10 S+ lock; B1 selection is BY this family - tautology disclosed"
+  }
+ }
+}

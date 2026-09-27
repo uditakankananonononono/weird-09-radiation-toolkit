@@ -1,0 +1,46 @@
+{
+ "Adineta_vaga|UJR26281.1": {
+  "tier": 0,
+  "basis": "no mapped mechanism (rubric score 0)"
+ },
+ "Deinococcus_geothermalis|WP_414646549.1": {
+  "tier": 0,
+  "basis": "no mapped mechanism (rubric score 0); porphyrin literature shows photosensitization DAMAGE, not protection"
+ },
+ "Adineta_vaga|UJR17759.1": {
+  "tier": 2,
+  "basis": "mechanism C5; PG remodeling/stress literature is general, not family-level resistance"
+ },
+ "Adineta_vaga|UJR36058.1": {
+  "tier": 0,
+  "basis": "uncharacterized; no mapped mechanism (rubric score 0)"
+ },
+ "Deinococcus_geothermalis|WP_272975981.1": {
+  "tier": 0,
+  "basis": "no mapped mechanism (rubric score 0); acetylome study shows regulation, not family-level resistance phenotype"
+ },
+ "Adineta_vaga|UJR10666.1": {
+  "tier": 2,
+  "basis": "mechanism C4 (folate/pterin); no family-level resistance paper found"
+ },
+ "Adineta_vaga|UJR11615.1": {
+  "tier": 2,
+  "basis": "mechanism C1 (nucleotide-damage processing; DHH family incl. RecJ); no family-level resistance paper"
+ },
+ "Adineta_vaga|UJR28130.1": {
+  "tier": 2,
+  "basis": "mechanism C2+C5; v1 PubMed pass: 3/3 NmrA hits false positives; EPS-desiccation = general-mechanism literature, not family-level (v1 second-pass)"
+ },
+ "Deinococcus_deserti|WP_012692117.1": {
+  "tier": 2,
+  "basis": "mechanism C3 (DDR scaffolding); plant ANK drought/salt literature is not radiation-resistance family evidence"
+ },
+ "Deinococcus_deserti|WP_012692142.1": {
+  "tier": 2,
+  "basis": "mechanism C2; searches show general Deinococcus antioxidant systems, no family-level resistance phenotype"
+ },
+ "Deinococcus_geothermalis|WP_272975990.1": {
+  "tier": 1,
+  "basis": "FAMILY-LEVEL: disulfide isomerase chaperone characterized in D. radiodurans (PMID 23603741); DsbA-family among Deinococcus oxidative-protection factors (PMID 29518000)"
+ }
+}

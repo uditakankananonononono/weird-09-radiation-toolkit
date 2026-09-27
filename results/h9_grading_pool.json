@@ -1,0 +1,486 @@
+{
+ "seed": 26092708,
+ "n": 60,
+ "pool": [
+  {
+   "arm": "B2",
+   "rep": "Adineta_vaga|UJR36058.1",
+   "hint": "DUF4385",
+   "blind_id": "G01",
+   "header": "UJR36058.1 hypothetical protein I4U23_028794 [Adineta vaga]",
+   "needs_pubmed": false
+  },
+  {
+   "arm": "B2",
+   "rep": "Deinococcus_deserti|WP_012692117.1",
+   "hint": "ANK_LRRK2;Ank",
+   "blind_id": "G02",
+   "header": "WP_012692117.1 ankyrin repeat domain-containing protein [Deinococcus deserti]",
+   "needs_pubmed": false
+  },
+  {
+   "arm": "B1",
+   "rep": "Ramazzottius_varieornatus|GAU95723.1",
+   "hint": "CAHS",
+   "blind_id": "G03",
+   "header": "GAU95723.1 CAHS9 [Ramazzottius varieornatus]",
+   "needs_pubmed": true
+  },
+  {
+   "arm": "B1",
+   "rep": "Deinococcus_radiodurans|WP_010888966.1",
+   "hint": "RecA",
+   "blind_id": "G04",
+   "header": "WP_010888966.1 MULTISPECIES: recombinase RecA [Deinococcus]",
+   "needs_pubmed": true
+  },
+  {
+   "arm": "B1",
+   "rep": "Deinococcus_geothermalis|WP_272976760.1",
+   "hint": "Dps1",
+   "blind_id": "G05",
+   "header": "WP_272976760.1 Dps family protein [Deinococcus geothermalis]",
+   "needs_pubmed": true
+  },
+  {
+   "arm": "B0_d2",
+   "rep": "Deinococcus_geothermalis|WP_011525891.1",
+   "hint": "",
+   "blind_id": "G06",
+   "header": "WP_011525891.1 MULTISPECIES: sulfite exporter TauE/SafE family protein [Deinococcus]",
+   "needs_pubmed": true
+  },
+  {
+   "arm": "B0_d0",
+   "rep": "Caenorhabditis_elegans|NP_497828.1",
+   "hint": "",
+   "blind_id": "G07",
+   "header": "NP_497828.1 uncharacterized protein CELE_C16C10.9 [Caenorhabditis elegans]",
+   "needs_pubmed": false
+  },
+  {
+   "arm": "B2",
+   "rep": "Deinococcus_geothermalis|WP_414646549.1",
+   "hint": "PAD_porph",
+   "blind_id": "G08",
+   "header": "WP_414646549.1 agmatine deiminase family protein [Deinococcus geothermalis]",
+   "needs_pubmed": false
+  },
+  {
+   "arm": "B1",
+   "rep": "Deinococcus_radiodurans|WP_027480237.1",
+   "hint": "DdrB",
+   "blind_id": "G09",
+   "header": "WP_027480237.1 single-stranded DNA-binding protein DdrB [Deinococcus radiodurans]",
+   "needs_pubmed": true
+  },
+  {
+   "arm": "B0_d0",
+   "rep": "Ramazzottius_varieornatus|GAU92226.1",
+   "hint": "",
+   "blind_id": "G10",
+   "header": "GAU92226.1 hypothetical protein RvY_04336 [Ramazzottius varieornatus]",
+   "needs_pubmed": false
+  },
+  {
+   "arm": "B0_d1",
+   "rep": "Ramazzottius_varieornatus|GAU97148.1",
+   "hint": "",
+   "blind_id": "G11",
+   "header": "GAU97148.1 hypothetical protein RvY_08500 [Ramazzottius varieornatus]",
+   "needs_pubmed": false
+  },
+  {
+   "arm": "B0_d0",
+   "rep": "Drosophila_melanogaster|NP_609985.1",
+   "hint": "",
+   "blind_id": "G12",
+   "header": "NP_609985.1 uncharacterized protein Dmel_CG13081, isoform A [Drosophila melanogaster]",
+   "needs_pubmed": false
+  },
+  {
+   "arm": "B2",
+   "rep": "Adineta_vaga|UJR10666.1",
+   "hint": "HPPK;Pterin_bind",
+   "blind_id": "G13",
+   "header": "UJR10666.1 hypothetical protein I4U23_014861 [Adineta vaga]",
+   "needs_pubmed": false
+  },
+  {
+   "arm": "B0_d1",
+   "rep": "Deinococcus_deserti|WP_012692913.1",
+   "hint": "",
+   "blind_id": "G14",
+   "header": "WP_012692913.1 hypothetical protein [Deinococcus deserti]",
+   "needs_pubmed": false
+  },
+  {
+   "arm": "B0_d2",
+   "rep": "Caenorhabditis_elegans|NP_499248.1",
+   "hint": "",
+   "blind_id": "G15",
+   "header": "NP_499248.1 uncharacterized protein CELE_ZK1128.3 [Caenorhabditis elegans]",
+   "needs_pubmed": false
+  },
+  {
+   "arm": "B1",
+   "rep": "Ramazzottius_varieornatus|GAV07386.1",
+   "hint": "Dsup",
+   "blind_id": "G16",
+   "header": "GAV07386.1 hypothetical protein RvY_17224 [Ramazzottius varieornatus]",
+   "needs_pubmed": true
+  },
+  {
+   "arm": "B0_d0",
+   "rep": "Ramazzottius_varieornatus|GAU87849.1",
+   "hint": "",
+   "blind_id": "G17",
+   "header": "GAU87849.1 hypothetical protein RvY_00645-1 [Ramazzottius varieornatus]",
+   "needs_pubmed": false
+  },
+  {
+   "arm": "B2",
+   "rep": "Adineta_vaga|UJR11615.1",
+   "hint": "DHH;DHHA2",
+   "blind_id": "G18",
+   "header": "UJR11615.1 hypothetical protein I4U23_015797 [Adineta vaga]",
+   "needs_pubmed": false
+  },
+  {
+   "arm": "B1",
+   "rep": "Ramazzottius_varieornatus|GAU88203.1",
+   "hint": "CAHS",
+   "blind_id": "G19",
+   "header": "GAU88203.1 CAHS5 [Ramazzottius varieornatus]",
+   "needs_pubmed": true
+  },
+  {
+   "arm": "B0_d1",
+   "rep": "Caenorhabditis_elegans|NP_001256052.1",
+   "hint": "",
+   "blind_id": "G20",
+   "header": "NP_001256052.1 CX domain-containing protein [Caenorhabditis elegans]",
+   "needs_pubmed": true
+  },
+  {
+   "arm": "B0_d0",
+   "rep": "Hypsibius_exemplaris|OQV22490.1",
+   "hint": "",
+   "blind_id": "G21",
+   "header": "OQV22490.1 hypothetical protein BV898_03665 [Hypsibius exemplaris]",
+   "needs_pubmed": false
+  },
+  {
+   "arm": "B0_d2",
+   "rep": "Adineta_vaga|UJR35707.1",
+   "hint": "",
+   "blind_id": "G22",
+   "header": "UJR35707.1 hypothetical protein I4U23_028457 [Adineta vaga]",
+   "needs_pubmed": false
+  },
+  {
+   "arm": "B2",
+   "rep": "Adineta_vaga|UJR09360.1",
+   "hint": "AhpC-TSA;Redoxin",
+   "blind_id": "G23",
+   "header": "UJR09360.1 hypothetical protein I4U23_013604 [Adineta vaga]",
+   "needs_pubmed": true
+  },
+  {
+   "arm": "B0_d2",
+   "rep": "Ramazzottius_varieornatus|GAU89526.1",
+   "hint": "",
+   "blind_id": "G24",
+   "header": "GAU89526.1 hypothetical protein RvY_02069 [Ramazzottius varieornatus]",
+   "needs_pubmed": false
+  },
+  {
+   "arm": "B2",
+   "rep": "Adineta_vaga|UJR28130.1",
+   "hint": "3Beta_HSD;Epimerase",
+   "blind_id": "G25",
+   "header": "UJR28130.1 hypothetical protein I4U23_009386 [Adineta vaga]",
+   "needs_pubmed": false
+  },
+  {
+   "arm": "B0_d0",
+   "rep": "Drosophila_melanogaster|NP_001246952.1",
+   "hint": "",
+   "blind_id": "G26",
+   "header": "NP_001246952.1 TBP-associated factor 1, isoform E [Drosophila melanogaster]",
+   "needs_pubmed": true
+  },
+  {
+   "arm": "B0_d2",
+   "rep": "Drosophila_melanogaster|NP_569946.1",
+   "hint": "",
+   "blind_id": "G27",
+   "header": "NP_569946.1 late endosomal/lysosomal adaptor, MAPK and MTOR activator 5, isoform A [Drosophila melanogaster]",
+   "needs_pubmed": true
+  },
+  {
+   "arm": "B2",
+   "rep": "Adineta_vaga|UJR17759.1",
+   "hint": "Amidase;Bac_rhamnosid",
+   "blind_id": "G28",
+   "header": "UJR17759.1 hypothetical protein I4U23_004657 [Adineta vaga]",
+   "needs_pubmed": false
+  },
+  {
+   "arm": "B0_d0",
+   "rep": "Caenorhabditis_elegans|NP_502022.1",
+   "hint": "",
+   "blind_id": "G29",
+   "header": "NP_502022.1 SXP/RAL-2 family protein Ani s 5-like cation-binding domain-containing protein [Caenorhabditis elegans]",
+   "needs_pubmed": true
+  },
+  {
+   "arm": "B0_d0",
+   "rep": "Hypsibius_exemplaris|OQV25009.1",
+   "hint": "",
+   "blind_id": "G30",
+   "header": "OQV25009.1 putative Tissue-type plasminogen activator [Hypsibius exemplaris]",
+   "needs_pubmed": true
+  },
+  {
+   "arm": "B0_d2",
+   "rep": "Hypsibius_exemplaris|OQV14929.1",
+   "hint": "",
+   "blind_id": "G31",
+   "header": "OQV14929.1 hypothetical protein BV898_10830 [Hypsibius exemplaris]",
+   "needs_pubmed": false
+  },
+  {
+   "arm": "B0_d2",
+   "rep": "Drosophila_melanogaster|NP_610480.2",
+   "hint": "",
+   "blind_id": "G32",
+   "header": "NP_610480.2 uncharacterized protein Dmel_CG13739 [Drosophila melanogaster]",
+   "needs_pubmed": false
+  },
+  {
+   "arm": "B2",
+   "rep": "Adineta_vaga|UJR26281.1",
+   "hint": "Acid_phosphat_B;HAD",
+   "blind_id": "G33",
+   "header": "UJR26281.1 hypothetical protein I4U23_007620 [Adineta vaga]",
+   "needs_pubmed": false
+  },
+  {
+   "arm": "B0_d1",
+   "rep": "Caenorhabditis_elegans|NP_001379310.1",
+   "hint": "",
+   "blind_id": "G34",
+   "header": "NP_001379310.1 Dauer or Aging adult Overexpression [Caenorhabditis elegans]",
+   "needs_pubmed": true
+  },
+  {
+   "arm": "B0_d1",
+   "rep": "Caenorhabditis_elegans|NP_503795.3",
+   "hint": "",
+   "blind_id": "G35",
+   "header": "NP_503795.3 Serpentine Receptor, class H [Caenorhabditis elegans]",
+   "needs_pubmed": true
+  },
+  {
+   "arm": "B0_d1",
+   "rep": "Hypsibius_exemplaris|OWA55014.1",
+   "hint": "",
+   "blind_id": "G36",
+   "header": "OWA55014.1 hypothetical protein BV898_19399, partial [Hypsibius exemplaris]",
+   "needs_pubmed": false
+  },
+  {
+   "arm": "B2",
+   "rep": "Deinococcus_deserti|WP_012692142.1",
+   "hint": "Flavin_Reduct",
+   "blind_id": "G37",
+   "header": "WP_012692142.1 flavin reductase family protein [Deinococcus deserti]",
+   "needs_pubmed": false
+  },
+  {
+   "arm": "B0_d2",
+   "rep": "Ramazzottius_varieornatus|GAU94518.1",
+   "hint": "",
+   "blind_id": "G38",
+   "header": "GAU94518.1 hypothetical protein RvY_06279 [Ramazzottius varieornatus]",
+   "needs_pubmed": false
+  },
+  {
+   "arm": "B0_d1",
+   "rep": "Adineta_vaga|UJR16495.1",
+   "hint": "",
+   "blind_id": "G39",
+   "header": "UJR16495.1 hypothetical protein I4U23_003397 [Adineta vaga]",
+   "needs_pubmed": false
+  },
+  {
+   "arm": "B1",
+   "rep": "Thermus_aquaticus|WP_506065534.1",
+   "hint": "DdrA",
+   "blind_id": "G40",
+   "header": "WP_506065534.1 Rad52/Rad22 family DNA repair protein [Thermus aquaticus]",
+   "needs_pubmed": true
+  },
+  {
+   "arm": "B0_d1",
+   "rep": "Ramazzottius_varieornatus|GAV07597.1",
+   "hint": "",
+   "blind_id": "G41",
+   "header": "GAV07597.1 hypothetical protein RvY_17414 [Ramazzottius varieornatus]",
+   "needs_pubmed": false
+  },
+  {
+   "arm": "B0_d1",
+   "rep": "Hypsibius_exemplaris|OWA50324.1",
+   "hint": "",
+   "blind_id": "G42",
+   "header": "OWA50324.1 hypothetical protein BV898_14845 [Hypsibius exemplaris]",
+   "needs_pubmed": false
+  },
+  {
+   "arm": "B0_d2",
+   "rep": "Drosophila_melanogaster|NP_609624.1",
+   "hint": "",
+   "blind_id": "G43",
+   "header": "NP_609624.1 mabiki [Drosophila melanogaster]",
+   "needs_pubmed": true
+  },
+  {
+   "arm": "B0_d0",
+   "rep": "Caenorhabditis_elegans|NP_509413.1",
+   "hint": "",
+   "blind_id": "G44",
+   "header": "NP_509413.1 uncharacterized protein CELE_F55E10.2 [Caenorhabditis elegans]",
+   "needs_pubmed": false
+  },
+  {
+   "arm": "B1",
+   "rep": "Deinococcus_geothermalis|WP_272976773.1",
+   "hint": "PprA",
+   "blind_id": "G45",
+   "header": "WP_272976773.1 DNA repair protein [Deinococcus geothermalis]",
+   "needs_pubmed": true
+  },
+  {
+   "arm": "B0_d0",
+   "rep": "Drosophila_melanogaster|NP_001163531.1",
+   "hint": "",
+   "blind_id": "G46",
+   "header": "NP_001163531.1 dementin, isoform H [Drosophila melanogaster]",
+   "needs_pubmed": true
+  },
+  {
+   "arm": "B0_d0",
+   "rep": "Adineta_vaga|UJR14327.1",
+   "hint": "",
+   "blind_id": "G47",
+   "header": "UJR14327.1 hypothetical protein I4U23_001323 [Adineta vaga]",
+   "needs_pubmed": false
+  },
+  {
+   "arm": "B0_d1",
+   "rep": "Hypsibius_exemplaris|OQV24354.1",
+   "hint": "",
+   "blind_id": "G48",
+   "header": "OQV24354.1 Hypoxia up-regulated protein 1 [Hypsibius exemplaris]",
+   "needs_pubmed": true
+  },
+  {
+   "arm": "B0_d1",
+   "rep": "Ramazzottius_varieornatus|GAU92245.1",
+   "hint": "",
+   "blind_id": "G49",
+   "header": "GAU92245.1 hypothetical protein RvY_04349 [Ramazzottius varieornatus]",
+   "needs_pubmed": false
+  },
+  {
+   "arm": "B1",
+   "rep": "Hypsibius_exemplaris|OWA51796.1",
+   "hint": "SAHS",
+   "blind_id": "G50",
+   "header": "OWA51796.1 hypothetical protein BV898_16262 [Hypsibius exemplaris]",
+   "needs_pubmed": true
+  },
+  {
+   "arm": "B2",
+   "rep": "Deinococcus_geothermalis|WP_272975981.1",
+   "hint": "Acetyltransf_1;Acetyltransf_10",
+   "blind_id": "G51",
+   "header": "WP_272975981.1 GNAT family N-acetyltransferase [Deinococcus geothermalis]",
+   "needs_pubmed": false
+  },
+  {
+   "arm": "B0_d2",
+   "rep": "Ramazzottius_varieornatus|GAU95512.1",
+   "hint": "",
+   "blind_id": "G52",
+   "header": "GAU95512.1 hypothetical protein RvY_07116 [Ramazzottius varieornatus]",
+   "needs_pubmed": false
+  },
+  {
+   "arm": "B0_d0",
+   "rep": "Caenorhabditis_elegans|NP_503676.1",
+   "hint": "",
+   "blind_id": "G53",
+   "header": "NP_503676.1 C-type lectin domain-containing protein [Caenorhabditis elegans]",
+   "needs_pubmed": true
+  },
+  {
+   "arm": "B0_d2",
+   "rep": "Ramazzottius_varieornatus|GAU87890.1",
+   "hint": "",
+   "blind_id": "G54",
+   "header": "GAU87890.1 hypothetical protein RvY_00678 [Ramazzottius varieornatus]",
+   "needs_pubmed": false
+  },
+  {
+   "arm": "B0_d2",
+   "rep": "Caenorhabditis_elegans|NP_507687.1",
+   "hint": "",
+   "blind_id": "G55",
+   "header": "NP_507687.1 Neuropeptide CCHamide-1 [Caenorhabditis elegans]",
+   "needs_pubmed": true
+  },
+  {
+   "arm": "B1",
+   "rep": "Hypsibius_exemplaris|OQV21545.1",
+   "hint": "CAHS",
+   "blind_id": "G56",
+   "header": "OQV21545.1 hypothetical protein BV898_04447 [Hypsibius exemplaris]",
+   "needs_pubmed": true
+  },
+  {
+   "arm": "B2",
+   "rep": "Deinococcus_geothermalis|WP_272975990.1",
+   "hint": "DSBA;Thioredoxin_3",
+   "blind_id": "G57",
+   "header": "WP_272975990.1 DsbA family oxidoreductase [Deinococcus geothermalis]",
+   "needs_pubmed": false
+  },
+  {
+   "arm": "B0_d1",
+   "rep": "Hypsibius_exemplaris|OWA50265.1",
+   "hint": "",
+   "blind_id": "G58",
+   "header": "OWA50265.1 hypothetical protein BV898_14787 [Hypsibius exemplaris]",
+   "needs_pubmed": false
+  },
+  {
+   "arm": "B1",
+   "rep": "Deinococcus_radiodurans|WP_010886813.1",
+   "hint": "PprI",
+   "blind_id": "G59",
+   "header": "WP_010886813.1 metallo-endopeptidase IrrE [Deinococcus radiodurans]",
+   "needs_pubmed": true
+  },
+  {
+   "arm": "B1",
+   "rep": "Deinococcus_radiodurans|WP_010883959.1",
+   "hint": "Dps2",
+   "blind_id": "G60",
+   "header": "WP_010883959.1 MULTISPECIES: Dps family protein [Deinococcus]",
+   "needs_pubmed": true
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "note": "B2 list identical to committed 12 -> B3=B2; B0 = 36 graded entries across 3 draws (per-12 mean scales by 12/36)",
+ "metrics": {
+  "B2": {
+   "tier1": 1,
+   "tier2": 7,
+   "tier0": 4,
+   "tier1or2": 8,
+   "n": 12
+  },
+  "B1": {
+   "tier1": 12,
+   "tier2": 0,
+   "tier0": 0,
+   "tier1or2": 12,
+   "n": 12
+  },
+  "B0": {
+   "tier1": 0,
+   "tier2": 0,
+   "tier0": 36,
+   "tier1or2": 0,
+   "n": 36
+  },
+  "B3": {
+   "tier1": 1,
+   "tier2": 7,
+   "tier0": 4,
+   "tier1or2": 8,
+   "n": 12
+  }
+ }
+}
