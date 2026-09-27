@@ -1,0 +1,52 @@
+{
+ "amendment_commit": "c59ee4e",
+ "rule": "resistant-profile iff support > max control support (6)",
+ "control_support": {
+  "Thermus_aquaticus": 5,
+  "Thermus_thermophilus": 5,
+  "Drosophila_melanogaster": 3,
+  "Escherichia_coli": 6,
+  "Caenorhabditis_elegans": 4
+ },
+ "held_out_classification": {
+  "D_indicus": {
+   "support": 9,
+   "true_resistant": true,
+   "predicted_resistant": true,
+   "correct": true
+  },
+  "D_wulumuqiensis": {
+   "support": 9,
+   "true_resistant": true,
+   "predicted_resistant": true,
+   "correct": true
+  },
+  "R_sordida": {
+   "support": 7,
+   "true_resistant": true,
+   "predicted_resistant": true,
+   "correct": true
+  },
+  "A_steineri": {
+   "support": 10,
+   "true_resistant": true,
+   "predicted_resistant": true,
+   "correct": true
+  },
+  "K_radiotolerans": {
+   "support": 7,
+   "true_resistant": true,
+   "predicted_resistant": true,
+   "correct": true
+  },
+  "R_radiotolerans": {
+   "support": 7,
+   "true_resistant": true,
+   "predicted_resistant": true,
+   "correct": true
+  }
+ },
+ "n_correct": 6,
+ "n_total": 6,
+ "disclosure": "confirmation-proteome counts were committed before this arm (14:18-14:23); threshold derived from control scans only; margin over E. coli control (6/11) is 1-4 candidates - domain-set presence is weak-to-moderate evidence, consistent with the tier-annotated-resource framing"
+}
