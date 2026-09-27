@@ -1,0 +1,194 @@
+\section{Stage-by-stage candidate audit}
+\subsection{What the counts mean}
+The initial 12 v1 orthogroups are not interchangeable with ten candidates retained after the stress-specificity and re-clustering gates. The Pfam confirmation JSON lists eleven annotated candidates including the HPPK candidate that failed v2 enrichment; nine of the ten v2 gate-passing candidates meet the locked complete-domain confirmation criterion, while the five-domain amidase fails. The AhpC-TSA peroxiredoxin is re-labeled broad-stress adaptation and is not a radiation-specific lead. The audit below preserves every loss, without implying causal resistance.
+\begin{table}[!htbp]\centering\small\caption{The twelve v1 representatives through the v2 gate, from \texttt{results/h2\_specificity\_layer.json}. Origins are Deinococcaceae/Tardigrada/Bdelloidea, with 1 indicating presence. The specificity label alone does not imply that the enrichment gate passed (notably HPPK).}\begin{tabular}{lrrll}\hline Representative & empirical $p$ & stress controls & origins & status \\\hline
+UJR10666.1 & 0.449 & 0 & 001 & lost v2 enrichment \\
+WP\_012692117.1 & 0.013 & 0 & 101 & v2 passes \\
+UJR36058.1 & 0.013 & 0 & 101 & v2 passes \\
+UJR11615.1 & 0.013 & 1 & 101 & v2 passes \\
+UJR17759.1 & 0.013 & 0 & 101 & v2 passes \\
+WP\_272975990.1 & 0.013 & 0 & 101 & v2 passes \\
+UJR28130.1 & 0.013 & 0 & 101 & v2 passes \\
+UJR26281.1 & 0.013 & 0 & 101 & v2 passes \\
+UJR09360.1 & 0.523 & 3 & 111 & broad stress \\
+WP\_012692142.1 & 0.013 & 0 & 101 & v2 passes \\
+WP\_414646549.1 & 0.017 & 0 & 110 & v2 passes \\
+WP\_272975981.1 & 0.013 & 0 & 101 & v2 passes \\
+\hline\end{tabular}\end{table}
+\subsection{Orthogonal domain support}
+The domain check searched the full candidate architecture in five new resistant proteomes; an architecture is confirmed if at least two proteomes contain a full match at the committed cutoff. Domain resemblance is not experimental proof of the same biochemical function.\begin{table}[!htbp]\centering\small\caption{Support counts transcribed from \texttt{results/h3\_domain\_confirmation.json}. HPPK is included for audit completeness although it failed v2 enrichment.}\begin{tabular}{lrrl}\hline Representative & domains & supporting proteomes (of 5) & gate \\\hline
+UJR10666.1 & 2 & 1 & fail \\
+WP\_012692117.1 & 5 & 5 & pass \\
+UJR36058.1 & 1 & 4 & pass \\
+UJR11615.1 & 2 & 5 & pass \\
+UJR17759.1 & 5 & 0 & fail \\
+WP\_272975990.1 & 2 & 5 & pass \\
+UJR28130.1 & 8 & 5 & pass \\
+UJR26281.1 & 3 & 5 & pass \\
+WP\_012692142.1 & 1 & 5 & pass \\
+WP\_414646549.1 & 1 & 5 & pass \\
+WP\_272975981.1 & 3 & 5 & pass \\
+\hline\end{tabular}\end{table}
+\subsection{Phylogenetic identifiability, not confirmed convergence}
+The fixed-tree, within-strata permutation check is a different inference from enrichment. At the extended 20-species stage the new lineages are represented by domain-level presence, not proven orthology. Nine of ten v2 candidates have a constant or otherwise uninformative structured null at $p=1.0$; the partly occupied amidase stratum yields a non-significant lower-tail $p=0.29917$. No candidate passes this convergence-beyond-relatedness layer. The text in the main manuscript is retained as the governing negative.
+\begin{table}[!htbp]\centering\small\caption{The extended-phylogeny corrected lower-tail results, \texttt{results/h4c\_phylo\_convergence\_ext.json}.}\begin{tabular}{lrrr}\hline Representative & observed gains & null median & $p$ \\\hline
+WP\_012692117.1 & 2 & 2 & 1.000 \\
+UJR36058.1 & 2 & 2 & 1.000 \\
+UJR11615.1 & 2 & 2 & 1.000 \\
+UJR17759.1 & 2 & 3 & 0.299 \\
+WP\_272975990.1 & 2 & 2 & 1.000 \\
+UJR28130.1 & 2 & 2 & 1.000 \\
+UJR26281.1 & 2 & 2 & 1.000 \\
+WP\_012692142.1 & 2 & 2 & 1.000 \\
+WP\_414646549.1 & 3 & 3 & 1.000 \\
+WP\_272975981.1 & 2 & 2 & 1.000 \\
+\hline\end{tabular}\end{table}
+\subsection{Visual attrition ledger}
+\begin{figure}[ht]\centering\small\begin{tabular}{llr}\hline Stage & Count (common 0--12 scale) & count \\\hline
+Initial v1 locked gates & \textcolor{black}{\rule{7.2cm}{5pt}} & 12 \\
+Stress-specific v2 enrichment & \textcolor{paperblue}{\rule{6cm}{5pt}} & 10 \\
+Complete-domain confirmation & \textcolor{paperblue}{\rule{5.4cm}{5pt}} & 9 \\
+Phylogeny-controlled convergence & \textcolor{black}{\rule{0cm}{5pt}} & 0 \\\hline\end{tabular}\caption{Different stages test different questions; the last zero means the stricter convergence inference is not identified, not that the candidates were experimentally disproven. Sources: H2, H3 and H4c committed JSON files.}\end{figure}
+\subsection{Boundaries to be filled only by new experiments}
+\begin{itemize}\item \textbf{[PENDING]} phylogenetically dispersed resistant and matched-sensitive lineages that produce a non-degenerate structured null.
+\item \textbf{[PENDING]} functional radiation-survival assay of prioritized candidate genes with a matched control and uncertainty intervals.
+\item The H5 mechanism ranking has been executed. Its strict locked family-level win condition is falsified, as reported below; do not substitute general mechanism evidence for protein-family phenotype evidence.
+\end{itemize}
+\section{Internal artifact references}
+\begin{enumerate}\item \texttt{results/h1\_formal\_tests.json}, initial orthogroup gate.\item \texttt{results/h2\_specificity\_layer.json}, extended stress controls.\item \texttt{results/h3\_domain\_confirmation.json}, independent proteome domain check.\item \texttt{results/h4c\_phylo\_convergence\_ext.json}, corrected-tail phylogenetic test.\item \texttt{paper/main.tex}, locked negative and judge-round framing.\end{enumerate}
+
+\section{Screening definitions and attrition without causal inflation}
+\subsection{Unit of analysis and significance}
+The source file \texttt{results/h1\_formal\_tests.json} reports 52786 tested orthogroups and 1000 permutations. For presence, the unit is an orthogroup, not an independent protein or proteome; three \emph{Deinococcus} species together constitute one resistant origin. Permuting labels across the twelve original panel proteomes gives an empirical score on that panel, not a phylogenetically corrected significance test. The latter failed its identifiability check in H4c, so no candidate is called independently evolved on phylogeny-controlled evidence.
+\subsection{Positive candidates and losses are separately counted}
+V1's twelve screen hits are reduced by two different reasons at v2: the peroxiredoxin UJR09360.1 is present in three of four stress controls and is broad-stress adaptation, whereas HPPK UJR10666.1 is absent in those controls but lacks the two-origin enrichment after re-clustering ($p=0.449$). The ten remaining candidates are enrichment-and-specificity prioritized, not validated therapeutic targets or a synthetic biology treatment. The independent domain extension supports nine architectures but has no full match for the five-domain amidase. These distinctions follow \texttt{results/h2\_specificity\_layer.json} and \texttt{results/h3\_domain\_confirmation.json}.
+\subsection{An explicit no-claim matrix}
+\begin{table}[!htbp]\centering\small\caption{Interpretation boundary at each committed stage. ``Pending'' is not a pass.}\begin{tabular}{p{3.4cm}p{4.1cm}p{5cm}}\hline Stage & What the artifact can say & What it cannot say \\\hline
+V1 presence enrichment & a panel-specific association in eleven proteomes & a gene is necessary or sufficient for survival \\
+V2 stress controls & a candidate is absent from most chosen stress controls & absence across all life or a unique radiation function \\
+H3 domain match & a complete domain architecture recurs in new proteomes & exact orthology, regulation, or a radiation phenotype \\
+H4c phylogeny & the stratified null is degenerate for nine candidates, one is non-significant & phylogeny-corrected convergence for any candidate \\\hline\end{tabular}\end{table}
+\subsection{References and provenance awaiting external verification}
+\texttt{data/panel\_accessions.json}, \texttt{data/candidate\_orthologs\_ledger.json}, and the committed result JSONs record accessions, hashes, and numerical stages. [PENDING: conventional bibliographic entries with author, year, DOI and exact claim mapping for all background assertions. No unverified citation is inserted here.]
+
+\section{Panel-mapping correction audit}
+The originally committed H1 calculation used a 12-element vector even though \texttt{data/panel\_accessions.json} records five available resistant species and six sensitive species. It thereby counted \emph{Thermus aquaticus} as resistant and used a phantom twelfth position. The dated correction amendment in \texttt{PRE-REGISTRATION.md} records the fix before rerunning the gates. Corrected \texttt{analysis/formal\_tests.py} uses eleven species, five-versus-six Fisher partitioning, and the proper null constants; corrected \texttt{analysis/specificity\_layer.py} removes the six-versus-six Mann--Whitney constants. The buggy JSON files remain archived as \texttt{results/h1\_formal\_tests\_buggy\_20260926.json} and \texttt{results/h2\_specificity\_layer\_buggy\_20260926.json}. The correction changes H1's complete-separation empirical $p$ from 0.023 to 0.013 and the secondary MWU count from 53 to 26. The twelve Fisher candidate identities, ten v2 passing candidates, nine domain confirmations, and H4 negative boundary survive the recorded rerun. This is an implementation correction, not a new pre-registered hypothesis; a corrected candidate set is still an association, not a measured resistance mechanism.
+
+\section{Corrected panel and gate ledger}
+\subsection{Proteomes actually available to the test}
+The table distinguishes planned-but-unavailable \emph{Milnesium tardigradum} from the proteomes that were downloaded. Assembly accessions are transcribed from \texttt{data/panel\_accessions.json}; they are identifiers, not claims that each record was rechecked against a live provider during this manuscript edit. There are five available resistant, six sensitive, four stress-control and five confirmation proteomes. The H1 Fisher permutation operates on only the first eleven; the four stress controls are a later specificity layer, not additional sensitive samples in the same test.
+\begin{table}[!htbp]\centering\scriptsize\caption{Locked panel membership and assembly identifiers from the committed accession ledger. The one unavailable reference assembly is shown explicitly.}\begin{tabular}{p{2.2cm}p{5.0cm}p{3.3cm}l}\hline Group & Species & Assembly & status \\\hline
+resistant & \emph{Deinococcus radiodurans} & GCF\_045277105.1 & ok \\
+resistant & \emph{Deinococcus geothermalis} & GCF\_002384255.1 & ok \\
+resistant & \emph{Deinococcus deserti} & GCF\_965137215.1 & ok \\
+resistant & \emph{Ramazzottius varieornatus} & GCA\_001949185.1 & ok \\
+resistant & \emph{Milnesium tardigradum} & none & no reference assembly \\
+resistant & \emph{Adineta vaga} & GCA\_021613535.1 & ok \\
+sensitive & \emph{Escherichia coli} & GCF\_061253515.1 & ok \\
+sensitive & \emph{Thermus thermophilus} & GCF\_059705435.1 & ok \\
+sensitive & \emph{Thermus aquaticus} & GCF\_060599305.1 & ok \\
+sensitive & \emph{Hypsibius exemplaris} & GCA\_002082055.1 & ok \\
+sensitive & \emph{Caenorhabditis elegans} & GCF\_000002985.6 & ok \\
+sensitive & \emph{Drosophila melanogaster} & GCF\_000001215.4 & ok \\
+stress control & \emph{Pyrococcus furiosus} & GCF\_008245085.1 & ok \\
+stress control & \emph{Sulfolobus solfataricus} & GCF\_003852155.1 & ok \\
+stress control & \emph{Lactobacillus plantarum} & GCF\_009913655.1 & ok \\
+stress control & \emph{Saccharomyces cerevisiae} & GCF\_000146045.2 & ok \\
+confirmation & \emph{Deinococcus radiophilus} & GCF\_020889625.1 & ok \\
+confirmation & \emph{Deinococcus proteolyticus} & GCF\_000190555.1 & ok \\
+confirmation & \emph{Deinococcus maricopensis} & GCF\_000186385.1 & ok \\
+confirmation & \emph{Adineta ricciae} & GCA\_905250025.1 & ok \\
+confirmation & \emph{Rotaria magnacalcarata} & GCA\_965140935.1 & ok \\
+\hline\end{tabular}\end{table}
+\subsection{Corrected Fisher candidate output}
+The twelve locked-gate representatives below come from the \emph{corrected} \texttt{results/h1\_formal\_tests.json}, not the archived buggy file. Their origin flags are Deinococcaceae/Tardigrada/Bdelloidea. This table records a gate result on the sampled panel only, before stress specificity or the later phylogenetic identifiability test.\begin{table}[!htbp]\centering\small\caption{Corrected H1 gate hits, 1,000 label permutations; all rows in the committed corrected result file.}\begin{tabular}{lrrrl}\hline Representative & resistant copies & sensitive copies & empirical $p$ & origins \\\hline
+UJR10666.1 & 12 & 0 & 0.013 & 101 \\
+WP\_012692117.1 & 6 & 0 & 0.013 & 101 \\
+UJR36058.1 & 4 & 0 & 0.013 & 101 \\
+UJR11615.1 & 7 & 0 & 0.013 & 101 \\
+UJR17759.1 & 21 & 0 & 0.013 & 101 \\
+WP\_272975990.1 & 4 & 0 & 0.013 & 101 \\
+UJR28130.1 & 6 & 0 & 0.013 & 101 \\
+UJR26281.1 & 5 & 0 & 0.013 & 101 \\
+UJR09360.1 & 7 & 0 & 0.013 & 101 \\
+WP\_012692142.1 & 5 & 0 & 0.013 & 101 \\
+WP\_414646549.1 & 4 & 0 & 0.017 & 110 \\
+WP\_272975981.1 & 7 & 0 & 0.013 & 101 \\
+\hline\end{tabular}\end{table}
+\subsection{Readout constraints}
+The corrected calculation records 12 Fisher candidates and 26 secondary copy-number hits from 52786 tested orthogroups. The old 53-hit MWU count must not be copied forward. Candidate counts are not effect sizes, and neither a domain match nor an empirical panel $p$ proves that expressing or deleting a protein changes radiation survival. [PENDING: functional radiation-survival validation and an independent phylogenetically dispersed replication panel.]
+
+\section{Pfam architecture audit of the independent panel}
+\subsection{Complete architecture, not a single family hit}
+The H3 gate seeks every v1 Pfam family assigned to one representative within a single protein of a new proteome, then requires support from two of the five confirmation proteomes. The evidence is domain-level resemblance; it does not distinguish homologous orthogroups from unrelated proteins sharing common domains. The table below preserves the full candidate annotation strings in the committed \texttt{results/h3\_domain\_confirmation.json}, including the failed five-family amidase and the HPPK candidate already lost from v2 enrichment.
+\begin{table}[!htbp]\centering\scriptsize\caption{All eleven representatives for which the H3 file reports domains, plus the count of supporting proteomes. Only ten survived v2 enrichment; 9 of those 10 pass the domain gate.}\begin{tabular}{p{2.2cm}p{7.3cm}r}\hline Representative & complete named domain set & supports \\\hline
+UJR10666.1 & HPPK, Pterin\_bind & 1 \\
+WP\_012692117.1 & Ank, Ank\_2, Ank\_3, Ank\_4, Ank\_5 & 5 \\
+UJR36058.1 & DUF4385 & 4 \\
+UJR11615.1 & DHH, DHHA2 & 5 \\
+UJR17759.1 & Amidase, Bac\_rhamnosid, Bac\_rhamnosid6H, Bac\_rhamnosid\_N, Ig\_Rha78A\_N & 0 \\
+WP\_272975990.1 & DSBA, Thioredoxin\_4 & 5 \\
+UJR28130.1 & 3Beta\_HSD, Epimerase, GDP\_Man\_Dehyd, NAD\_binding\_10, NAD\_binding\_4, NmrA, Polysacc\_synt\_2, RmlD\_sub\_bind & 5 \\
+UJR26281.1 & HAD\_2, Hydrolase, Hydrolase\_like & 5 \\
+WP\_012692142.1 & Flavin\_Reduct & 5 \\
+WP\_414646549.1 & PAD\_porph & 5 \\
+WP\_272975981.1 & Acetyltransf\_1, Acetyltransf\_10, Acetyltransf\_7 & 5 \\
+\hline\end{tabular}\end{table}
+\subsection{What the orthogonal panel adds}
+The five confirmation proteomes were not used to select v1 candidates; their domain-level recurrence is a distinct check. But three added genomes are more \emph{Deinococcus} and two are bdelloid rotifers, so their addition increases within-clade replication, not independent resistant-origin count. This is exactly why the subsequent phylogeny-controlled test remains null-degenerate or non-significant. [PENDING: proteomes spanning new resistant origins and radiation-sensitive sister taxa with non-saturated strata.]
+\section{H5 strict mechanistic-prioritization verdict}
+\subsection{Locked rubric and complete rank ledger}
+The dated H5 amendment in \texttt{PRE-REGISTRATION.md} fixed five mechanism categories, a domain-to-category map, distinct-category scoring, and tie-breaks before computation. The subsequent committed \texttt{results/h5\_mechanistic\_prioritization.json} ranks eleven candidates, including HPPK, which lost v2 enrichment, and amidase, which failed H3 domain confirmation. A score of zero means no domain mapped to the rubric, not absence of biological function.\begin{table}[!htbp]\centering\small\caption{All ranked representatives from the committed H5 result. Confirmation status is the H3 domain-panel field, not experimental functional confirmation.}\begin{tabular}{rrlrc}\hline Rank & score & representative & categories & H3 confirmed? \\\hline
+1 & 2 & UJR28130.1 & C2+C5 & yes\\
+2 & 1 & WP\_012692142.1 & C2 & yes\\
+3 & 1 & UJR11615.1 & C1 & yes\\
+4 & 1 & WP\_272975990.1 & C2 & yes\\
+5 & 1 & WP\_012692117.1 & C3 & yes\\
+6 & 1 & UJR10666.1 & C4 & no\\
+7 & 1 & UJR17759.1 & C5 & no\\
+8 & 0 & UJR36058.1 & none & yes\\
+9 & 0 & WP\_414646549.1 & none & yes\\
+10 & 0 & UJR26281.1 & none & yes\\
+11 & 0 & WP\_272975981.1 & none & yes\\
+\hline\end{tabular}\end{table}
+\subsection{Why the top rank fails its locked test}
+The locked win condition required independent radiation- or desiccation-resistance phenotype evidence for the top-ranked candidate's \emph{protein family}. The top representative UJR28130.1 scores two categories (redox and polysaccharide), yet the executed PubMed review recorded no family-level resistance evidence for its NmrA arm; general extracellular-polysaccharide protection supports a mechanism, not this enzyme family. The committed H5 verdict record also notes family-level radiation-related evidence for the lower-ranked DsbA/FrnE arm at rank 4 (PMIDs 23603741 and 29518000). Thus the prespecified falsification branch is taken: the H5 rubric v1 fails its strict top-rank test. No post-hoc reweighting, reordered tie-break, or relaxed ``mechanism-level'' reading is used to rescue it. [PENDING: a newly locked rubric redesign and prospective rescore; direct candidate-specific radiation-survival experiments.]
+
+\section{H6 saturated co-retention: an empty winning tier}
+\subsection{Pre-locked statistic and null}
+The H6 amendment locked a product of within-clade completeness fractions for Deinococcaceae (three species), Tardigrada (one), and Bdelloidea (one): $S(g)=c_D(g)c_T(g)c_B(g)$. The complete tier requires $S=1$ and zero sensitive copies. It compares the frequency of that configuration among all 52,786 corrected-panel orthogroups, without using an independently sampled biological panel. The estimator $P=(1+k)/(52{,}786+1)$ has $k=0$ background matches in the committed \texttt{results/h6\_co\_retention.json}, yielding $P=1/52{,}787=1.8944\times10^{-5}$, below the pre-locked 0.005 threshold. This arithmetic statement is not itself a candidate-level discovery.
+\subsection{Complete candidate ledger and verdict}
+The same result file reports $S=0$ for every one of the twelve tested H1 candidates, while all twelve have zero sensitive copies. Their Tardigrada completeness is zero because none has the required one-species call for \emph{R. varieornatus}; multiplying by that clade makes every $S$ zero. There is no member of the complete tier among the actual candidates. The following ledger lists every candidate, so the empty tier is visible rather than hidden behind a low background frequency.\begin{table}[!htbp]\centering\small\caption{All twelve H6 candidate records, transcribed from committed H6 JSON. ``No'' in the final column means no candidate achieves complete co-retention.}\begin{tabular}{lrrc}\hline Representative & $S$ & sensitive copies absent? & complete tier? \\\hline
+UJR10666.1 & 0.0 & yes & no\\
+WP\_012692117.1 & 0.0 & yes & no\\
+UJR36058.1 & 0.0 & yes & no\\
+UJR11615.1 & 0.0 & yes & no\\
+UJR17759.1 & 0.0 & yes & no\\
+WP\_272975990.1 & 0.0 & yes & no\\
+UJR28130.1 & 0.0 & yes & no\\
+UJR26281.1 & 0.0 & yes & no\\
+UJR09360.1 & 0.0 & yes & no\\
+WP\_012692142.1 & 0.0 & yes & no\\
+WP\_414646549.1 & 0.0 & yes & no\\
+WP\_272975981.1 & 0.0 & yes & no\\
+\hline\end{tabular}\end{table}
+\subsection{Why the nominal gate pass is hollow}
+The committed JSON sets \texttt{win: true} because its background-frequency threshold was met. Yet the reframed claim requires a candidate in that rare tier; none exists. We therefore preserve both machine-readable facts and the manuscript's interpretation: the background event is rare, the candidate set does not realize it, and the proposed complete co-retention discovery is \emph{not earned}. In addition, the original candidate selection itself used related presence criteria, so even a populated tier would not independently validate convergence. The single-species Tardigrada denominator is also a fragile notion of completeness. The H4 phylogenetic identifiability boundary remains terminal for this sampled panel. [PENDING: prospectively locked expanded-resistant-origin and matched-sensitive comparisons; no existing candidate is promoted by the H6 background count.]
+
+\section{Per-candidate phylogenetic identifiability audit}
+\subsection{Original and extended-panel evidence are different types}
+The H4 original-panel presence calls refer to clustered orthogroups; for the five added H3 confirmation proteomes, the extended H4b/c arm substitutes domain-level architecture matches, not orthology assignments. The old H4b output also used the wrong tail for the ``few gains'' alternative and remains archived for transparency. H4c corrects the tail while keeping the panel and candidate identities. The following table gives all ten candidates, rather than showing only the lone nondegenerate case.
+\begin{table}[!htbp]\centering\small\caption{All H4, H4b and corrected H4c entries from committed JSONs. $G$ = reported minimum gains; $m$ = null median. The H4b p-values are shown as an audit of the superseded upper-tail calculation, not current evidence.}\begin{tabular}{lrrrrrr}\hline Representative & H4 $G/m$ & H4 $p$ & H4b $G/m$ & H4b $p$ & H4c $G/m$ & H4c $p$ \\\hline
+WP\_012692117.1 & 2/2 & 1.000 & 2/2 & 1.000 & 2/2 & 1.000 \\
+UJR36058.1 & 2/2 & 1.000 & 2/2 & 1.000 & 2/2 & 1.000 \\
+UJR11615.1 & 2/2 & 1.000 & 2/2 & 1.000 & 2/2 & 1.000 \\
+UJR17759.1 & 2/2 & 1.000 & 2/3 & 1.000 & 2/3 & 0.299 \\
+WP\_272975990.1 & 2/2 & 1.000 & 2/2 & 1.000 & 2/2 & 1.000 \\
+UJR28130.1 & 2/2 & 1.000 & 2/2 & 1.000 & 2/2 & 1.000 \\
+UJR26281.1 & 2/2 & 1.000 & 2/2 & 1.000 & 2/2 & 1.000 \\
+WP\_012692142.1 & 2/2 & 1.000 & 2/2 & 1.000 & 2/2 & 1.000 \\
+WP\_414646549.1 & 2/2 & 1.000 & 3/3 & 1.000 & 3/3 & 1.000 \\
+WP\_272975981.1 & 2/2 & 1.000 & 2/2 & 1.000 & 2/2 & 1.000 \\
+\hline\end{tabular}\end{table}
+\subsection{The single variable stratum does not rescue the claim}
+Nine of the ten extended-panel candidates have corrected $p=1$: the within-stratum null is degenerate when membership saturates the clade. The remaining amidase candidate has observed two gains against null median three, with $p=0.299$, far above the locked 0.05 cutoff. That candidate also lacks a complete H3 architecture match in the five confirmation proteomes, so even a more favorable phylogenetic calculation would need careful domain-versus-orthology interpretation. A numerical minimum of two gains alone cannot establish independent convergence beyond relatedness. [PENDING: independently replicated resistant origins and an explicitly powered phylogenetic null.]

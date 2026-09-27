@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.8.14)  27 SEP 2026 12:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.8.14)  27 SEP 2026 12:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -146,7 +146,41 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 LaTeX Info: Redefining \[ on input line 2938.
 LaTeX Info: Redefining \] on input line 2939.
 )
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 11
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup6
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2021/12/07 v1.3c Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
+rs
+\f@nch@headwidth=\skip52
+\f@nch@O@elh=\skip53
+\f@nch@O@erh=\skip54
+\f@nch@O@olh=\skip55
+\f@nch@O@orh=\skip56
+\f@nch@O@elf=\skip57
+\f@nch@O@erf=\skip58
+\f@nch@O@olf=\skip59
+\f@nch@O@orf=\skip60
+)
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 14
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
@@ -160,20 +194,20 @@ File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -192,7 +226,7 @@ LaTeX Font Info:    ... okay on input line 11.
 * \oddsidemargin=0.0pt
 * \evensidemargin=0.0pt
 * \topmargin=-37.0pt
-* \headheight=12.0pt
+* \headheight=15.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
 * \footskip=30.0pt
@@ -209,41 +243,58 @@ LaTeX Font Info:    ... okay on input line 11.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count275
+\scratchdimen=\dimen156
+\scratchbox=\box53
+\nofMPsegments=\count276
+\nofMParguments=\count277
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count278
+\MPscratchDim=\dimen157
+\MPnumerator=\count279
+\makeMPintoPDFobject=\count280
+\everyMPtoPDFconversion=\toks24
+)
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 12.
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+ 15.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 12.
+ 15.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 12.
+ 15.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 12.
+ 15.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
-2.
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
+
+
+LaTeX Warning: No \author given.
 
 (./background_expansion.tex
 Overfull \hbox (3.49669pt too wide) in paragraph at lines 1--1
@@ -271,25 +322,25 @@ ed an-tiox-i-dant de-fense with horizontal-
  []
 
 [2])
-Overfull \hbox (5.49965pt too wide) in paragraph at lines 20--21
+Overfull \hbox (5.49965pt too wide) in paragraph at lines 23--24
 \T1/ptm/m/n/12 Adineta vaga [ori-gin 3: Bdel-loidea]) vs 6 sen-si-tive con-trol
 s (Ther-mus aquati-cus, T. ther-mophilus,
  []
 
 
-Overfull \hbox (1.38347pt too wide) in paragraph at lines 20--21
+Overfull \hbox (1.38347pt too wide) in paragraph at lines 23--24
 \T1/ptm/m/n/12 Mil-ne-sium tardi-gradum has no ref-er-ence as-sem-bly; Tardigra
 da ori-gin is single-proteome (power
  []
 
 
-Overfull \hbox (3.52032pt too wide) in paragraph at lines 24--25
+Overfull \hbox (3.52032pt too wide) in paragraph at lines 27--28
 \T1/ptm/m/n/12 by 1000 la-bel per-mu-ta-tions with per-orthogroup em-pir-i-cal 
 $\OML/ztmcm/m/it/12 p$\T1/ptm/m/n/12 , af-ter W03's power anal-y-sis showed
  []
 
 [3] [4]
-Overfull \hbox (4.84344pt too wide) in paragraph at lines 69--71
+Overfull \hbox (4.84344pt too wide) in paragraph at lines 72--74
 \OT1/ptm/b/n/12 1\OT1/ztmcm/m/n/12 [[](\OML/ztmcm/m/it/12 g\OT1/ztmcm/m/n/12 ) 
 \OMS/ztmcm/m/n/12 ^^U \OT1/ztmcm/m/n/12 2]$ \T1/ptm/m/n/12 (em-pir-i-cal per-mu
 -ta-tion $\OML/ztmcm/m/it/12 p$ \T1/ptm/m/n/12 and independent-origin repli-ca-
@@ -297,9 +348,9 @@ tion, equa-tions above);
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 86.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
 
-Overfull \hbox (75.09875pt too wide) in paragraph at lines 86--104
+Overfull \hbox (75.09875pt too wide) in paragraph at lines 89--107
  [][] 
  []
 
@@ -307,70 +358,189 @@ Overfull \hbox (75.09875pt too wide) in paragraph at lines 86--104
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [5]
-Overfull \hbox (0.91661pt too wide) in paragraph at lines 109--109
+Overfull \hbox (0.91661pt too wide) in paragraph at lines 112--112
 []\T1/ptm/b/n/14.4 Specificity layer on the ex-tended panel (amend-ment 2026-09
 -26, 13:18
  []
 
 
-Overfull \hbox (4.07193pt too wide) in paragraph at lines 114--115
+Overfull \hbox (4.07193pt too wide) in paragraph at lines 117--118
 \T1/ptm/m/n/12 PAD-porphyrin bind-ing pro-tein, GNAT acetyl-trans-ferase, DHH/D
 HHA2 phos-pho-esterase, HAD
  []
 
 
-Overfull \hbox (2.88997pt too wide) in paragraph at lines 117--117
+Overfull \hbox (2.88997pt too wide) in paragraph at lines 120--120
 []\T1/ptm/b/n/14.4 Domain-level or-thog-o-nal con-fir-ma-tion (amend-ment 2026-
 09-26, 20:21
  []
 
 [6] [7]
-Overfull \hbox (18.25288pt too wide) in paragraph at lines 142--142
+Overfull \hbox (18.25288pt too wide) in paragraph at lines 145--145
 []\T1/ptm/b/n/14.4 The Iden-ti-fi-a-bil-ity Score: what this panel can and can-
 not de-cide (amend-
  []
 
 [8]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 167.
- [9]
-! Undefined control sequence.
-l.188 ...statistic matrix retained, $S \in \mathbb
-                                                  {R}^{52{,}786 \times 1001}...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 170.
+ [9] [10] [11] [12] (./evidence_appendix.tex
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 4
+.
 
-[10] [11] [12] (./main.aux)
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+[]\T1/ptm/m/n/12 Table 3: The twelve v1 rep-re-sen-ta-tives through the v2 gate
+, from
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+\T1/cmtt/m/n/12 results/h2_specificity_layer.json\T1/ptm/m/n/12 . Ori-gins are 
+Deinococ-
+ []
+
+
+Underfull \hbox (badness 1478) in paragraph at lines 4--4
+\T1/ptm/m/n/12 caceae/Tardigrada/Bdelloidea, with 1 in-di-cat-ing pres-ence. Th
+e speci-ficity la-bel alone
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+[]\T1/ptm/m/n/12 Table 5: The extended-phylogeny cor-rected lower-tail re-sults
+,
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 5
+3.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [13
+
+] [14]
+Overfull \hbox (8.33243pt too wide) in paragraph at lines 64--65
+\T1/ptm/m/n/12 V1's twelve screen hits are re-duced by two dif-fer-ent rea-sons
+ at v2: the per-ox-ire-doxin UJR09360.1
+ []
+
+
+Overfull \hbox (17.01883pt too wide) in paragraph at lines 64--65
+\T1/ptm/m/n/12 is present in three of four stress con-trols and is broad-stress
+ adap-ta-tion, whereas HPPK UJR10666.1
+ []
+
+[15]
+Underfull \hbox (badness 1769) in paragraph at lines 67--67
+[]\T1/ptm/m/n/10.95 V1 pres-ence en-rich-
+ []
+
+
+Underfull \hbox (badness 3019) in paragraph at lines 67--67
+[]\T1/ptm/m/n/10.95 a panel-specific as-so-ci-a-
+ []
+
+
+Underfull \hbox (badness 1810) in paragraph at lines 68--68
+\T1/ptm/m/n/10.95 most cho-sen stress con-
+ []
+
+
+Underfull \hbox (badness 3557) in paragraph at lines 68--69
+[]\T1/ptm/m/n/10.95 absence across all life or a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
+[]\T1/ptm/m/n/10.95 phylogeny-corrected con-ver-
+ []
+
+
+Overfull \hbox (1.84824pt too wide) in paragraph at lines 72--73
+\T1/cmtt/m/n/12 data/panel_accessions.json\T1/ptm/m/n/12 , \T1/cmtt/m/n/12 data
+/candidate_orthologs_ledger.json\T1/ptm/m/n/12 , and the com-
+ []
+
+
+Overfull \hbox (83.23567pt too wide) in paragraph at lines 75--76
+\T1/ptm/m/n/12 The orig-i-nally com-mit-ted H1 cal-cu-la-tion used a 12-element
+ vec-tor even though \T1/cmtt/m/n/12 data/panel_accessions.json
+ []
+
+
+Overfull \hbox (63.7463pt too wide) in paragraph at lines 75--76
+\T1/cmtt/m/n/12 PRE-REGISTRATION.md \T1/ptm/m/n/12 records the fix be-fore re-r
+un-ning the gates. Cor-rected \T1/cmtt/m/n/12 analysis/formal_tests.py
+ []
+
+
+Overfull \hbox (43.51355pt too wide) in paragraph at lines 75--76
+\T1/ptm/m/n/12 stants. The buggy JSON files re-main archived as \T1/cmtt/m/n/12
+ results/h1_formal_tests_buggy_20260926.json
+ []
+
+
+Overfull \hbox (4.91466pt too wide) in paragraph at lines 75--76
+\T1/ptm/m/n/12 and \T1/cmtt/m/n/12 results/h2_specificity_layer_buggy_20260926.
+json\T1/ptm/m/n/12 . The cor-rec-tion changes H1's
+ []
+
+[16]
+Overfull \hbox (22.93562pt too wide) in paragraph at lines 79--103
+\T1/ptm/m/n/12 that were down-loaded. As-sem-bly ac-ces-sions are tran-scribed 
+from \T1/cmtt/m/n/12 data/panel_accessions.json\T1/ptm/m/n/12 ;
+ []
+
+
+Overfull \hbox (60.05058pt too wide) in paragraph at lines 104--118
+\T1/ptm/m/n/12 The twelve locked-gate rep-re-sen-ta-tives be-low come from the 
+\T1/ptm/m/it/12 cor-rected \T1/cmtt/m/n/12 results/h1_formal_tests.json\T1/ptm/
+m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
+[]\T1/ptm/m/n/8 Amidase, Bac_rhamnosid, Bac_rhamnosid6H,
+ []
+
+[17]
+Overfull \hbox (6.98584pt too wide) in paragraph at lines 141--154
+\T1/ptm/m/n/12 The dated H5 amend-ment in \T1/cmtt/m/n/12 PRE-REGISTRATION.md \
+T1/ptm/m/n/12 fixed five mech-a-nism cat-e-gories, a domain-
+ []
+
+[18] [19] [20]) [21] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2205 strings out of 480247
- 32582 string characters out of 5896151
- 336569 words of memory out of 5000000
- 20114 multiletter control sequences out of 15000+600000
- 557724 words of font info for 139 fonts, out of 8000000 for 9000
+ 3498 strings out of 480247
+ 49745 string characters out of 5896151
+ 358288 words of memory out of 5000000
+ 21365 multiletter control sequences out of 15000+600000
+ 565191 words of font info for 161 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 55i,11n,62p,1751b,264s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/rsfs/rsfs10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/us
-yr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
-utmri8a.pfb>
-Output written on main.pdf (12 pages, 153505 bytes).
+ 55i,12n,62p,1751b,299s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/sandbox/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.6
+00pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/rsfs/rsfs10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/
+usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
+s/utmri8a.pfb>
+Output written on main.pdf (21 pages, 192126 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
+ 184 PDF objects out of 1000 (max. 8388607)
+ 89 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
