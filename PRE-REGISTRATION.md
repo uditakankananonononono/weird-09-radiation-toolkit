@@ -213,3 +213,15 @@ LOCKED h8b DESIGN (no further degrees of freedom after this line):
 5. Pass rule (report-only, no retro-fit): FDR_est <= 0.05 supports the statement "genome-wide permutation FDR <= 5%"; any higher value is reported verbatim in Results and Caveats. The twelve committed hits, gates, seed and NPERM are unchanged; this amendment adds an error-rate estimate, it does not re-select hits.
 
 ### h8b erratum (12:15 IST): sanity-lock criterion corrected BEFORE any h8b output is used - the committed h1 record holds WP_012692142.1 at emp_p=17/1001 (11 hits at 13/1001, 1 at 17/1001). Lock now requires EXACT per-hit reproduction of the stored h1_formal_tests.json values (stricter than the original blanket 13/1001).
+
+## AMENDMENT 2026-09-27 12:19 IST (provided-verdict queue #7: simpler-method baselines - locked BEFORE any baseline list is generated or graded)
+QUESTION: does the full framework's committed 12-candidate list beat simpler selection rules on the locked H5 v2 evidence standard?
+ARMS (each selects exactly 12 orthogroups from the 52,786 H1-tested universe):
+- B0 RANDOM: uniform without replacement, numpy default_rng(26092707), 1000 replicate draws; reported as a distribution, never a single draw. Grading approximation (locked, disclosed): 3 draws (36 entries) graded, mean extrapolated to the distribution.
+- B1 SEQUENCE-ONLY: mmseqs2 easy-search (static build 057db43, e-value <= 1e-5, min cov 0.5) of the 11 PANEL proteomes (all_proteomes_tagged.faa) against the locked S+ reference set (10 families from the 10:10 amendment; representative accessions efetched from NCBI protein, sha256-ledgered). An orthogroup (clusters_sensitive.tsv universe) is called if ANY member hits; ranked by best e-value then bitscore; top 12. Tool disclosure: mmseqs2 substitutes for BLAST (same sequence-similarity class).
+- B2 DOMAIN-ONLY: resistant-vs-sensitive one-sided Fisher on Pfam domain presence per orthogroup (existing annotation, same hypergeom kernel as H1), p<0.05, resistant direction, NO specificity layer, NO origins gate; top 12 by p then effect size (pm-ps).
+- B3 FULL FRAMEWORK: the committed 12 (already graded in h5v2).
+EVALUATION (locked, no retro-fit): B1+B2+B0 candidates pooled, shuffled under Random(26092708), graded arm-blind under the locked 10:10 protocol (Tier 1 family-level primary paper, abstract verified; Tier 2 mechanism-level; Tier 0 neither); grading notes per entry; arm mapping archived. Metrics: Tier-1 count and Tier-1-or-2 count per arm.
+STATEMENT RULE: "framework outperforms baseline X" only if B3 STRICTLY exceeds X on Tier-1-or-2 count; ties/shortfalls reported verbatim; B0 by interval comparison, no p-value claimed.
+ABORT RULES: B1 or B2 returning <12 calls -> shortfall reported, no padding; S+ efetch failure for a family -> family dropped, reduction disclosed.
+SCOPE: no re-selection of the committed 12, no gate changes; benchmarking arm, reported as its own Results subsection.
