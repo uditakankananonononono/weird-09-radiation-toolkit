@@ -1,0 +1,151 @@
+{
+ "rule": ">=80% of resistant-arm members co-cluster in the alternative clustering",
+ "stable_in_both": 3,
+ "per_hit": {
+  "Adineta_vaga|UJR10666.1": {
+   "clusters_v2.tsv": {
+    "resistant_members": 4,
+    "mapped": 4,
+    "co_cluster": false
+   },
+   "clusters_linclust30.tsv": {
+    "resistant_members": 4,
+    "mapped": 4,
+    "co_cluster": false
+   }
+  },
+  "Deinococcus_deserti|WP_012692117.1": {
+   "clusters_v2.tsv": {
+    "resistant_members": 4,
+    "mapped": 4,
+    "co_cluster": true
+   },
+   "clusters_linclust30.tsv": {
+    "resistant_members": 4,
+    "mapped": 4,
+    "co_cluster": false
+   }
+  },
+  "Adineta_vaga|UJR36058.1": {
+   "clusters_v2.tsv": {
+    "resistant_members": 4,
+    "mapped": 4,
+    "co_cluster": true
+   },
+   "clusters_linclust30.tsv": {
+    "resistant_members": 4,
+    "mapped": 4,
+    "co_cluster": true
+   }
+  },
+  "Adineta_vaga|UJR11615.1": {
+   "clusters_v2.tsv": {
+    "resistant_members": 4,
+    "mapped": 4,
+    "co_cluster": true
+   },
+   "clusters_linclust30.tsv": {
+    "resistant_members": 4,
+    "mapped": 4,
+    "co_cluster": true
+   }
+  },
+  "Adineta_vaga|UJR17759.1": {
+   "clusters_v2.tsv": {
+    "resistant_members": 4,
+    "mapped": 4,
+    "co_cluster": true
+   },
+   "clusters_linclust30.tsv": {
+    "resistant_members": 4,
+    "mapped": 4,
+    "co_cluster": false
+   }
+  },
+  "Deinococcus_geothermalis|WP_272975990.1": {
+   "clusters_v2.tsv": {
+    "resistant_members": 4,
+    "mapped": 4,
+    "co_cluster": true
+   },
+   "clusters_linclust30.tsv": {
+    "resistant_members": 4,
+    "mapped": 4,
+    "co_cluster": true
+   }
+  },
+  "Adineta_vaga|UJR28130.1": {
+   "clusters_v2.tsv": {
+    "resistant_members": 4,
+    "mapped": 4,
+    "co_cluster": true
+   },
+   "clusters_linclust30.tsv": {
+    "resistant_members": 4,
+    "mapped": 4,
+    "co_cluster": false
+   }
+  },
+  "Adineta_vaga|UJR26281.1": {
+   "clusters_v2.tsv": {
+    "resistant_members": 4,
+    "mapped": 4,
+    "co_cluster": true
+   },
+   "clusters_linclust30.tsv": {
+    "resistant_members": 4,
+    "mapped": 4,
+    "co_cluster": false
+   }
+  },
+  "Adineta_vaga|UJR09360.1": {
+   "clusters_v2.tsv": {
+    "resistant_members": 4,
+    "mapped": 4,
+    "co_cluster": true
+   },
+   "clusters_linclust30.tsv": {
+    "resistant_members": 4,
+    "mapped": 4,
+    "co_cluster": false
+   }
+  },
+  "Deinococcus_deserti|WP_012692142.1": {
+   "clusters_v2.tsv": {
+    "resistant_members": 4,
+    "mapped": 4,
+    "co_cluster": true
+   },
+   "clusters_linclust30.tsv": {
+    "resistant_members": 4,
+    "mapped": 4,
+    "co_cluster": false
+   }
+  },
+  "Deinococcus_geothermalis|WP_414646549.1": {
+   "clusters_v2.tsv": {
+    "resistant_members": 4,
+    "mapped": 4,
+    "co_cluster": true
+   },
+   "clusters_linclust30.tsv": {
+    "resistant_members": 4,
+    "mapped": 4,
+    "co_cluster": false
+   }
+  },
+  "Deinococcus_geothermalis|WP_272975981.1": {
+   "clusters_v2.tsv": {
+    "resistant_members": 4,
+    "mapped": 4,
+    "co_cluster": true
+   },
+   "clusters_linclust30.tsv": {
+    "resistant_members": 4,
+    "mapped": 4,
+    "co_cluster": false
+   }
+  }
+ },
+ "context": "linclust30 fragmentation is documented (subset20k purity 0.914, retention 0.363); PRE-REG line 73: formal claims never rest on linclust counts"
+}

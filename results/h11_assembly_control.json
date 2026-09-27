@@ -1,0 +1,48 @@
+{
+ "proteome_sizes": {
+  "Deinococcus_radiodurans": 3109,
+  "Deinococcus_geothermalis": 2897,
+  "Deinococcus_deserti": 3479,
+  "Ramazzottius_varieornatus": 23007,
+  "Adineta_vaga": 32378,
+  "Thermus_aquaticus": 2152,
+  "Thermus_thermophilus": 2290,
+  "Hypsibius_exemplaris": 20853,
+  "Caenorhabditis_elegans": 28602,
+  "Drosophila_melanogaster": 30802,
+  "Escherichia_coli": 5096
+ },
+ "hit_presence_per_genome": [
+  12,
+  12,
+  12,
+  1,
+  11,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "spearman_rho": -0.09521447412221878,
+ "spearman_p": 0.7806495193261994,
+ "resistant_sizes": [
+  3109,
+  2897,
+  3479,
+  23007,
+  32378
+ ],
+ "sensitive_sizes": [
+  2152,
+  2290,
+  20853,
+  28602,
+  30802,
+  5096
+ ],
+ "arm_mwu_p": 0.9307359307359306,
+ "panel_median": 5096.0,
+ "hits_failing_check_c": []
+}
