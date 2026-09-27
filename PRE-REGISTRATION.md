@@ -251,3 +251,6 @@ The amendment's T1 rule cited the screen-level E<1e-10 threshold, but the commit
 
 ## AMENDMENT 2026-09-27 13:31 IST (provided-verdict queue #17: ranked public resource - artifact-only, locked BEFORE assembly)
 ARTIFACT-ONLY: assemble the committed 12-candidate evidence into one ranked atlas table (data/stress_atlas_v1.json + paper table): per candidate - rep, domains (h3), tier record (h_functional_tiers), h12 class, h8b FDR context, h10 stability. Ranking key LOCKED: pm descending, ties broken by T1-then-T2 pass. No new compute; every cell traces to a committed file.
+
+## AMENDMENT 2026-09-27 13:39 IST (provided-verdict queue #19: formal pipeline output definition - documentation-only, locked BEFORE drafting)
+DOCUMENTATION-ONLY: define the pipeline's formal output. The convergence confidence output is an ORDERED EVIDENCE TUPLE per candidate, not a scalar: (screen empirical p + origin-replication count, identifiability class from h7, genome-wide FDR context from h8b, orthology-stability flag from h10, specificity class from h12, evidence-tier ceiling from h_functional_tiers). Every component is already committed; no new composite statistic is invented; a candidate is "confirmed" only if EVERY component passes its own locked rule (conjunction), which the paper states plainly.
