@@ -158,7 +158,7 @@ POSITIVE REFERENCE STANDARD S+ (locked; N=10 families chosen from canonical revi
 3. PprA (D. radiodurans; DNA ligation stimulation) - Mol Microbiol 2004, DOI 10.1111/j.1365-2958.2004.04272.x.
 4. PprI (D. radiodurans; damage-sensing protease, radioresistance switch) - Biochem Biophys Res Commun 2003 (S0006291X03009653); Nat Commun 2024, DOI 10.1038/s41467-024-46208-9.
 5. Dps1/Dps2 (D. radiodurans; DNA-binding protection, ferritin homolog) - PMID 26290287; PMID 22857940.
-6. RecA (D. radiodurans; ESDSA reassembly of shattered chromosomes) - Zahradka et al. Nature 2006, PMID 17016550.
+6. RecA (D. radiodurans; ESDSA reassembly of shattered chromosomes) - Zahradka et al. Nature 2006, PMID 17006450.
 7. Dsup (tardigrade Hypsibius; DNA-protection protein, radiotolerance transfer) - Hashimoto et al. Nat Commun 2016, PMID 27649274.
 8. CAHS (tardigrade cytoplasmic abundant heat soluble) - PLOS ONE 2012, DOI 10.1371/journal.pone.0044209; Boothby et al. Mol Cell 2017, PMID 28318683.
 9. SAHS (tardigrade secretory abundant heat soluble) - PLOS ONE 2012 (same DOI); Comms Biology 2024, DOI 10.1038/s42003-024-06336-w.
@@ -174,3 +174,5 @@ METRICS + NULL + WIN (judge's locked form, verbatim structure):
 - Secondary: MRR of S+ members in the ranking; EF@5.
 - WIN v2 iff BOTH: (i) P@5 >= 3/5 candidates with Tier-1 OR Tier-2 evidence AND at least one Tier-1/S+ candidate in the top 3; (ii) hypergeometric enrichment p < 0.05.
 - FALSIFICATION: either leg fails -> the prioritization claim is reported as not earned; no post-hoc changes to S+, C, k, or alpha.
+
+CORRECTION 10:12 IST: the RecA anchor PMID in the 10:10 amendment read 17016550; the correct Zahradka et al. Nature 2006 PMID is 17006450 (verified pubmed.ncbi.nlm.nih.gov/17006450). Reference-set membership unchanged; citation field fixed above.
