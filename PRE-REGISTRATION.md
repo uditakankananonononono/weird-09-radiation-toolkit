@@ -245,3 +245,6 @@ DOCUMENTATION-ONLY: rewrite the Introduction spine so the contribution is the FA
 
 ## AMENDMENT 2026-09-27 13:25 IST (provided-verdict queue #5: functional evidence tiers - locked BEFORE classification)
 CLASSIFICATION-ONLY from committed data: each of the 12 committed candidates gets a tier record: T1 domain presence (committed hmmscan annotation JSONs), T2 orthology confidence (committed candidate_orthologs_ledger status + h10 stability flags), T3 expression (NOT AVAILABLE - no committed transcriptomes), T4 phenotype association (NOT AVAILABLE - no committed phenotype data). Tier rules locked: T1 pass = at least one Pfam domain at the committed E<1e-10 threshold; T2 pass = ledger status ok for all member orthologs AND not flagged in h10. No new compute; T3/T4 recorded as absent evidence, never inferred.
+
+## ADDENDUM to the 13:25 IST tier amendment (13:27 IST) - locked BEFORE classification
+The amendment's T1 rule cited the screen-level E<1e-10 threshold, but the committed per-candidate Pfam evidence is results/h3_domain_confirmation.json at its own committed rule (E<=1e-05, support in new proteomes). LOCKED CORRECTION: T1 pass = candidate appears in committed h3_domain_confirmation.json with n_domains>=1; the domain threshold is the committed h3 rule, named in the output. All other terms unchanged.
