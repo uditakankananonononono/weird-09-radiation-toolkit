@@ -1,0 +1,23 @@
+{
+ "amendment": "2026-09-27 10:10 + 10:14",
+ "evaluation": {
+  "K": 11,
+  "k": 5,
+  "tier_counts": {
+   "tier1": 1,
+   "tier2": 6,
+   "tier0": 4
+  },
+  "P@5_tier1or2": 1.0,
+  "tier1_in_top3": 0,
+  "tier1_in_top5": 1,
+  "hypergeometric_p": 0.4545,
+  "MRR_tier1": 0.25,
+  "EF5": 2.2,
+  "leg1_precision_pass": false,
+  "leg2_enrichment_pass": false,
+  "win": false,
+  "power_note": "with only 1 Tier-1 family in the pool, the hypergeometric floor is P(X>=1)=0.4545 - the test cannot reach alpha=0.05; recorded as an identifiability/power limit, not tuned",
+  "verdict": "H5 v2 win condition FALSE on both legs: Tier-1 evidence does not concentrate at the top (sole Tier-1 family at rank 4); enrichment underpowered by pool composition. The evidence-graded shortlist stands as the tool deliverable; the benchmark claim is NOT earned."
+ }
+}
