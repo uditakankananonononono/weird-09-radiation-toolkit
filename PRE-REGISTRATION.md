@@ -225,3 +225,5 @@ EVALUATION (locked, no retro-fit): B1+B2+B0 candidates pooled, shuffled under Ra
 STATEMENT RULE: "framework outperforms baseline X" only if B3 STRICTLY exceeds X on Tier-1-or-2 count; ties/shortfalls reported verbatim; B0 by interval comparison, no p-value claimed.
 ABORT RULES: B1 or B2 returning <12 calls -> shortfall reported, no padding; S+ efetch failure for a family -> family dropped, reduction disclosed.
 SCOPE: no re-selection of the committed 12, no gate changes; benchmarking arm, reported as its own Results subsection.
+
+### #7 erratum (12:21 IST, BEFORE any B2 list generation): "existing annotation" covered only 23 candidate proteins. B2 therefore generates its input by a panel-wide hmmscan of the SAME locked 64 Pfam HMM set (data/pfam_hmms, HMMER 3.3.2) against all_proteomes_tagged.faa, domtblout E<=1e-5 per domain; unit stays per-orthogroup (any member annotated -> orthogroup annotated); all other B2 terms unchanged. This expands data generation, not the decision rule.
