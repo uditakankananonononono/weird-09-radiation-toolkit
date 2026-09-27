@@ -62,6 +62,21 @@ p_{\text{lower}}(g) \;=\; \frac{1 + \sum_{r} \mathbf{1}\!\left[ N_{\text{ind}}^{
 \end{equation}
 which proved degenerate on saturated strata (zero null variance), yielding the identifiability boundary reported in Section 3.4.
 
+\subsection{Pipeline definition (end-to-end operator form; amendment 2026-09-27 12:08 IST)}
+Collected, the framework is a single operator from raw inputs to a decision-relevant verdict. The inputs are the panel proteomes $\mathcal{P} = \{P_1, \dots, P_{20}\}$, the fixed resistant/sensitive label vector $y$, and the background orthogroup universe $\mathcal{M}$ ($|\mathcal{M}| = 52{,}786$). The pipeline is the composition
+\begin{equation}
+\Phi(\mathcal{P}, y, \mathcal{M}) \;=\; A \circ D \circ S \circ E \circ C(\mathcal{P}),
+\end{equation}
+where $C$ clusters proteomes into orthogroups; $E$ is the enrichment gate, $E(g) = \mathbf{1}[\hat{p}_g < \alpha_{\mathrm{emp}}] \wedge \mathbf{1}[\text{origins}(g) \ge 2]$ (empirical permutation $p$ and independent-origin replication, equations above); $S$ is the stress-control specificity filter; $D$ is the Pfam-architecture domain confirmation against independent proteomes; and $A$ is the phylogenetic identifiability audit of Section 4.5, which returns the class of equation (13) for every candidate, candidate or not. The output is \emph{not} a scalar score: each candidate receives the verdict tuple
+\begin{equation}
+v(g) \;=\; \bigl( \mathrm{label}(g),\; \mathrm{evidence\ tier}(g),\; \mathrm{class}(g) \bigr),
+\end{equation}
+mapped onto the ordered confidence scale
+\begin{equation}
+\begin{array}{@{}c@{}} \textsc{confirmed-convergent} \;>\; \textsc{candidate-testable} \;>\; \textsc{candidate-underpowered} \\[2pt] {} \;>\; \textsc{candidate-untestable} \;>\; \textsc{rejected}, \end{array}
+\end{equation}
+where the first tier requires $\mathrm{class}(g) = \textsc{testable}$ \emph{and} a significant convergence statistic, and a scalar collapse is deliberately refused: on any panel where the audit returns \textsc{impossible} or \textsc{underpowered}, a numeric ``confidence'' would manufacture precision the data cannot support. The identifiability class is therefore a \emph{precondition} for interpreting every other stage's output: enrichment, specificity, and domain confirmation establish that a candidate is real and radiation-associated; only the audit establishes whether the panel could ever have told us otherwise. This is the framework's stated purpose - a pipeline that prevents false convergence, including against itself: applied to its own output (Table 2), it returns 9 \textsc{impossible} and 1 \textsc{underpowered}, and no candidate is reported as convergent.
+
 \section{Results}
 Of 52,786 orthogroups tested, \textbf{12 pass all locked gates}: convergently present in Deinococcaceae and Bdelloidea, absent from all 6 sensitive controls, empirical $p=0.013$ (1000 permutations). A further 26 orthogroups pass the copy-number Mann-Whitney arm.
 

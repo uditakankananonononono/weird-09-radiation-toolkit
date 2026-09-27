@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.8.14)  27 SEP 2026 12:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.8.14)  27 SEP 2026 12:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -289,40 +289,51 @@ $\OML/ztmcm/m/it/12 p$\T1/ptm/m/n/12 , af-ter W03's power anal-y-sis showed
  []
 
 [3] [4]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 71.
+Overfull \hbox (4.84344pt too wide) in paragraph at lines 69--71
+\OT1/ptm/b/n/12 1\OT1/ztmcm/m/n/12 [[](\OML/ztmcm/m/it/12 g\OT1/ztmcm/m/n/12 ) 
+\OMS/ztmcm/m/n/12 ^^U \OT1/ztmcm/m/n/12 2]$ \T1/ptm/m/n/12 (em-pir-i-cal per-mu
+-ta-tion $\OML/ztmcm/m/it/12 p$ \T1/ptm/m/n/12 and independent-origin repli-ca-
+tion, equa-tions above);
+ []
 
-Overfull \hbox (75.09875pt too wide) in paragraph at lines 71--89
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 86.
+
+Overfull \hbox (75.09875pt too wide) in paragraph at lines 86--104
  [][] 
  []
 
 
-Overfull \hbox (0.91661pt too wide) in paragraph at lines 94--94
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5]
+Overfull \hbox (0.91661pt too wide) in paragraph at lines 109--109
 []\T1/ptm/b/n/14.4 Specificity layer on the ex-tended panel (amend-ment 2026-09
 -26, 13:18
  []
 
-[5]
-Overfull \hbox (4.07193pt too wide) in paragraph at lines 99--100
+
+Overfull \hbox (4.07193pt too wide) in paragraph at lines 114--115
 \T1/ptm/m/n/12 PAD-porphyrin bind-ing pro-tein, GNAT acetyl-trans-ferase, DHH/D
 HHA2 phos-pho-esterase, HAD
  []
 
 
-Overfull \hbox (2.88997pt too wide) in paragraph at lines 102--102
+Overfull \hbox (2.88997pt too wide) in paragraph at lines 117--117
 []\T1/ptm/b/n/14.4 Domain-level or-thog-o-nal con-fir-ma-tion (amend-ment 2026-
 09-26, 20:21
  []
 
 [6] [7]
-Overfull \hbox (18.25288pt too wide) in paragraph at lines 127--127
+Overfull \hbox (18.25288pt too wide) in paragraph at lines 142--142
 []\T1/ptm/b/n/14.4 The Iden-ti-fi-a-bil-ity Score: what this panel can and can-
 not de-cide (amend-
  []
 
+[8]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 152.
-[8] [9] [10] (./main.aux)
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 167.
+ [9] [10] [11] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -330,7 +341,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  2205 strings out of 480247
  32582 string characters out of 5896151
- 335569 words of memory out of 5000000
+ 336569 words of memory out of 5000000
  20114 multiletter control sequences out of 15000+600000
  557724 words of font info for 139 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -346,10 +357,10 @@ re/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on main.pdf (10 pages, 140200 bytes).
+Output written on main.pdf (11 pages, 145725 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
+ 96 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
