@@ -242,3 +242,6 @@ CLASSIFICATION (locked, descriptive): RADIATION-LEANING = passes committed panel
 
 ## AMENDMENT 2026-09-27 13:21 IST (provided-verdict queue #1: paper-spine reframe - documentation-only, locked BEFORE drafting)
 DOCUMENTATION-ONLY: rewrite the Introduction spine so the contribution is the FALSE-CONVERGENCE PREVENTION FRAMEWORK (locked gates, identifiability scoring, baseline comparison, power limits) with the molecular null reported inside it - not a paper whose headline is a failed molecular claim. No new compute; no result changes; every cited number must trace to a committed result file.
+
+## AMENDMENT 2026-09-27 13:25 IST (provided-verdict queue #5: functional evidence tiers - locked BEFORE classification)
+CLASSIFICATION-ONLY from committed data: each of the 12 committed candidates gets a tier record: T1 domain presence (committed hmmscan annotation JSONs), T2 orthology confidence (committed candidate_orthologs_ledger status + h10 stability flags), T3 expression (NOT AVAILABLE - no committed transcriptomes), T4 phenotype association (NOT AVAILABLE - no committed phenotype data). Tier rules locked: T1 pass = at least one Pfam domain at the committed E<1e-10 threshold; T2 pass = ledger status ok for all member orthologs AND not flagged in h10. No new compute; T3/T4 recorded as absent evidence, never inferred.
