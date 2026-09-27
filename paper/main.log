@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.8.14)  27 SEP 2026 13:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.8.14)  27 SEP 2026 14:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -146,6 +146,16 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 LaTeX Info: Redefining \[ on input line 2938.
 LaTeX Info: Redefining \] on input line 2939.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup6
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 11
 .
 
@@ -258,6 +268,7 @@ ance
 LaTeX Warning: Reference `sec:stresspanel' on page 2 undefined on input line 75
 .
 
+[2]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 84.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
@@ -270,161 +281,157 @@ Overfull \hbox (4.0946pt too wide) in paragraph at lines 81--101
 ed an-tiox-i-dant de-fense with horizontal-
  []
 
-[2])
-Overfull \hbox (5.49965pt too wide) in paragraph at lines 20--21
+)
+Overfull \hbox (5.49965pt too wide) in paragraph at lines 21--22
 \T1/ptm/m/n/12 Adineta vaga [ori-gin 3: Bdel-loidea]) vs 6 sen-si-tive con-trol
 s (Ther-mus aquati-cus, T. ther-mophilus,
  []
 
 
-Overfull \hbox (1.38347pt too wide) in paragraph at lines 20--21
+Overfull \hbox (1.38347pt too wide) in paragraph at lines 21--22
 \T1/ptm/m/n/12 Mil-ne-sium tardi-gradum has no ref-er-ence as-sem-bly; Tardigra
 da ori-gin is single-proteome (power
  []
 
-
-Overfull \hbox (3.52032pt too wide) in paragraph at lines 24--25
+[3]
+Overfull \hbox (3.52032pt too wide) in paragraph at lines 25--26
 \T1/ptm/m/n/12 by 1000 la-bel per-mu-ta-tions with per-orthogroup em-pir-i-cal 
 $\OML/ztmcm/m/it/12 p$\T1/ptm/m/n/12 , af-ter W03's power anal-y-sis showed
  []
 
-[3] [4]
-Overfull \hbox (4.84344pt too wide) in paragraph at lines 69--71
+[4]
+Overfull \hbox (4.84344pt too wide) in paragraph at lines 70--72
 \OT1/ptm/b/n/12 1\OT1/ztmcm/m/n/12 [[](\OML/ztmcm/m/it/12 g\OT1/ztmcm/m/n/12 ) 
 \OMS/ztmcm/m/n/12 ^^U \OT1/ztmcm/m/n/12 2]$ \T1/ptm/m/n/12 (em-pir-i-cal per-mu
 -ta-tion $\OML/ztmcm/m/it/12 p$ \T1/ptm/m/n/12 and independent-origin repli-ca-
 tion, equa-tions above);
  []
 
+[5]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 86.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 90.
 
-Overfull \hbox (75.09875pt too wide) in paragraph at lines 86--104
+Overfull \hbox (75.09875pt too wide) in paragraph at lines 90--108
+ [][] 
+ []
+
+
+Overfull \hbox (0.91661pt too wide) in paragraph at lines 113--113
+[]\T1/ptm/b/n/14.4 Specificity layer on the ex-tended panel (amend-ment 2026-09
+-26, 13:18
+ []
+
+[6]
+Overfull \hbox (4.07193pt too wide) in paragraph at lines 118--119
+\T1/ptm/m/n/12 PAD-porphyrin bind-ing pro-tein, GNAT acetyl-trans-ferase, DHH/D
+HHA2 phos-pho-esterase, HAD
+ []
+
+
+Overfull \hbox (2.88997pt too wide) in paragraph at lines 121--121
+[]\T1/ptm/b/n/14.4 Domain-level or-thog-o-nal con-fir-ma-tion (amend-ment 2026-
+09-26, 20:21
+ []
+
+[7] [8]
+Overfull \hbox (18.25288pt too wide) in paragraph at lines 146--146
+[]\T1/ptm/b/n/14.4 The Iden-ti-fi-a-bil-ity Score: what this panel can and can-
+not de-cide (amend-
+ []
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 171.
+[9] [10]
+Overfull \hbox (20.71408pt too wide) in paragraph at lines 204--204
+[]\T1/ptm/b/n/14.4 Radiation-specific or gen-eral stress? A clas-si-fi-ca-tion 
+power limit (amend-
+ []
+
+[11]
+Overfull \hbox (211.76186pt too wide) in paragraph at lines 216--234
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5]
-Overfull \hbox (0.91661pt too wide) in paragraph at lines 109--109
-[]\T1/ptm/b/n/14.4 Specificity layer on the ex-tended panel (amend-ment 2026-09
--26, 13:18
- []
-
-
-Overfull \hbox (4.07193pt too wide) in paragraph at lines 114--115
-\T1/ptm/m/n/12 PAD-porphyrin bind-ing pro-tein, GNAT acetyl-trans-ferase, DHH/D
-HHA2 phos-pho-esterase, HAD
- []
-
-
-Overfull \hbox (2.88997pt too wide) in paragraph at lines 117--117
-[]\T1/ptm/b/n/14.4 Domain-level or-thog-o-nal con-fir-ma-tion (amend-ment 2026-
-09-26, 20:21
- []
-
-[6] [7]
-Overfull \hbox (18.25288pt too wide) in paragraph at lines 142--142
-[]\T1/ptm/b/n/14.4 The Iden-ti-fi-a-bil-ity Score: what this panel can and can-
-not de-cide (amend-
- []
-
-[8]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 167.
- [9]
-! Undefined control sequence.
-l.188 ...statistic matrix retained, $S \in \mathbb
-                                                  {R}^{52{,}786 \times 1001}...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[10]
-Overfull \hbox (20.71408pt too wide) in paragraph at lines 200--200
-[]\T1/ptm/b/n/14.4 Radiation-specific or gen-eral stress? A clas-si-fi-ca-tion 
-power limit (amend-
- []
-
-[11] [12]
+[12] [13]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
-17.
+53.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Overfull \hbox (25.84706pt too wide) in paragraph at lines 217--218
+Overfull \hbox (25.84706pt too wide) in paragraph at lines 253--254
 \T1/ptm/m/n/12 sha256 in \T1/cmtt/m/n/12 data/panel_accessions.json\T1/ptm/m/n/
 12 ), the 64 Pfam HMMs (\T1/cmtt/m/n/12 data/pfam_accessions.json\T1/ptm/m/n/12
  ),
  []
 
 
-Overfull \hbox (144.62717pt too wide) in paragraph at lines 217--218
+Overfull \hbox (144.62717pt too wide) in paragraph at lines 253--254
 \T1/ptm/m/n/12 the 77 candidate-cluster or-tholog se-quences and the 9-family S
 $[]$ ref-er-ence set (\T1/cmtt/m/n/12 data/candidate_orthologs_ledger.json\T1/p
 tm/m/n/12 ,
  []
 
 
-Overfull \hbox (154.64731pt too wide) in paragraph at lines 217--218
+Overfull \hbox (154.64731pt too wide) in paragraph at lines 253--254
 \T1/cmtt/m/n/12 data/splus_reference/splus_ledger.json\T1/ptm/m/n/12 ); (ii) \T
 1/ptm/b/n/12 or-thogroup ta-bles \T1/ptm/m/n/12 - \T1/cmtt/m/n/12 results/ortho
 logy/clusters_sensitive.tsv
  []
 
 
-Overfull \hbox (14.1874pt too wide) in paragraph at lines 217--218
+Overfull \hbox (14.1874pt too wide) in paragraph at lines 253--254
 \T1/ptm/b/n/12 pute scripts \T1/ptm/m/n/12 - \T1/cmtt/m/n/12 analysis/formal_te
 sts.py \T1/ptm/m/n/12 (H1 screen), \T1/cmtt/m/n/12 analysis/h8b_genomewide_fdr.
 py\T1/ptm/m/n/12 ,
  []
 
 
-Overfull \hbox (36.57495pt too wide) in paragraph at lines 217--218
+Overfull \hbox (36.57495pt too wide) in paragraph at lines 253--254
 \T1/cmtt/m/n/12 src/h4b_extended.py\T1/ptm/m/n/12 , \T1/cmtt/m/n/12 src/h12_str
 ess_specificity.py\T1/ptm/m/n/12 , \T1/cmtt/m/n/12 analysis/h9_b2_domain_only.p
 y\T1/ptm/m/n/12 ;
  []
 
 
-Overfull \hbox (73.46086pt too wide) in paragraph at lines 217--218
+Overfull \hbox (73.46086pt too wide) in paragraph at lines 253--254
 \T1/ptm/m/n/12 (\T1/cmtt/m/n/12 *_buggy_20260926.json\T1/ptm/m/n/12 ) for the a
 u-dit trail; and (vii) \T1/ptm/b/n/12 the pre-registration ledger \T1/ptm/m/n/1
 2 - \T1/cmtt/m/n/12 PRE-REGISTRATION.md
  []
 
-[13] (./main.aux)
+[14] [15] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2226 strings out of 480247
- 33212 string characters out of 5896151
- 336569 words of memory out of 5000000
- 20131 multiletter control sequences out of 15000+600000
- 558037 words of font info for 140 fonts, out of 8000000 for 9000
+ 2744 strings out of 480247
+ 39189 string characters out of 5896151
+ 337976 words of memory out of 5000000
+ 20640 multiletter control sequences out of 15000+600000
+ 561301 words of font info for 156 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 55i,11n,62p,1855b,264s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,11n,62p,1860b,264s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/sandbox/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.6
 00pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/rsfs/rsfs10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol
-/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/font
-s/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
-es/utmri8a.pfb>
-Output written on main.pdf (13 pages, 172008 bytes).
+e1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/rsfs/rsfs10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/
+usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
+s/utmri8a.pfb>
+Output written on main.pdf (15 pages, 181170 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
- 69 compressed objects within 1 object stream
+ 165 PDF objects out of 1000 (max. 8388607)
+ 76 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

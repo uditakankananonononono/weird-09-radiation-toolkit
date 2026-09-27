@@ -1,0 +1,94 @@
+{
+ "amendment": "2026-09-27 14:12 IST",
+ "n_orthogroups": 52786,
+ "n_splus": 12,
+ "top12": 0,
+ "top100": 0,
+ "passing_screen_gate": 0,
+ "per_splus": [
+  {
+   "rep": "Ramazzottius_varieornatus|GAV07386.1",
+   "family": "Dsup",
+   "cluster": "Ramazzottius_varieornatus|GAV07386.1",
+   "rank": 13729,
+   "passes_screen": false
+  },
+  {
+   "rep": "Deinococcus_radiodurans|WP_010888966.1",
+   "family": "RecA",
+   "cluster": "Deinococcus_radiodurans|WP_010888966.1",
+   "rank": 21382,
+   "passes_screen": false
+  },
+  {
+   "rep": "Deinococcus_radiodurans|WP_010886813.1",
+   "family": "PprI",
+   "cluster": "Deinococcus_radiodurans|WP_010886813.1",
+   "rank": 290,
+   "passes_screen": false
+  },
+  {
+   "rep": "Deinococcus_geothermalis|WP_272976773.1",
+   "family": "PprA",
+   "cluster": "Deinococcus_geothermalis|WP_272976773.1",
+   "rank": 373,
+   "passes_screen": false
+  },
+  {
+   "rep": "Deinococcus_radiodurans|WP_010883959.1",
+   "family": "Dps2",
+   "cluster": "Deinococcus_radiodurans|WP_010883959.1",
+   "rank": 15060,
+   "passes_screen": false
+  },
+  {
+   "rep": "Thermus_aquaticus|WP_506065534.1",
+   "family": "DdrA",
+   "cluster": "Thermus_aquaticus|WP_506065534.1",
+   "rank": 1227,
+   "passes_screen": false
+  },
+  {
+   "rep": "Deinococcus_geothermalis|WP_272976760.1",
+   "family": "Dps1",
+   "cluster": "Deinococcus_geothermalis|WP_272976760.1",
+   "rank": 429,
+   "passes_screen": false
+  },
+  {
+   "rep": "Hypsibius_exemplaris|OQV21545.1",
+   "family": "CAHS",
+   "cluster": "Hypsibius_exemplaris|OQV21545.1",
+   "rank": 22300,
+   "passes_screen": false
+  },
+  {
+   "rep": "Deinococcus_radiodurans|WP_027480237.1",
+   "family": "DdrB",
+   "cluster": "Deinococcus_radiodurans|WP_027480237.1",
+   "rank": 341,
+   "passes_screen": false
+  },
+  {
+   "rep": "Hypsibius_exemplaris|OWA51796.1",
+   "family": "SAHS",
+   "cluster": "Hypsibius_exemplaris|OWA51796.1",
+   "rank": 22199,
+   "passes_screen": false
+  },
+  {
+   "rep": "Ramazzottius_varieornatus|GAU95723.1",
+   "family": "CAHS",
+   "cluster": "Ramazzottius_varieornatus|GAU95723.1",
+   "rank": 22259,
+   "passes_screen": false
+  },
+  {
+   "rep": "Ramazzottius_varieornatus|GAU88203.1",
+   "family": "CAHS",
+   "cluster": "Ramazzottius_varieornatus|GAU88203.1",
+   "rank": 19073,
+   "passes_screen": false
+  }
+ ]
+}
