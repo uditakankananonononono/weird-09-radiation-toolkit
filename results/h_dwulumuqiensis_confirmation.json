@@ -1,0 +1,21 @@
+{
+ "amendment": "2026-09-27 14:20 IST",
+ "proteome": "Deinococcus wulumuqiensis GCA_053878665.1",
+ "n_proteins": 3173,
+ "sha256_gz": "ad500cde75a25415a1948e507e58d786617deae6f7c799fb92ffa252a423f774",
+ "rule": "h3 identical, E<=1e-05",
+ "support": {
+  "Adineta_vaga|UJR10666.1": false,
+  "Deinococcus_deserti|WP_012692117.1": true,
+  "Adineta_vaga|UJR36058.1": true,
+  "Adineta_vaga|UJR11615.1": true,
+  "Adineta_vaga|UJR17759.1": false,
+  "Deinococcus_geothermalis|WP_272975990.1": true,
+  "Adineta_vaga|UJR28130.1": true,
+  "Adineta_vaga|UJR26281.1": true,
+  "Deinococcus_deserti|WP_012692142.1": true,
+  "Deinococcus_geothermalis|WP_414646549.1": true,
+  "Deinococcus_geothermalis|WP_272975981.1": true
+ },
+ "n_supported": 9
+}
