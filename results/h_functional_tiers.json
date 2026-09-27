@@ -17,7 +17,10 @@
    "T3_expression": "NOT AVAILABLE (no committed transcriptomes)",
    "T4_phenotype": "NOT AVAILABLE (no committed phenotype data)",
    "T2_dindicus_support": false,
-   "T2_dwulumuqiensis_support": false
+   "T2_dwulumuqiensis_support": false,
+   "T2_rsordida_support": false,
+   "T2_asteineri_support": true,
+   "T2_new_proteomes_supported_count": 1
   },
   {
    "candidate": "Deinococcus_deserti|WP_012692117.1",
@@ -38,7 +41,10 @@
    "T3_expression": "NOT AVAILABLE (no committed transcriptomes)",
    "T4_phenotype": "NOT AVAILABLE (no committed phenotype data)",
    "T2_dindicus_support": true,
-   "T2_dwulumuqiensis_support": true
+   "T2_dwulumuqiensis_support": true,
+   "T2_rsordida_support": true,
+   "T2_asteineri_support": true,
+   "T2_new_proteomes_supported_count": 4
   },
   {
    "candidate": "Adineta_vaga|UJR36058.1",
@@ -55,7 +61,10 @@
    "T3_expression": "NOT AVAILABLE (no committed transcriptomes)",
    "T4_phenotype": "NOT AVAILABLE (no committed phenotype data)",
    "T2_dindicus_support": true,
-   "T2_dwulumuqiensis_support": true
+   "T2_dwulumuqiensis_support": true,
+   "T2_rsordida_support": true,
+   "T2_asteineri_support": true,
+   "T2_new_proteomes_supported_count": 4
   },
   {
    "candidate": "Adineta_vaga|UJR11615.1",
@@ -73,7 +82,10 @@
    "T3_expression": "NOT AVAILABLE (no committed transcriptomes)",
    "T4_phenotype": "NOT AVAILABLE (no committed phenotype data)",
    "T2_dindicus_support": true,
-   "T2_dwulumuqiensis_support": true
+   "T2_dwulumuqiensis_support": true,
+   "T2_rsordida_support": true,
+   "T2_asteineri_support": true,
+   "T2_new_proteomes_supported_count": 4
   },
   {
    "candidate": "Adineta_vaga|UJR17759.1",
@@ -94,7 +106,10 @@
    "T3_expression": "NOT AVAILABLE (no committed transcriptomes)",
    "T4_phenotype": "NOT AVAILABLE (no committed phenotype data)",
    "T2_dindicus_support": false,
-   "T2_dwulumuqiensis_support": false
+   "T2_dwulumuqiensis_support": false,
+   "T2_rsordida_support": false,
+   "T2_asteineri_support": false,
+   "T2_new_proteomes_supported_count": 0
   },
   {
    "candidate": "Deinococcus_geothermalis|WP_272975990.1",
@@ -112,7 +127,10 @@
    "T3_expression": "NOT AVAILABLE (no committed transcriptomes)",
    "T4_phenotype": "NOT AVAILABLE (no committed phenotype data)",
    "T2_dindicus_support": true,
-   "T2_dwulumuqiensis_support": true
+   "T2_dwulumuqiensis_support": true,
+   "T2_rsordida_support": true,
+   "T2_asteineri_support": true,
+   "T2_new_proteomes_supported_count": 4
   },
   {
    "candidate": "Adineta_vaga|UJR28130.1",
@@ -136,7 +154,10 @@
    "T3_expression": "NOT AVAILABLE (no committed transcriptomes)",
    "T4_phenotype": "NOT AVAILABLE (no committed phenotype data)",
    "T2_dindicus_support": true,
-   "T2_dwulumuqiensis_support": true
+   "T2_dwulumuqiensis_support": true,
+   "T2_rsordida_support": true,
+   "T2_asteineri_support": true,
+   "T2_new_proteomes_supported_count": 4
   },
   {
    "candidate": "Adineta_vaga|UJR26281.1",
@@ -155,7 +176,10 @@
    "T3_expression": "NOT AVAILABLE (no committed transcriptomes)",
    "T4_phenotype": "NOT AVAILABLE (no committed phenotype data)",
    "T2_dindicus_support": true,
-   "T2_dwulumuqiensis_support": true
+   "T2_dwulumuqiensis_support": true,
+   "T2_rsordida_support": true,
+   "T2_asteineri_support": true,
+   "T2_new_proteomes_supported_count": 4
   },
   {
    "candidate": "Adineta_vaga|UJR09360.1",
@@ -170,7 +194,10 @@
    "T3_expression": "NOT AVAILABLE (no committed transcriptomes)",
    "T4_phenotype": "NOT AVAILABLE (no committed phenotype data)",
    "T2_dindicus_support": null,
-   "T2_dwulumuqiensis_support": null
+   "T2_dwulumuqiensis_support": null,
+   "T2_rsordida_support": null,
+   "T2_asteineri_support": null,
+   "T2_new_proteomes_supported_count": 0
   },
   {
    "candidate": "Deinococcus_deserti|WP_012692142.1",
@@ -187,7 +214,10 @@
    "T3_expression": "NOT AVAILABLE (no committed transcriptomes)",
    "T4_phenotype": "NOT AVAILABLE (no committed phenotype data)",
    "T2_dindicus_support": true,
-   "T2_dwulumuqiensis_support": true
+   "T2_dwulumuqiensis_support": true,
+   "T2_rsordida_support": false,
+   "T2_asteineri_support": true,
+   "T2_new_proteomes_supported_count": 3
   },
   {
    "candidate": "Deinococcus_geothermalis|WP_414646549.1",
@@ -204,7 +234,10 @@
    "T3_expression": "NOT AVAILABLE (no committed transcriptomes)",
    "T4_phenotype": "NOT AVAILABLE (no committed phenotype data)",
    "T2_dindicus_support": true,
-   "T2_dwulumuqiensis_support": true
+   "T2_dwulumuqiensis_support": true,
+   "T2_rsordida_support": false,
+   "T2_asteineri_support": true,
+   "T2_new_proteomes_supported_count": 3
   },
   {
    "candidate": "Deinococcus_geothermalis|WP_272975981.1",
@@ -223,7 +256,10 @@
    "T3_expression": "NOT AVAILABLE (no committed transcriptomes)",
    "T4_phenotype": "NOT AVAILABLE (no committed phenotype data)",
    "T2_dindicus_support": true,
-   "T2_dwulumuqiensis_support": true
+   "T2_dwulumuqiensis_support": true,
+   "T2_rsordida_support": true,
+   "T2_asteineri_support": true,
+   "T2_new_proteomes_supported_count": 4
   }
  ]
 }

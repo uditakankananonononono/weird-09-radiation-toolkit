@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.8.14)  27 SEP 2026 14:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.8.14)  27 SEP 2026 14:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -355,48 +355,54 @@ Overfull \hbox (211.76186pt too wide) in paragraph at lines 216--234
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[12] [13] [14]
+[12]
+Overfull \hbox (14.09056pt too wide) in paragraph at lines 240--242
+\T1/ptm/m/n/12 can-di-date in re-sults/h_functional_tiers.json. Tier records up
+-dated (re-sults/h_functional_tiers.json). 
+ []
+
+[13] [14]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
-56.
+57.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Overfull \hbox (25.84706pt too wide) in paragraph at lines 256--257
+Overfull \hbox (25.84706pt too wide) in paragraph at lines 257--258
 \T1/ptm/m/n/12 sha256 in \T1/cmtt/m/n/12 data/panel_accessions.json\T1/ptm/m/n/
 12 ), the 64 Pfam HMMs (\T1/cmtt/m/n/12 data/pfam_accessions.json\T1/ptm/m/n/12
  ),
  []
 
 
-Overfull \hbox (144.62717pt too wide) in paragraph at lines 256--257
+Overfull \hbox (144.62717pt too wide) in paragraph at lines 257--258
 \T1/ptm/m/n/12 the 77 candidate-cluster or-tholog se-quences and the 9-family S
 $[]$ ref-er-ence set (\T1/cmtt/m/n/12 data/candidate_orthologs_ledger.json\T1/p
 tm/m/n/12 ,
  []
 
 
-Overfull \hbox (154.64731pt too wide) in paragraph at lines 256--257
+Overfull \hbox (154.64731pt too wide) in paragraph at lines 257--258
 \T1/cmtt/m/n/12 data/splus_reference/splus_ledger.json\T1/ptm/m/n/12 ); (ii) \T
 1/ptm/b/n/12 or-thogroup ta-bles \T1/ptm/m/n/12 - \T1/cmtt/m/n/12 results/ortho
 logy/clusters_sensitive.tsv
  []
 
 
-Overfull \hbox (14.1874pt too wide) in paragraph at lines 256--257
+Overfull \hbox (14.1874pt too wide) in paragraph at lines 257--258
 \T1/ptm/b/n/12 pute scripts \T1/ptm/m/n/12 - \T1/cmtt/m/n/12 analysis/formal_te
 sts.py \T1/ptm/m/n/12 (H1 screen), \T1/cmtt/m/n/12 analysis/h8b_genomewide_fdr.
 py\T1/ptm/m/n/12 ,
  []
 
 
-Overfull \hbox (36.57495pt too wide) in paragraph at lines 256--257
+Overfull \hbox (36.57495pt too wide) in paragraph at lines 257--258
 \T1/cmtt/m/n/12 src/h4b_extended.py\T1/ptm/m/n/12 , \T1/cmtt/m/n/12 src/h12_str
 ess_specificity.py\T1/ptm/m/n/12 , \T1/cmtt/m/n/12 analysis/h9_b2_domain_only.p
 y\T1/ptm/m/n/12 ;
  []
 
 
-Overfull \hbox (73.46086pt too wide) in paragraph at lines 256--257
+Overfull \hbox (73.46086pt too wide) in paragraph at lines 257--258
 \T1/ptm/m/n/12 (\T1/cmtt/m/n/12 *_buggy_20260926.json\T1/ptm/m/n/12 ) for the a
 u-dit trail; and (vii) \T1/ptm/b/n/12 the pre-registration ledger \T1/ptm/m/n/1
 2 - \T1/cmtt/m/n/12 PRE-REGISTRATION.md
@@ -428,7 +434,7 @@ hare/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on main.pdf (15 pages, 182271 bytes).
+Output written on main.pdf (15 pages, 182604 bytes).
 PDF statistics:
  165 PDF objects out of 1000 (max. 8388607)
  76 compressed objects within 1 object stream
