@@ -1,0 +1,79 @@
+{
+ "CAHS": {
+  "file": "data/splus_reference/CAHS.faa",
+  "header": "sp|P0CU50.2|CAHS8_HYPEX RecName: Full=Cytosolic-abundant heat soluble protein 94063; Short=CAHS 94063; AltName: Full=Cytosolic abundant heat-soluble protein 8; AltName: Full=Tardigrade-specific intrinsically disordered protein CAHS 94063; Short=TDP CAHS 94063",
+  "sha256": "7c5c2e9b757050cb158b8ecddd712ed6273dd394ff2ea159db6efec1f9ebdedf",
+  "bytes": 493,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "DdrA": {
+  "file": "data/splus_reference/DdrA.faa",
+  "header": "sp|Q9RX92.1|DDRA_DEIRA RecName: Full=Single-stranded DNA-binding protein DdrA; AltName: Full=DNA damage response protein A",
+  "sha256": "d8252266b508649b51a3d49269a3abdbfb9ee19d027d85cff0aa1c76a5e0c272",
+  "bytes": 336,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "DdrB": {
+  "file": "data/splus_reference/DdrB.faa",
+  "header": "DAA06535.1 TPA_exp: single-stranded DNA-binding protein [Deinococcus radiodurans R1 = ATCC 13939 = DSM 20539]",
+  "sha256": "c4260411181439966c7aa6de5f87ea66aeb8aaff8e02c11740f358d1a96e455c",
+  "bytes": 303,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "Dps1": {
+  "file": "data/splus_reference/Dps1.faa",
+  "header": "sp|Q9RS64.1|DPS1_DEIRA RecName: Full=DNA protection during starvation protein 1",
+  "sha256": "05ff40848dbece658c08d5eee4d40be693f508bd23b91bf6e1be5fb1d70f5dc6",
+  "bytes": 292,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "Dps2": {
+  "file": "data/splus_reference/Dps2.faa",
+  "header": "sp|Q9RZN1.1|DPS2_DEIRA RecName: Full=DNA protection during starvation protein 2",
+  "sha256": "7ab918fbf4518c33de3240609b37bb628d257ae9d93202a84ce5af7ea62f7852",
+  "bytes": 327,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "Dsup": {
+  "file": "data/splus_reference/Dsup.faa",
+  "header": "sp|P0DOW4.1|DSUP_RAMVA RecName: Full=Damage suppressor protein",
+  "sha256": "42f0c673534717f58c11dccf0e3a915971669e708b789929b14f39a6816b5e5a",
+  "bytes": 517,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "PprA": {
+  "file": "data/splus_reference/PprA.faa",
+  "header": "BAA21374.1 pprA [Deinococcus radiodurans]",
+  "sha256": "516b16639da3bcfdfe104361a8dc90d2b4a120fbf1e1e169d77d976586859f42",
+  "bytes": 333,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "PprI": {
+  "file": "data/splus_reference/PprI.faa",
+  "header": "sp|Q9RXY7.1|IRRE_DEIRA RecName: Full=Radiation response metalloprotease IrrE; AltName: Full=DNA repair regulatory protein IrrE; AltName: Full=Inducer of pleiotropic protein for DNA repair",
+  "sha256": "d406128382131a70a8f8e8d6b7e3d3e95412c3f070f5b1de28010e25074d5945",
+  "bytes": 523,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "RecA": {
+  "file": "data/splus_reference/RecA.faa",
+  "header": "BAA21330.1 RecA [Deinococcus radiodurans]",
+  "sha256": "100498faa7c2cf5c01d46a1e3e997ffa3cf41f94fd2a253f9520ccd141510c7d",
+  "bytes": 413,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "SAHS": {
+  "file": "data/splus_reference/SAHS.faa",
+  "header": "sp|P0CU41.1|SAHS3_HYPEX RecName: Full=Secretory-abundant heat soluble protein 64681; Short=SAHS 63681; AltName: Full=Secretory-abundant heat soluble protein c; Short=SAHS-c; AltName: Full=Tardigrade-specific intrinsically disordered protein SAHS 64681; Short=TDP SAHS 64681; Flags: Precursor",
+  "sha256": "610e680465096266e9b79d257f8235a46a70550c56b1056f04aa0280fdc3d785",
+  "bytes": 469,
+  "source": "ncbi_protein_efetch_fasta"
+ },
+ "_meta": {
+  "dropped": [
+   "LEA3 - no verifiable Adineta/bdelloid group-3 LEA accession via esearch/esummary (all hits unnamed or wrong group); dropped per amendment abort rule, disclosed"
+  ],
+  "n_families": 9,
+  "note": "Dps1+Dps2 = one locked family; Dsup = DSUP_RAMVA (R. varieornatus, in-panel)"
+ }
+}

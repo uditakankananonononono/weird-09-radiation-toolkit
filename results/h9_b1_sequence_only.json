@@ -1,0 +1,89 @@
+{
+ "n_hit_orthogroups": 17,
+ "list": [
+  {
+   "rep": "Ramazzottius_varieornatus|GAV07386.1",
+   "evalue": 1.651e-230,
+   "bits": 713.0,
+   "splus_family": "Dsup",
+   "member": "Ramazzottius_varieornatus|GAV07386.1"
+  },
+  {
+   "rep": "Deinococcus_radiodurans|WP_010888966.1",
+   "evalue": 2.727e-222,
+   "bits": 684.0,
+   "splus_family": "RecA",
+   "member": "Deinococcus_radiodurans|WP_010888966.1"
+  },
+  {
+   "rep": "Deinococcus_radiodurans|WP_010886813.1",
+   "evalue": 1.249e-208,
+   "bits": 643.0,
+   "splus_family": "PprI",
+   "member": "Deinococcus_radiodurans|WP_010886813.1"
+  },
+  {
+   "rep": "Deinococcus_geothermalis|WP_272976773.1",
+   "evalue": 3.203e-177,
+   "bits": 550.0,
+   "splus_family": "PprA",
+   "member": "Deinococcus_radiodurans|WP_010889605.1"
+  },
+  {
+   "rep": "Deinococcus_radiodurans|WP_010883959.1",
+   "evalue": 1.703e-152,
+   "bits": 476.0,
+   "splus_family": "Dps2",
+   "member": "Deinococcus_radiodurans|WP_010883959.1"
+  },
+  {
+   "rep": "Thermus_aquaticus|WP_506065534.1",
+   "evalue": 8.578e-139,
+   "bits": 434.0,
+   "splus_family": "DdrA",
+   "member": "Deinococcus_radiodurans|WP_010887068.1"
+  },
+  {
+   "rep": "Deinococcus_geothermalis|WP_272976760.1",
+   "evalue": 7.208e-131,
+   "bits": 411.0,
+   "splus_family": "Dps1",
+   "member": "Deinococcus_radiodurans|WP_010888891.1"
+  },
+  {
+   "rep": "Hypsibius_exemplaris|OQV21545.1",
+   "evalue": 2.092e-128,
+   "bits": 406.0,
+   "splus_family": "CAHS",
+   "member": "Hypsibius_exemplaris|OQV15590.1"
+  },
+  {
+   "rep": "Deinococcus_radiodurans|WP_027480237.1",
+   "evalue": 5.01e-120,
+   "bits": 379.0,
+   "splus_family": "DdrB",
+   "member": "Deinococcus_radiodurans|WP_027480237.1"
+  },
+  {
+   "rep": "Hypsibius_exemplaris|OWA51796.1",
+   "evalue": 1.658e-113,
+   "bits": 359.0,
+   "splus_family": "SAHS",
+   "member": "Hypsibius_exemplaris|OWA51798.1"
+  },
+  {
+   "rep": "Ramazzottius_varieornatus|GAU95723.1",
+   "evalue": 1.609e-86,
+   "bits": 285.0,
+   "splus_family": "CAHS",
+   "member": "Hypsibius_exemplaris|OQV21654.1"
+  },
+  {
+   "rep": "Ramazzottius_varieornatus|GAU88203.1",
+   "evalue": 1.858e-44,
+   "bits": 163.0,
+   "splus_family": "CAHS",
+   "member": "Ramazzottius_varieornatus|GAU88203.1"
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "seed": 26092707,
+ "n_draws": 1000,
+ "graded_draws": [
+  [
+   "Drosophila_melanogaster|NP_001246952.1",
+   "Caenorhabditis_elegans|NP_502022.1",
+   "Caenorhabditis_elegans|NP_503676.1",
+   "Drosophila_melanogaster|NP_001163531.1",
+   "Adineta_vaga|UJR14327.1",
+   "Caenorhabditis_elegans|NP_509413.1",
+   "Ramazzottius_varieornatus|GAU87849.1",
+   "Drosophila_melanogaster|NP_609985.1",
+   "Hypsibius_exemplaris|OQV22490.1",
+   "Ramazzottius_varieornatus|GAU92226.1",
+   "Hypsibius_exemplaris|OQV25009.1",
+   "Caenorhabditis_elegans|NP_497828.1"
+  ],
+  [
+   "Hypsibius_exemplaris|OWA50265.1",
+   "Ramazzottius_varieornatus|GAV07597.1",
+   "Ramazzottius_varieornatus|GAU92245.1",
+   "Hypsibius_exemplaris|OWA50324.1",
+   "Hypsibius_exemplaris|OQV24354.1",
+   "Deinococcus_deserti|WP_012692913.1",
+   "Caenorhabditis_elegans|NP_001256052.1",
+   "Ramazzottius_varieornatus|GAU97148.1",
+   "Adineta_vaga|UJR16495.1",
+   "Caenorhabditis_elegans|NP_001379310.1",
+   "Caenorhabditis_elegans|NP_503795.3",
+   "Hypsibius_exemplaris|OWA55014.1"
+  ],
+  [
+   "Drosophila_melanogaster|NP_609624.1",
+   "Ramazzottius_varieornatus|GAU94518.1",
+   "Adineta_vaga|UJR35707.1",
+   "Ramazzottius_varieornatus|GAU87890.1",
+   "Ramazzottius_varieornatus|GAU89526.1",
+   "Caenorhabditis_elegans|NP_507687.1",
+   "Drosophila_melanogaster|NP_569946.1",
+   "Deinococcus_geothermalis|WP_011525891.1",
+   "Hypsibius_exemplaris|OQV14929.1",
+   "Ramazzottius_varieornatus|GAU95512.1",
+   "Drosophila_melanogaster|NP_610480.2",
+   "Caenorhabditis_elegans|NP_499248.1"
+  ]
+ ],
+ "all_draws_file": "results/h9_b0_draws.json"
+}
