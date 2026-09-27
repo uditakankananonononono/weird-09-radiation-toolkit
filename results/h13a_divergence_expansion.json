@@ -1,0 +1,423 @@
+{
+ "amendment_commit": "1f2fae9",
+ "arms": {
+  "A": "computed (cross-phylum vs within-phylum pairwise identity); resistant-vs-control contrast not run by locked design (control members <=1/cluster)",
+  "C": "deferred (no aligner/MSA; reason in amendment)",
+  "D": "computed (copy number per species from committed ledger)",
+  "B": "computed (pyhmmer vs committed 64 Pfam HMMs, E<=1e-05, per-member domain sets -> distinct architectures per cluster)"
+ },
+ "clusters": {
+  "Adineta_vaga|UJR10666.1": {
+   "n_members": 7,
+   "armA_within_phylum_mean_identity": 0.2123,
+   "armA_across_phylum_mean_identity": null,
+   "armA_n_within_pairs": 21,
+   "armA_n_across_pairs": 0,
+   "armD_copies_per_species": {
+    "Adineta_vaga": 7
+   },
+   "armD_expansion": null,
+   "armB": {
+    "n_members": 7,
+    "n_distinct_architectures": 2,
+    "architectures": [
+     [],
+     [
+      "HPPK",
+      "Pterin_bind"
+     ]
+    ],
+    "uniform": false
+   }
+  },
+  "Deinococcus_deserti|WP_012692117.1": {
+   "n_members": 6,
+   "armA_within_phylum_mean_identity": 0.5038,
+   "armA_across_phylum_mean_identity": 0.265,
+   "armA_n_within_pairs": 7,
+   "armA_n_across_pairs": 8,
+   "armD_copies_per_species": {
+    "Deinococcus_deserti": 2,
+    "Adineta_vaga": 2,
+    "Deinococcus_geothermalis": 1,
+    "Deinococcus_radiodurans": 1
+   },
+   "armD_expansion": null,
+   "armB": {
+    "n_members": 6,
+    "n_distinct_architectures": 3,
+    "architectures": [
+     [
+      "ANK_LRRK2",
+      "Ank",
+      "Ank_2",
+      "Ank_3",
+      "Ank_4",
+      "Ank_5",
+      "Ank_KRIT1"
+     ],
+     [
+      "Ank",
+      "Ank_2",
+      "Ank_3",
+      "Ank_4",
+      "Ank_5"
+     ],
+     [
+      "Ank",
+      "Ank_2",
+      "Ank_3",
+      "Ank_4",
+      "Ank_5",
+      "Ank_KRIT1"
+     ]
+    ],
+    "uniform": false
+   }
+  },
+  "Adineta_vaga|UJR36058.1": {
+   "n_members": 4,
+   "armA_within_phylum_mean_identity": 0.7269,
+   "armA_across_phylum_mean_identity": 0.4514,
+   "armA_n_within_pairs": 3,
+   "armA_n_across_pairs": 3,
+   "armD_copies_per_species": {
+    "Adineta_vaga": 1,
+    "Deinococcus_radiodurans": 1,
+    "Deinococcus_geothermalis": 1,
+    "Deinococcus_deserti": 1
+   },
+   "armD_expansion": null,
+   "armB": {
+    "n_members": 4,
+    "n_distinct_architectures": 1,
+    "architectures": [
+     [
+      "DUF4385"
+     ]
+    ],
+    "uniform": true
+   }
+  },
+  "Adineta_vaga|UJR11615.1": {
+   "n_members": 8,
+   "armA_within_phylum_mean_identity": 0.5274,
+   "armA_across_phylum_mean_identity": 0.3928,
+   "armA_n_within_pairs": 9,
+   "armA_n_across_pairs": 19,
+   "armD_copies_per_species": {
+    "Adineta_vaga": 4,
+    "Lactobacillus_plantarum": 1,
+    "Deinococcus_geothermalis": 1,
+    "Deinococcus_radiodurans": 1,
+    "Deinococcus_deserti": 1
+   },
+   "armD_expansion": {
+    "Adineta_vaga": 4
+   },
+   "armB": {
+    "n_members": 8,
+    "n_distinct_architectures": 2,
+    "architectures": [
+     [
+      "DHH",
+      "DHHA2"
+     ],
+     [
+      "DHHA2"
+     ]
+    ],
+    "uniform": false
+   }
+  },
+  "Adineta_vaga|UJR17759.1": {
+   "n_members": 21,
+   "armA_within_phylum_mean_identity": 0.3043,
+   "armA_across_phylum_mean_identity": 0.232,
+   "armA_n_within_pairs": 156,
+   "armA_n_across_pairs": 54,
+   "armD_copies_per_species": {
+    "Adineta_vaga": 18,
+    "Deinococcus_radiodurans": 1,
+    "Deinococcus_deserti": 1,
+    "Deinococcus_geothermalis": 1
+   },
+   "armD_expansion": {
+    "Adineta_vaga": 18
+   },
+   "armB": {
+    "n_members": 21,
+    "n_distinct_architectures": 9,
+    "architectures": [
+     [
+      "Amidase"
+     ],
+     [
+      "Amidase",
+      "Bac_rhamnosid",
+      "Bac_rhamnosid6H",
+      "Bac_rhamnosid_C",
+      "Bac_rhamnosid_N",
+      "Ig_Rha78A_N"
+     ],
+     [
+      "Bac_rhamnosid",
+      "Bac_rhamnosid6H",
+      "Bac_rhamnosid_C"
+     ],
+     [
+      "Bac_rhamnosid",
+      "Bac_rhamnosid6H",
+      "Bac_rhamnosid_C",
+      "Bac_rhamnosid_N"
+     ],
+     [
+      "Bac_rhamnosid",
+      "Bac_rhamnosid6H",
+      "Bac_rhamnosid_C",
+      "Bac_rhamnosid_N",
+      "Ig_Rha78A_N"
+     ],
+     [
+      "Bac_rhamnosid",
+      "Bac_rhamnosid6H",
+      "Bac_rhamnosid_N",
+      "Ig_Rha78A_N"
+     ],
+     [
+      "Bac_rhamnosid6H"
+     ],
+     [
+      "Bac_rhamnosid6H",
+      "Bac_rhamnosid_C"
+     ],
+     [
+      "Bac_rhamnosid_N",
+      "Ig_Rha78A_N"
+     ]
+    ],
+    "uniform": false
+   }
+  },
+  "Deinococcus_geothermalis|WP_272975990.1": {
+   "n_members": 4,
+   "armA_within_phylum_mean_identity": 0.6701,
+   "armA_across_phylum_mean_identity": 0.3264,
+   "armA_n_within_pairs": 3,
+   "armA_n_across_pairs": 3,
+   "armD_copies_per_species": {
+    "Deinococcus_geothermalis": 1,
+    "Deinococcus_radiodurans": 1,
+    "Deinococcus_deserti": 1,
+    "Adineta_vaga": 1
+   },
+   "armD_expansion": null,
+   "armB": {
+    "n_members": 4,
+    "n_distinct_architectures": 3,
+    "architectures": [
+     [
+      "DSBA",
+      "Thioredoxin_3",
+      "Thioredoxin_4",
+      "Thioredoxin_5"
+     ],
+     [
+      "DSBA",
+      "Thioredoxin_4"
+     ],
+     [
+      "DSBA",
+      "Thioredoxin_4",
+      "Thioredoxin_5"
+     ]
+    ],
+    "uniform": false
+   }
+  },
+  "Adineta_vaga|UJR28130.1": {
+   "n_members": 6,
+   "armA_within_phylum_mean_identity": 0.7003,
+   "armA_across_phylum_mean_identity": 0.3477,
+   "armA_n_within_pairs": 6,
+   "armA_n_across_pairs": 9,
+   "armD_copies_per_species": {
+    "Adineta_vaga": 3,
+    "Deinococcus_radiodurans": 1,
+    "Deinococcus_geothermalis": 1,
+    "Deinococcus_deserti": 1
+   },
+   "armD_expansion": {
+    "Adineta_vaga": 3
+   },
+   "armB": {
+    "n_members": 6,
+    "n_distinct_architectures": 2,
+    "architectures": [
+     [
+      "3Beta_HSD",
+      "Epimerase",
+      "GDP_Man_Dehyd",
+      "KR",
+      "NAD_binding_10",
+      "NAD_binding_4",
+      "NmrA",
+      "Polysacc_synt_2",
+      "RmlD_sub_bind",
+      "adh_short"
+     ],
+     [
+      "3Beta_HSD",
+      "Epimerase",
+      "GDP_Man_Dehyd",
+      "NAD_binding_10",
+      "NAD_binding_4",
+      "NmrA",
+      "Polysacc_synt_2",
+      "RmlD_sub_bind"
+     ]
+    ],
+    "uniform": false
+   }
+  },
+  "Adineta_vaga|UJR26281.1": {
+   "n_members": 5,
+   "armA_within_phylum_mean_identity": 0.5425,
+   "armA_across_phylum_mean_identity": 0.2779,
+   "armA_n_within_pairs": 4,
+   "armA_n_across_pairs": 6,
+   "armD_copies_per_species": {
+    "Adineta_vaga": 2,
+    "Deinococcus_geothermalis": 1,
+    "Deinococcus_radiodurans": 1,
+    "Deinococcus_deserti": 1
+   },
+   "armD_expansion": null,
+   "armB": {
+    "n_members": 5,
+    "n_distinct_architectures": 3,
+    "architectures": [
+     [
+      "Acid_phosphat_B",
+      "HAD",
+      "HAD_2",
+      "Hydrolase",
+      "Hydrolase_like"
+     ],
+     [
+      "HAD",
+      "HAD_2",
+      "Hydrolase",
+      "Hydrolase_like"
+     ],
+     [
+      "HAD_2",
+      "Hydrolase",
+      "Hydrolase_like"
+     ]
+    ],
+    "uniform": false
+   }
+  },
+  "Deinococcus_deserti|WP_012692142.1": {
+   "n_members": 5,
+   "armA_within_phylum_mean_identity": 0.3779,
+   "armA_across_phylum_mean_identity": 0.2698,
+   "armA_n_within_pairs": 6,
+   "armA_n_across_pairs": 4,
+   "armD_copies_per_species": {
+    "Deinococcus_deserti": 1,
+    "Deinococcus_radiodurans": 1,
+    "Deinococcus_geothermalis": 2,
+    "Adineta_vaga": 1
+   },
+   "armD_expansion": null,
+   "armB": {
+    "n_members": 5,
+    "n_distinct_architectures": 1,
+    "architectures": [
+     [
+      "Flavin_Reduct"
+     ]
+    ],
+    "uniform": true
+   }
+  },
+  "Deinococcus_geothermalis|WP_414646549.1": {
+   "n_members": 4,
+   "armA_within_phylum_mean_identity": 0.7386,
+   "armA_across_phylum_mean_identity": 0.3801,
+   "armA_n_within_pairs": 3,
+   "armA_n_across_pairs": 3,
+   "armD_copies_per_species": {
+    "Deinococcus_geothermalis": 1,
+    "Deinococcus_deserti": 1,
+    "Deinococcus_radiodurans": 1,
+    "Ramazzottius_varieornatus": 1
+   },
+   "armD_expansion": null,
+   "armB": {
+    "n_members": 4,
+    "n_distinct_architectures": 1,
+    "architectures": [
+     [
+      "PAD_porph"
+     ]
+    ],
+    "uniform": true
+   }
+  },
+  "Deinococcus_geothermalis|WP_272975981.1": {
+   "n_members": 7,
+   "armA_within_phylum_mean_identity": 0.5363,
+   "armA_across_phylum_mean_identity": 0.1928,
+   "armA_n_within_pairs": 15,
+   "armA_n_across_pairs": 6,
+   "armD_copies_per_species": {
+    "Deinococcus_geothermalis": 2,
+    "Deinococcus_radiodurans": 2,
+    "Deinococcus_deserti": 2,
+    "Adineta_vaga": 1
+   },
+   "armD_expansion": null,
+   "armB": {
+    "n_members": 7,
+    "n_distinct_architectures": 5,
+    "architectures": [
+     [
+      "Acetyltransf_1",
+      "Acetyltransf_10",
+      "Acetyltransf_7"
+     ],
+     [
+      "Acetyltransf_1",
+      "Acetyltransf_10",
+      "Acetyltransf_7",
+      "Acetyltransf_9"
+     ],
+     [
+      "Acetyltransf_1",
+      "Acetyltransf_10",
+      "Acetyltransf_7",
+      "Acetyltransf_9",
+      "Acetyltransf_CG"
+     ],
+     [
+      "Acetyltransf_1",
+      "Acetyltransf_10",
+      "Acetyltransf_7",
+      "Acetyltransf_CG"
+     ],
+     [
+      "Acetyltransf_1",
+      "Acetyltransf_10",
+      "Acetyltransf_7",
+      "Acetyltransf_CG",
+      "FR47"
+     ]
+    ],
+    "uniform": false
+   }
+  }
+ }
+}
