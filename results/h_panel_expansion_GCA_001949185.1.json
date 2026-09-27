@@ -1,0 +1,21 @@
+{
+ "amendment_commit": "8e27195 (16:18 IST panel-expansion lock)",
+ "proteome": "GCA_001949185.1",
+ "n_proteins": 23007,
+ "sha256_gz": "8d1f56ea49c1c91def395af8691b1986ea16a6801dae91b90ae75c470ca69326",
+ "rule": "h3 identical, E<=1e-05",
+ "support": {
+  "Adineta_vaga|UJR10666.1": false,
+  "Deinococcus_deserti|WP_012692117.1": true,
+  "Adineta_vaga|UJR36058.1": false,
+  "Adineta_vaga|UJR11615.1": true,
+  "Adineta_vaga|UJR17759.1": false,
+  "Deinococcus_geothermalis|WP_272975990.1": false,
+  "Adineta_vaga|UJR28130.1": true,
+  "Adineta_vaga|UJR26281.1": true,
+  "Deinococcus_deserti|WP_012692142.1": false,
+  "Deinococcus_geothermalis|WP_414646549.1": true,
+  "Deinococcus_geothermalis|WP_272975981.1": true
+ },
+ "n_supported": 6
+}

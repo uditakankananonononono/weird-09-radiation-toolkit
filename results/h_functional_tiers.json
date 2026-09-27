@@ -22,7 +22,9 @@
    "T2_asteineri_support": true,
    "T2_new_proteomes_supported_count": 1,
    "T2_kradiotolerans_support": false,
-   "T2_rradiotolerans_support": false
+   "T2_rradiotolerans_support": false,
+   "T2_expansion_origins_count": 1,
+   "T2_expansion_cross_origin_core": false
   },
   {
    "candidate": "Deinococcus_deserti|WP_012692117.1",
@@ -48,7 +50,9 @@
    "T2_asteineri_support": true,
    "T2_new_proteomes_supported_count": 5,
    "T2_kradiotolerans_support": true,
-   "T2_rradiotolerans_support": false
+   "T2_rradiotolerans_support": false,
+   "T2_expansion_origins_count": 3,
+   "T2_expansion_cross_origin_core": true
   },
   {
    "candidate": "Adineta_vaga|UJR36058.1",
@@ -70,7 +74,9 @@
    "T2_asteineri_support": true,
    "T2_new_proteomes_supported_count": 5,
    "T2_kradiotolerans_support": false,
-   "T2_rradiotolerans_support": true
+   "T2_rradiotolerans_support": true,
+   "T2_expansion_origins_count": 3,
+   "T2_expansion_cross_origin_core": true
   },
   {
    "candidate": "Adineta_vaga|UJR11615.1",
@@ -93,7 +99,9 @@
    "T2_asteineri_support": true,
    "T2_new_proteomes_supported_count": 5,
    "T2_kradiotolerans_support": false,
-   "T2_rradiotolerans_support": true
+   "T2_rradiotolerans_support": true,
+   "T2_expansion_origins_count": 3,
+   "T2_expansion_cross_origin_core": true
   },
   {
    "candidate": "Adineta_vaga|UJR17759.1",
@@ -119,7 +127,9 @@
    "T2_asteineri_support": false,
    "T2_new_proteomes_supported_count": 0,
    "T2_kradiotolerans_support": false,
-   "T2_rradiotolerans_support": false
+   "T2_rradiotolerans_support": false,
+   "T2_expansion_origins_count": 1,
+   "T2_expansion_cross_origin_core": false
   },
   {
    "candidate": "Deinococcus_geothermalis|WP_272975990.1",
@@ -142,7 +152,9 @@
    "T2_asteineri_support": true,
    "T2_new_proteomes_supported_count": 6,
    "T2_kradiotolerans_support": true,
-   "T2_rradiotolerans_support": true
+   "T2_rradiotolerans_support": true,
+   "T2_expansion_origins_count": 4,
+   "T2_expansion_cross_origin_core": true
   },
   {
    "candidate": "Adineta_vaga|UJR28130.1",
@@ -171,7 +183,9 @@
    "T2_asteineri_support": true,
    "T2_new_proteomes_supported_count": 6,
    "T2_kradiotolerans_support": true,
-   "T2_rradiotolerans_support": true
+   "T2_rradiotolerans_support": true,
+   "T2_expansion_origins_count": 5,
+   "T2_expansion_cross_origin_core": true
   },
   {
    "candidate": "Adineta_vaga|UJR26281.1",
@@ -195,7 +209,9 @@
    "T2_asteineri_support": true,
    "T2_new_proteomes_supported_count": 6,
    "T2_kradiotolerans_support": true,
-   "T2_rradiotolerans_support": true
+   "T2_rradiotolerans_support": true,
+   "T2_expansion_origins_count": 5,
+   "T2_expansion_cross_origin_core": true
   },
   {
    "candidate": "Adineta_vaga|UJR09360.1",
@@ -237,7 +253,9 @@
    "T2_asteineri_support": true,
    "T2_new_proteomes_supported_count": 5,
    "T2_kradiotolerans_support": true,
-   "T2_rradiotolerans_support": true
+   "T2_rradiotolerans_support": true,
+   "T2_expansion_origins_count": 4,
+   "T2_expansion_cross_origin_core": true
   },
   {
    "candidate": "Deinococcus_geothermalis|WP_414646549.1",
@@ -259,7 +277,9 @@
    "T2_asteineri_support": true,
    "T2_new_proteomes_supported_count": 4,
    "T2_kradiotolerans_support": true,
-   "T2_rradiotolerans_support": false
+   "T2_rradiotolerans_support": false,
+   "T2_expansion_origins_count": 4,
+   "T2_expansion_cross_origin_core": true
   },
   {
    "candidate": "Deinococcus_geothermalis|WP_272975981.1",
@@ -283,7 +303,21 @@
    "T2_asteineri_support": true,
    "T2_new_proteomes_supported_count": 6,
    "T2_kradiotolerans_support": true,
-   "T2_rradiotolerans_support": true
+   "T2_rradiotolerans_support": true,
+   "T2_expansion_origins_count": 5,
+   "T2_expansion_cross_origin_core": true
   }
- ]
+ ],
+ "panel_expansion_8e27195": {
+  "cross_origin_core_n": 9,
+  "n_clusters": 11,
+  "origin_scheme": [
+   "Deinococcota",
+   "Actinomycetota",
+   "Archaea",
+   "Tardigrada",
+   "Rotifera"
+  ],
+  "archaeal_provenance": "verdict-asserted (round-4 archived verdict), flagged per amendment"
+ }
 }
