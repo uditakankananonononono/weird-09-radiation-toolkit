@@ -1,0 +1,21 @@
+{
+ "amendment": "2026-09-27 14:18 IST",
+ "proteome": "Deinococcus indicus GCA_014653295.1",
+ "n_proteins": 4153,
+ "sha256_gz": "46005e368b67b14c2a8d4eb914acb94d143dfe88011adb441a0d11b8956b846f",
+ "rule": "h3 identical: full v1 domain set in >=1 protein, E<=1e-05",
+ "support": {
+  "Adineta_vaga|UJR10666.1": false,
+  "Deinococcus_deserti|WP_012692117.1": true,
+  "Adineta_vaga|UJR36058.1": true,
+  "Adineta_vaga|UJR11615.1": true,
+  "Adineta_vaga|UJR17759.1": false,
+  "Deinococcus_geothermalis|WP_272975990.1": true,
+  "Adineta_vaga|UJR28130.1": true,
+  "Adineta_vaga|UJR26281.1": true,
+  "Deinococcus_deserti|WP_012692142.1": true,
+  "Deinococcus_geothermalis|WP_414646549.1": true,
+  "Deinococcus_geothermalis|WP_272975981.1": true
+ },
+ "n_supported": 9
+}

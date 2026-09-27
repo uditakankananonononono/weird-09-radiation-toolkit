@@ -15,7 +15,8 @@
    "T2_orthology_confidence": true,
    "T2_members": 7,
    "T3_expression": "NOT AVAILABLE (no committed transcriptomes)",
-   "T4_phenotype": "NOT AVAILABLE (no committed phenotype data)"
+   "T4_phenotype": "NOT AVAILABLE (no committed phenotype data)",
+   "T2_dindicus_support": false
   },
   {
    "candidate": "Deinococcus_deserti|WP_012692117.1",
@@ -34,7 +35,8 @@
    "T2_orthology_confidence": true,
    "T2_members": 6,
    "T3_expression": "NOT AVAILABLE (no committed transcriptomes)",
-   "T4_phenotype": "NOT AVAILABLE (no committed phenotype data)"
+   "T4_phenotype": "NOT AVAILABLE (no committed phenotype data)",
+   "T2_dindicus_support": true
   },
   {
    "candidate": "Adineta_vaga|UJR36058.1",
@@ -49,7 +51,8 @@
    "T2_orthology_confidence": true,
    "T2_members": 4,
    "T3_expression": "NOT AVAILABLE (no committed transcriptomes)",
-   "T4_phenotype": "NOT AVAILABLE (no committed phenotype data)"
+   "T4_phenotype": "NOT AVAILABLE (no committed phenotype data)",
+   "T2_dindicus_support": true
   },
   {
    "candidate": "Adineta_vaga|UJR11615.1",
@@ -65,7 +68,8 @@
    "T2_orthology_confidence": true,
    "T2_members": 8,
    "T3_expression": "NOT AVAILABLE (no committed transcriptomes)",
-   "T4_phenotype": "NOT AVAILABLE (no committed phenotype data)"
+   "T4_phenotype": "NOT AVAILABLE (no committed phenotype data)",
+   "T2_dindicus_support": true
   },
   {
    "candidate": "Adineta_vaga|UJR17759.1",
@@ -84,7 +88,8 @@
    "T2_orthology_confidence": true,
    "T2_members": 21,
    "T3_expression": "NOT AVAILABLE (no committed transcriptomes)",
-   "T4_phenotype": "NOT AVAILABLE (no committed phenotype data)"
+   "T4_phenotype": "NOT AVAILABLE (no committed phenotype data)",
+   "T2_dindicus_support": false
   },
   {
    "candidate": "Deinococcus_geothermalis|WP_272975990.1",
@@ -100,7 +105,8 @@
    "T2_orthology_confidence": true,
    "T2_members": 4,
    "T3_expression": "NOT AVAILABLE (no committed transcriptomes)",
-   "T4_phenotype": "NOT AVAILABLE (no committed phenotype data)"
+   "T4_phenotype": "NOT AVAILABLE (no committed phenotype data)",
+   "T2_dindicus_support": true
   },
   {
    "candidate": "Adineta_vaga|UJR28130.1",
@@ -122,7 +128,8 @@
    "T2_orthology_confidence": true,
    "T2_members": 6,
    "T3_expression": "NOT AVAILABLE (no committed transcriptomes)",
-   "T4_phenotype": "NOT AVAILABLE (no committed phenotype data)"
+   "T4_phenotype": "NOT AVAILABLE (no committed phenotype data)",
+   "T2_dindicus_support": true
   },
   {
    "candidate": "Adineta_vaga|UJR26281.1",
@@ -139,7 +146,8 @@
    "T2_orthology_confidence": true,
    "T2_members": 5,
    "T3_expression": "NOT AVAILABLE (no committed transcriptomes)",
-   "T4_phenotype": "NOT AVAILABLE (no committed phenotype data)"
+   "T4_phenotype": "NOT AVAILABLE (no committed phenotype data)",
+   "T2_dindicus_support": true
   },
   {
    "candidate": "Adineta_vaga|UJR09360.1",
@@ -152,7 +160,8 @@
    "T2_orthology_confidence": false,
    "T2_members": 0,
    "T3_expression": "NOT AVAILABLE (no committed transcriptomes)",
-   "T4_phenotype": "NOT AVAILABLE (no committed phenotype data)"
+   "T4_phenotype": "NOT AVAILABLE (no committed phenotype data)",
+   "T2_dindicus_support": null
   },
   {
    "candidate": "Deinococcus_deserti|WP_012692142.1",
@@ -167,7 +176,8 @@
    "T2_orthology_confidence": true,
    "T2_members": 5,
    "T3_expression": "NOT AVAILABLE (no committed transcriptomes)",
-   "T4_phenotype": "NOT AVAILABLE (no committed phenotype data)"
+   "T4_phenotype": "NOT AVAILABLE (no committed phenotype data)",
+   "T2_dindicus_support": true
   },
   {
    "candidate": "Deinococcus_geothermalis|WP_414646549.1",
@@ -182,7 +192,8 @@
    "T2_orthology_confidence": true,
    "T2_members": 4,
    "T3_expression": "NOT AVAILABLE (no committed transcriptomes)",
-   "T4_phenotype": "NOT AVAILABLE (no committed phenotype data)"
+   "T4_phenotype": "NOT AVAILABLE (no committed phenotype data)",
+   "T2_dindicus_support": true
   },
   {
    "candidate": "Deinococcus_geothermalis|WP_272975981.1",
@@ -199,7 +210,8 @@
    "T2_orthology_confidence": true,
    "T2_members": 7,
    "T3_expression": "NOT AVAILABLE (no committed transcriptomes)",
-   "T4_phenotype": "NOT AVAILABLE (no committed phenotype data)"
+   "T4_phenotype": "NOT AVAILABLE (no committed phenotype data)",
+   "T2_dindicus_support": true
   }
  ]
 }
