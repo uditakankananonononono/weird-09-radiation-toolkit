@@ -1,0 +1,89 @@
+{
+ "amendment": "2026-09-27 08:59 IST (Saturated Co-Retention, locked pre-inspection)",
+ "M_tested_orthogroups": 52786,
+ "background_complete_coretention_control_absent": 0,
+ "background_fraction": 0.0,
+ "empirical_P": 1.8944058196146778e-05,
+ "win_threshold": 0.005,
+ "win": true,
+ "falsification_branch": "if P>=0.005: reframe not earned; H4 identifiability boundary stays terminal",
+ "candidates_in_complete_tier": [
+  {
+   "rep": "Adineta_vaga|UJR10666.1",
+   "S": 0.0,
+   "sen0": true,
+   "complete_tier": false
+  },
+  {
+   "rep": "Deinococcus_deserti|WP_012692117.1",
+   "S": 0.0,
+   "sen0": true,
+   "complete_tier": false
+  },
+  {
+   "rep": "Adineta_vaga|UJR36058.1",
+   "S": 0.0,
+   "sen0": true,
+   "complete_tier": false
+  },
+  {
+   "rep": "Adineta_vaga|UJR11615.1",
+   "S": 0.0,
+   "sen0": true,
+   "complete_tier": false
+  },
+  {
+   "rep": "Adineta_vaga|UJR17759.1",
+   "S": 0.0,
+   "sen0": true,
+   "complete_tier": false
+  },
+  {
+   "rep": "Deinococcus_geothermalis|WP_272975990.1",
+   "S": 0.0,
+   "sen0": true,
+   "complete_tier": false
+  },
+  {
+   "rep": "Adineta_vaga|UJR28130.1",
+   "S": 0.0,
+   "sen0": true,
+   "complete_tier": false
+  },
+  {
+   "rep": "Adineta_vaga|UJR26281.1",
+   "S": 0.0,
+   "sen0": true,
+   "complete_tier": false
+  },
+  {
+   "rep": "Adineta_vaga|UJR09360.1",
+   "S": 0.0,
+   "sen0": true,
+   "complete_tier": false
+  },
+  {
+   "rep": "Deinococcus_deserti|WP_012692142.1",
+   "S": 0.0,
+   "sen0": true,
+   "complete_tier": false
+  },
+  {
+   "rep": "Deinococcus_geothermalis|WP_414646549.1",
+   "S": 0.0,
+   "sen0": true,
+   "complete_tier": false
+  },
+  {
+   "rep": "Deinococcus_geothermalis|WP_272975981.1",
+   "S": 0.0,
+   "sen0": true,
+   "complete_tier": false
+  }
+ ],
+ "caveats": [
+  "candidates were selected on presence criteria overlapping S - background-rarity quantification, not independent validation",
+  "Tardigrada completeness is a 1-species call (Milnesium unavailable)",
+  "P is background frequency, not phylogenetic independence - convergence beyond relatedness remains unclaimed"
+ ]
+}
