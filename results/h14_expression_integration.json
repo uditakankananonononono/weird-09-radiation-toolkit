@@ -1,0 +1,96 @@
+{
+ "amendment_commit": "4ba2dce",
+ "dataset": "GSE176207 WT arm (3 unirr + 3 x 10kGy, 2h recovery)",
+ "mapping_rule": "phmmer E<=1e-50 KDR member -> ASM856v1 protein -> old_locus_tag",
+ "background": {
+  "induced": 1777,
+  "not_induced": 1330,
+  "n_genes": 3107
+ },
+ "candidates": {
+  "induced": 7,
+  "not_induced": 3,
+  "unmapped": 1,
+  "unexpressed": 0
+ },
+ "fisher_one_sided_p": 0.31428863596626977,
+ "odds_ratio": 1.7493408662900187,
+ "rows": [
+  {
+   "candidate": "Deinococcus_deserti|WP_012692117.1",
+   "kdr_wp": "WP_028328057.1",
+   "dr": "DR_1961",
+   "log2FC": 2.496,
+   "induced": false
+  },
+  {
+   "candidate": "Adineta_vaga|UJR36058.1",
+   "kdr_wp": "WP_227085949.1",
+   "dr": "DR_2262",
+   "log2FC": 4.841,
+   "induced": true
+  },
+  {
+   "candidate": "Adineta_vaga|UJR11615.1",
+   "kdr_wp": "WP_010889201.1",
+   "dr": "DR_2576",
+   "log2FC": 1.743,
+   "induced": true
+  },
+  {
+   "candidate": "Adineta_vaga|UJR17759.1",
+   "kdr_wp": "WP_034350172.1",
+   "dr": "DR_1625",
+   "log2FC": 2.831,
+   "induced": true
+  },
+  {
+   "candidate": "Deinococcus_geothermalis|WP_272975990.1",
+   "kdr_wp": "WP_010887304.1",
+   "dr": "DR_0659",
+   "log2FC": 2.195,
+   "induced": true
+  },
+  {
+   "candidate": "Adineta_vaga|UJR28130.1",
+   "kdr_wp": "WP_010889481.1",
+   "dr": null,
+   "note": "no DR bridge"
+  },
+  {
+   "candidate": "Adineta_vaga|UJR26281.1",
+   "kdr_wp": "WP_051618825.1",
+   "dr": "DR_0729",
+   "log2FC": 2.983,
+   "induced": false
+  },
+  {
+   "candidate": "Deinococcus_deserti|WP_012692142.1",
+   "kdr_wp": "WP_034350872.1",
+   "dr": "DR_2585",
+   "log2FC": 3.676,
+   "induced": true
+  },
+  {
+   "candidate": "Deinococcus_geothermalis|WP_414646549.1",
+   "kdr_wp": "WP_051618851.1",
+   "dr": "DR_2359",
+   "log2FC": 2.954,
+   "induced": true
+  },
+  {
+   "candidate": "Deinococcus_geothermalis|WP_272975981.1",
+   "kdr_wp": "WP_010887326.1",
+   "dr": "DR_0681",
+   "log2FC": 3.421,
+   "induced": true
+  },
+  {
+   "candidate": "Deinococcus_geothermalis|WP_272975981.1",
+   "kdr_wp": "WP_027479494.1",
+   "dr": "DR_0682",
+   "log2FC": 0.94,
+   "induced": false
+  }
+ ]
+}
