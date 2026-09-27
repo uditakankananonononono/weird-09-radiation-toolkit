@@ -147,3 +147,30 @@ WIN CONDITION (locked, from verdict): P < 0.005 - i.e. fewer than 0.5% of backgr
 FALSIFICATION BRANCH: if P >= 0.005, complete co-retention is not rare on this panel; the reframe is reported as NOT earned and the paper keeps the quantified H4 identifiability boundary as the terminal statement (no post-hoc re-tuning).
 
 HONESTY CAVEATS (locked into the report): (i) candidates were selected on presence criteria that overlap S, so this test quantifies the background RARITY of the selection configuration; it is not an independent validation of convergence; (ii) Tardigrada completeness is a 1-species call; (iii) P is a background-frequency statement, not a phylogenetic-independence statement - convergence beyond relatedness remains unclaimed.
+
+## AMENDMENT 2026-09-27 10:10 IST (H5 v2: evidence-graded shortlist + reference-standard benchmark; judge verdict foldback from round_supp2, thread https://gemini.google.com/app/9098779be8e670b7, verdict judge/round_supp2_h5v2_verdict_gemini.txt; locked BEFORE any evidence-grading or enrichment computation)
+
+The v1 rubric win condition (top-ranked candidate carries FAMILY-LEVEL published radiation-resistance evidence) FAILED and is preserved as an honest negative. v2 adopts the judge's option (c): the deliverable is the ranked shortlist WITH a two-tier evidence classification; the falsifiable claim is prioritization quality against a locked reference standard. Rubric v1's failure is reported alongside v2 in the paper (judge's instruction adopted).
+
+POSITIVE REFERENCE STANDARD S+ (locked; N=10 families chosen from canonical reviews and primary literature, INDEPENDENT of the v1 ranking and pool; selection grounded in the sources below, not in any candidate outcome):
+1. DdrA (Deinococcus radiodurans; genome-integrity protection) - PLOS Biology 2004, DOI 10.1371/journal.pbio.0020304.
+2. DdrB (D. radiodurans; ssDNA annealing, DSB repair/ESDSA) - PMC3268515; PMC4843489.
+3. PprA (D. radiodurans; DNA ligation stimulation) - Mol Microbiol 2004, DOI 10.1111/j.1365-2958.2004.04272.x.
+4. PprI (D. radiodurans; damage-sensing protease, radioresistance switch) - Biochem Biophys Res Commun 2003 (S0006291X03009653); Nat Commun 2024, DOI 10.1038/s41467-024-46208-9.
+5. Dps1/Dps2 (D. radiodurans; DNA-binding protection, ferritin homolog) - PMID 26290287; PMID 22857940.
+6. RecA (D. radiodurans; ESDSA reassembly of shattered chromosomes) - Zahradka et al. Nature 2006, PMID 17016550.
+7. Dsup (tardigrade Hypsibius; DNA-protection protein, radiotolerance transfer) - Hashimoto et al. Nat Commun 2016, PMID 27649274.
+8. CAHS (tardigrade cytoplasmic abundant heat soluble) - PLOS ONE 2012, DOI 10.1371/journal.pone.0044209; Boothby et al. Mol Cell 2017, PMID 28318683.
+9. SAHS (tardigrade secretory abundant heat soluble) - PLOS ONE 2012 (same DOI); Comms Biology 2024, DOI 10.1038/s42003-024-06336-w.
+10. LEA group 3 (bdelloid rotifer Adineta; desiccation/radiation-linked protection) - functional characterization (repository.cam.ac.uk/items/668590fb-ed03-4632-848a-fe5a3d99cde0); BMC Biology 2023, PMC10809525.
+Clade coverage: 6 Deinococcaceae, 3 Tardigrada, 1 Bdelloidea - mirrors the project clades.
+
+CANDIDATE POOL C (locked): the 11 v1-ranked candidates in results/h5_mechanistic_prioritization.json (K=11). No additions or removals in v2.
+
+EVIDENCE-GRADING PROTOCOL (locked): each candidate family gets a PubMed/PMC literature pass: query = family name + (radiation OR radioresistance OR desiccation OR "oxidative stress" OR "DNA repair"); TIER 1 = at least one primary experimental paper tying the protein FAMILY (or a named ortholog group containing it) to radiation/desiccation resistance phenotypes, verified by reading the abstract (false-positive inspection mandatory, per the v1 NmrA lesson); TIER 2 = mechanism-level only (domain chemistry consistent with C1-C5 repair/protection, no family-level resistance paper); TIER 0 = neither. Grading notes saved per candidate in results/h5v2_evidence_grading.json.
+
+METRICS + NULL + WIN (judge's locked form, verbatim structure):
+- Primary: P@5 precision and hypergeometric enrichment. NULL H0: ranking concentrates Tier-1/S+ families no better than a uniform random permutation of C. Statistic: P(X>=x) hypergeometric with K=11, k=5, |S+ ∩ C| = (computed at grading time, reported), x = Tier-1/S+ families in top 5.
+- Secondary: MRR of S+ members in the ranking; EF@5.
+- WIN v2 iff BOTH: (i) P@5 >= 3/5 candidates with Tier-1 OR Tier-2 evidence AND at least one Tier-1/S+ candidate in the top 3; (ii) hypergeometric enrichment p < 0.05.
+- FALSIFICATION: either leg fails -> the prioritization claim is reported as not earned; no post-hoc changes to S+, C, k, or alpha.
